@@ -1,3 +1,14 @@
+---
+title: "Land Use and Water Quality"
+author: "Dr. Matthew Ross"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook: default
+  #bookdown::pdf_book: default
+---
+
+
 # Land Use and Water Quality (WR418)
 
 This working repository hosts all lecture material, code, assignments, and the syllabus for Land Use and Water Quality (WR418) taught at Colorado State University.
