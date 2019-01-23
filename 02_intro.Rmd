@@ -1,0 +1,41 @@
+
+# Introduction (Week 1)
+
+The goal of our first class is twofold. First to pique your interest in the content of the course through open discussion and sharing some videos and images. Second, to get to know each other both in terms of your academic background and your interest in Water Quality. 
+
+## Land-Use change
+
+A core component of this class will be understanding how people change the landscape and how these changes propagate downstream. There are many ways people can impact the land and satellites have been recording these changeas since the 1970s, and with high resolution since 1984, with the launch of Landsat 5.
+
+- What kind of land-use change can you see in the video below? 
+
+- What human impacts are not captured by this video or by satellite observation in general? 
+
+- Which land-use changes are most likely to impact inland waters? 
+
+<iframe width="800" height="500" src="https://www.youtube.com/embed/kIYHGkSb-fU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+If you enjoy looking at these timelapses, I encourage you to play around with this [website from Google and Carnegie Melon](https://earthengine.google.com/timelapse/) which shows the entire globe changing over the past 30 years.
+
+## Types of Water Quality Change
+
+The ways people can alter water quality are almost limitless as we continue to invent [new chemicals](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/fee.1450), [create novel cocktails of elements](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2018.0017), and a myriad other impacts. Understanding which of these impacts are most harmful to people and the environment will be part of this course, but we will also cover which problems are avoidable, which are inherent to modern life, and which ones can be treated. 
+
+- What water quality problem do you think is most pressing right now in Colorado? in the United States? the Globe? 
+
+- What causes the water quality problem you identifed from above? Was it land-use change or something else? 
+
+## Examples of water quality impacts 
+
+For each image answer the following questions
+
+- what is the water quality impact you see? 
+- What may have caused this impact? 
+- Is it natural or human-caused? 
+
+
+## Lake Erie
+
+<img src='https://eoimages.gsfc.nasa.gov/images/imagerecords/91000/91038/erie_oli_2017269_lrg.jpg'>
+
+## Lake Erie 2

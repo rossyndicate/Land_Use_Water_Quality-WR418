@@ -1,0 +1,108 @@
+---
+title: "Intro to Water Quality"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+# Introduction (Week 1)
+
+Goals for today
+
+- Pique your interest
+- Get to know each other
+
+## Land-Use change
+
+
+- What kind of land-use change can you see in the video below? 
+
+- What human impacts are not captured by this video or by satellite observation in general? 
+
+- Which land-use changes are most likely to impact inland waters? 
+
+<iframe width="800" height="500" src="https://www.youtube.com/embed/kIYHGkSb-fU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+If you enjoy looking at these timelapses, I encourage you to play around with this [website from Google and Carnegie Melon](https://earthengine.google.com/timelapse/) which shows the entire globe changing over the past 30 years.
+
+## My work on land-use change - Mining in West Virginia
+
+## 
+
+<img src='https://skytruth.org/wp_media/Surface_Mining_Extent_1985-2015_mono-color_county-bounds.gif' style='width:900px'>
+
+## 
+
+<video width="720" height="440" controls>
+  <source src="mr7.mp4" type="video/mp4">
+</video>
+
+## Types of Water Quality Change
+
+
+- What water quality problem do you think is most pressing right now in Colorado? in the United States? the Globe? 
+
+- What causes the water quality problem you identifed from above? Was it land-use change or something else? 
+
+## Examples of water quality impacts 
+
+For each image answer the following questions
+
+- what is the water quality impact you see? 
+- What may have caused this impact? 
+- Is it natural or human-caused? 
+
+
+## Lake Erie
+
+<img src='https://eoimages.gsfc.nasa.gov/images/imagerecords/91000/91038/erie_oli_2017269_lrg.jpg' style="width:1000px;height:500px;">
+
+## Lake Erie 2
+
+<img src='https://eoimages.gsfc.nasa.gov/images/imagerecords/91000/91038/erie_oli_2017269_detail.jpg'>
+
+## Animas
+
+<img src='https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2015%2F08%2Fanimas-river-mine-waste-water-jpeg.jpg&w=800&c=sc&poi=face&q=85'>
+
+## West Virginia
+
+<img src='me.jpg' style="width:700px">
+
+## West Virginia 2
+
+<img src='mr_water.jpg' style="width:700px">
+
+## Gulf Coast
+
+<img src='https://www.gannett-cdn.com/-mm-/252d2cc654a1866996095b4ae600e4eb8f3a4017/c=45-117-672-471/local/-/media/2018/03/26/USATODAY/USATODAY/636576717606862133-blobid1-1521734490168.jpg?width=3200&height=1680&fit=crop' style="width:700px"
+
+## Fort Collins
+
+<iframe title="COLORADOAN- Embed Player" width="540" height="350" frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" src="https://uw-media.coloradoan.com/embed/video/1385455002?placement=snow-embed"></iframe>
+
+## Boulder 
+
+<img src='https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2017/wastewatertr.jpg'>
+
+and on and on and on.
+
+## Summary
+
+- What do these water quality impacts have in common?
+- Which impacts do you think will be fixed in the next year, decade, century? 
+- The goal of this course is for you to intuitively and quantitatively understand the linkages between human's actions on land and our downstream water quality impacts. 
