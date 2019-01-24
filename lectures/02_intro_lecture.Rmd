@@ -89,7 +89,7 @@ For each image answer the following questions
 
 ## Gulf Coast
 
-<img src='https://www.gannett-cdn.com/-mm-/252d2cc654a1866996095b4ae600e4eb8f3a4017/c=45-117-672-471/local/-/media/2018/03/26/USATODAY/USATODAY/636576717606862133-blobid1-1521734490168.jpg?width=3200&height=1680&fit=crop' style="width:700px"
+<img src='https://www.gannett-cdn.com/-mm-/252d2cc654a1866996095b4ae600e4eb8f3a4017/c=45-117-672-471/local/-/media/2018/03/26/USATODAY/USATODAY/636576717606862133-blobid1-1521734490168.jpg?width=3200&height=1680&fit=crop' style="width:700px">
 
 ## Fort Collins
 
@@ -101,8 +101,25 @@ For each image answer the following questions
 
 and on and on and on.
 
+## Treatment
+
+- Most water quality problems are pernicious and wicked
+- Difficult to treat once they start and hard to disentangle from the land-use
+change that causes them
+
+## Treatment
+
+<img src='https://coyotegulch.files.wordpress.com/2010/02/watertreatment.jpg'>
+
 ## Summary
 
 - What do these water quality impacts have in common?
 - Which impacts do you think will be fixed in the next year, decade, century? 
+
+
+## Final slide
+- Did we pique your interest?
+- Hopefully you understand my background a little better
 - The goal of this course is for you to intuitively and quantitatively understand the linkages between human's actions on land and our downstream water quality impacts. 
+- Before Friday's class please complete Canvas Quiz on your background and previous
+experience with related topics (remote sensing, water quality, etc...)

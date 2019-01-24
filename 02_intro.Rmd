@@ -1,3 +1,5 @@
+# (PART) Courses {-}
+
 
 # Introduction (Week 1)
 
@@ -25,6 +27,27 @@ The ways people can alter water quality are almost limitless as we continue to i
 
 - What causes the water quality problem you identifed from above? Was it land-use change or something else? 
 
+## My work on land-use change - Mining in West Virginia
+
+For my PhD I worked on understanding the impacts of a particularly destructive form of coal mining called Mounataintop Mining. Mountaintop mining covers almost 6,000 square kilometers of land in Central Appalachia. This map shows the expansion of Mountaintop Mining in West Virginia and Kentucky. You can see more [here](http://skytruthmtr.appspot.com/)
+
+<img src='https://skytruth.org/wp_media/Surface_Mining_Extent_1985-2015_mono-color_county-bounds.gif' style='width:900px'>
+
+Unlike most land-use change impacts, mounataintop mining does not only change the land in two-dimensions, but direclty alters the topography of the landscape as shown here. 
+
+<video width="720" height="440" controls>
+  <source src="lectures/mr7.mp4" type="video/mp4">
+</video>
+
+Whether agricutlure, mining, or industry, almost all human activities on land end up impacting water quality downstream. 
+
+## Types of Water Quality Change
+
+
+- What water quality problem do you think is most pressing right now in Colorado? in the United States? the Globe? 
+
+- What causes the water quality problem you identifed from above? Was it land-use change or something else? 
+
 ## Examples of water quality impacts 
 
 For each image answer the following questions
@@ -34,8 +57,52 @@ For each image answer the following questions
 - Is it natural or human-caused? 
 
 
-## Lake Erie
+### Lake Erie
 
-<img src='https://eoimages.gsfc.nasa.gov/images/imagerecords/91000/91038/erie_oli_2017269_lrg.jpg'>
 
-## Lake Erie 2
+<img src='https://eoimages.gsfc.nasa.gov/images/imagerecords/91000/91038/erie_oli_2017269_lrg.jpg' style="width:1000px;height:500px;">
+
+Lake Erie algae bloom caused by excess nutrients from agriculture and increasing temperatures from climate change
+
+### Animas
+
+<img src='https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2015%2F08%2Fanimas-river-mine-waste-water-jpeg.jpg&w=800&c=sc&poi=face&q=85'>
+
+Animas river had ~ 3 million gallons of mine waste accidentally released into it from the abandoned Gold King Mine. The spill contained a variety of elemental contaminants including: arsenic, cadmium, lead, aluminum, and copper, with the orange color coming from iron. The long-term impacts from the spill are still unknown
+
+### West Virginia
+
+<img src="lectures/me.jpg" style="width:700px">
+
+This is a case where the murky brown water you see in this flood are completely natural. This was a major flooding event in a reference watershed for some of our work on the impacts of mining (more [here](https://pubs.acs.org/doi/abs/10.1021/acs.est.7b02288)). This was just a very large flood that mobilized a lot of sediment in the river. I'm standing on a bridge that is about 4 feet above the river bottom. 
+
+### West Virginia 2
+
+<img src="lectures/mr_water.jpg" style="width:700px">
+
+In this image we have Laurel Branch flowing into the Mud River. Although the Mud River water looks clear here, both streams are heavily impacted by mining and have high ion concentrations in the water leading to elevated salinity and declines in biodiversity. Not all pollutants are visible. 
+
+### Fort Collins
+
+<iframe title="COLORADOAN- Embed Player" width="540" height="350" frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" src="https://uw-media.coloradoan.com/embed/video/1385455002?placement=snow-embed"></iframe>
+
+Video documenting a fish kill that happened in Fort Collins in October of 2018. The cause of the fish kill is still unkown, but something the city is still investigating. These kinds of events often cause lots of public attention but understanding exactly why fish-kills occur can be difficult. 
+
+### Boulder 
+
+<img src='https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2017/wastewatertr.jpg'>
+
+Starting in 2004, David Norris noticed that the fish in Boulder Creek were changing sex. Eventually he discovered that this was due to a suite of chemicals that imitate estrogen being released into the river. Modern organic contaminants are one of the least well-understood impacts to water quality. 
+
+## Treatment
+
+- As we will learn in this class most water quality problems are pernicious and wicked
+- Difficult to treat once they start and hard to disentangle from the land-use
+change that causes them
+
+
+## Summary
+
+- The goal of this course is for you to intuitively and quantitatively understand the linkages between human's actions on land and our downstream water quality impacts. 
+- Before Friday's class please complete Canvas Quiz on your background and previous
+experience with related topics (remote sensing, water quality, etc...)

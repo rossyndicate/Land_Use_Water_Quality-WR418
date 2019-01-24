@@ -1,6 +1,9 @@
 ---
 title: "Land Use and Water Quality"
-author: "Dr. Matthew Ross"
+author:
+- "Dr. Matthew Ross"
+- 'matt.ross(at)colostate.edu'
+- 'Office Hours: M,TR 9:00-10:00 AM'
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 site: bookdown::bookdown_site
 documentclass: book
@@ -10,7 +13,10 @@ output:
 ---
 
 
+# (PART) Syllabus {-}
+
 # Land Use and Water Quality (WR418)
+
 
 This working repository hosts all lecture material, code, assignments, and the syllabus for Land Use and Water Quality (WR418) taught at Colorado State University.
 
@@ -19,7 +25,7 @@ similar to [R for Data Science](https://r4ds.had.co.nz/), which can be used to t
 college students about the interaction of human land-use and downstream water quality
 change.
 
-## Goals
+## Course (and eventual book) Goals
 
 The broadest goals of the book/course are for students to develop both an 
 intuitive and quantitative understanding of:
@@ -36,10 +42,73 @@ ancient rome to modern pharmaceuticals entering our lakes and rivers.
 - The status of water quality in lakes and rivers across the globe and how it relates
 to legislation, developoment, and environmental change broadly.
 
-## Approach
+# Approach
 
 To reach these educational goals we will use a variety of approaches focused on 
 engaging students directly with primarily literature on water quality, discussing
 current events related to land-use and water quality, quantitative analyses of 
 land-use and water quality change over time, and a focused final project. 
 
+## Assignments
+
+All assignments will be distributed through canvas
+
+## Notes
+If you learn by taking notes, I encourage you to take notes in class when there 
+are lectures. However, all lectures will be posted online on my [GitHub account](https://github.com/OpenEcoDataLab/Land_Use_Water_Quality-WR418). Additionally,
+a more verbose version of the notes will be on [this site](http://matthewrvross.com/wr418/land-use-and-water-quality-wr418.html) (look to your left).
+
+## Attendance
+I will not take attendance, but this class will heavily depend on you being present. There
+will be a participation grade that will reflect a combination of your consistent presence, focus in class, and participation in group discussions (it's okay if you don't like speaking in front of the whole class, but you should particpate during breakout period). 
+
+## Grading 
+
+```{r, echo=F}
+library(knitr)
+library(kableExtra)
+library(tibble)
+library(lubridate)
+
+grading <- tibble(Assignments='50%',
+                  Midterm='15%',
+                  Final='20%',
+                  Participation='15%')
+
+kable(grading)
+```
+
+## Schedule 
+This schedule will likely change considerably as we move through the course,
+but I will keep it updated. Every Friday there will be an assignment due the next 
+Friday, unless otherwise stated.
+
+```{r, echo=F}
+
+schedule <- tibble(`Week Number`=1:16,
+                   `Week Starting`=seq(ymd('2018-01-21'),ymd('2018-05-10'),by=7),
+                   Topic=c('Getting started and course review',
+                           'Global history of water quality change, point source pollution',
+                           'Non-point source pollution, nutrients, sediment, dissolved organic carbon',
+                           'Algae, eutrophication, cyanobacterial blooms',
+                           'weathering reactions, cations, anions',
+                           'Water treatment approaches and history,MIDTERM',
+                           'Metals chemistry, pH as a master variable',
+                           'Organic contaminants',
+                           'Legislation governing water quality in the USA and abroad',
+                           'Tracing water quality problems with isotopes and sensors',
+                           'Remote sensing of land-use change and water quality',
+                           'River/Lake network water quality influences',
+                           'Mapping water quality issues in Colorado and Fort Collins',
+                           'Water quality legacy impacts, biotic indices',
+                           'Contaminant interactions, phytolosis, transformation',
+                           'BYO contaminant presentations (final)'))
+kable(schedule) %>%
+ kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+## Academic integrity
+Academic integrity: You are responsible for adhering to all university policies on academic
+integrity and student conduct https://tilt.colostate.edu/integrity/knowTheCode/. TILT
+has a number of resources for students related to writing and study skills:
+https://tilt.colostate.edu/integrity/resourcesStudents/.
