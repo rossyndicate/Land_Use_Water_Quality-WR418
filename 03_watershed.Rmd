@@ -1,0 +1,24 @@
+
+# Watersheds and Hydrographs
+
+Understanding what is in water, how it got there, and if we can do anything about it
+requires, at a minimum, first understanding where the water came from. In rivers and/or lakes,
+the first step towards this deceptively difficult task is finding the boundaries within which
+water drains to a specifc point. The 'watershed boundary' theoretically (actual
+water flow is complicated) indicates a separation
+between where a rain drop will flow if it lands on one side of the boundary or the other. Everything inside a single watershed boundary is called a 'catchment area', 'catchment', or 
+in the USA a 'watershed.' Inisde a single watershed, as water flows downhill from rainfall or 
+snowmelt it will accumulate the hydrologic and chemical signals from all the geologic features
+(bedrock geochemistry), ecological features (wetland dissolved carbon), and human impacts. The 
+simple video below does a pretty good job making these ideas more clear. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QOrVotzBNto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Watersheds and human impacts. 
+
+Generally, the more human activities in a watershed, the more likely there is to be
+both hydrologic and water quality impacts downstream. Looking at the three watersheds highlighted below.
+
+- Which of the three is most likely to have water quality impacts? 
+- 

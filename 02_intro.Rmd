@@ -36,7 +36,7 @@ For my PhD I worked on understanding the impacts of a particularly destructive f
 Unlike most land-use change impacts, mounataintop mining does not only change the land in two-dimensions, but direclty alters the topography of the landscape as shown here. 
 
 <video width="720" height="440" controls>
-  <source src="lectures/mr7.mp4" type="video/mp4">
+  <source src="images/mr7.mp4" type="video/mp4">
 </video>
 
 Whether agricutlure, mining, or industry, almost all human activities on land end up impacting water quality downstream. 
@@ -72,13 +72,13 @@ Animas river had ~ 3 million gallons of mine waste accidentally released into it
 
 ### West Virginia
 
-<img src="lectures/me.jpg" style="width:700px">
+<img src="images/me.jpg" style="width:700px">
 
 This is a case where the murky brown water you see in this flood are completely natural. This was a major flooding event in a reference watershed for some of our work on the impacts of mining (more [here](https://pubs.acs.org/doi/abs/10.1021/acs.est.7b02288)). This was just a very large flood that mobilized a lot of sediment in the river. I'm standing on a bridge that is about 4 feet above the river bottom. 
 
 ### West Virginia 2
 
-<img src="lectures/mr_water.jpg" style="width:700px">
+<img src="images/mr_water.jpg" style="width:700px">
 
 In this image we have Laurel Branch flowing into the Mud River. Although the Mud River water looks clear here, both streams are heavily impacted by mining and have high ion concentrations in the water leading to elevated salinity and declines in biodiversity. Not all pollutants are visible. 
 

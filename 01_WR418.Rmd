@@ -64,7 +64,7 @@ will be a participation grade that will reflect a combination of your consistent
 
 ## Grading 
 
-```{r, echo=F}
+```{r, echo=F,message=F,warning=F}
 library(knitr)
 library(kableExtra)
 library(tibble)
@@ -92,12 +92,13 @@ schedule <- tibble(`Week Number`=1:16,
                            'Non-point source pollution, nutrients, sediment, dissolved organic carbon',
                            'Algae, eutrophication, cyanobacterial blooms',
                            'weathering reactions, cations, anions',
-                           'Water treatment approaches and history,MIDTERM',
+                           'Water treatment approaches and history',
                            'Metals chemistry, pH as a master variable',
-                           'Organic contaminants',
-                           'Legislation governing water quality in the USA and abroad',
-                           'Tracing water quality problems with isotopes and sensors',
-                           'Remote sensing of land-use change and water quality',
+                           'Organic contaminants, MIDTERM',
+                           'Spring Break',
+                           
+                           'Isotopes,Legislation governing water quality in the USA and abroad',
+                           'Sensors, Remote sensing of land-use change and water quality',
                            'River/Lake network water quality influences',
                            'Mapping water quality issues in Colorado and Fort Collins',
                            'Water quality legacy impacts, biotic indices',
