@@ -29,7 +29,7 @@ image.files <- list.files(image.folder,
 file.copy(list.of.files, new.folder,overwrite = T)
 
 #Copy images
-file.copy(image.files,new.image.folder)
+file.copy(image.files,new.image.folder,overwrite=T)
 
 ## warning
 #libs folder does not get copied leaving the output looking...

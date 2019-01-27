@@ -1,3 +1,8 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 
 # Watersheds and Hydrographs
 
@@ -18,7 +23,127 @@ simple video below does a pretty good job making these ideas more clear.
 ## Watersheds and human impacts. 
 
 Generally, the more human activities in a watershed, the more likely there is to be
-both hydrologic and water quality impacts downstream. Looking at the three watersheds highlighted below.
+both hydrologic and water quality impacts downstream. Looking at the three watersheds highlighted below (generated from the amazing [stream stats](https://streamstats.usgs.gov/ss/)).
 
 - Which of the three is most likely to have water quality impacts? 
-- 
+- What kind of water quality impacts might that (or those) have? 
+
+You can change the basemape by clicking on the stacked layer icon in the top left. 
+
+```{r,echo=F,message=F,warning=F,results='hide'}
+library(tidyverse)
+library(sf)
+library(mapview)
+library(dataRetrieval)
+library(xts)
+library(dygraphs)
+library(ggthemes)
+
+
+knitr::opts_chunk$set(echo=F,message=F,warning=F)
+#Build a function to read in watershed data
+shed.reader <- function(x){
+  shp <- list.files(x,full.names=T)
+  shed <- st_read(shp) %>%
+    mutate(Name=x)
+}
+
+#List watershed file locations
+files <- list.files('data/watersheds',full.names=T)
+
+#Read in and bind data together
+sheds <- map(files,shed.reader) %>%
+  do.call('rbind',.)
+
+#Change basemap options
+mapviewOptions(basemaps=c('Esri.WorldImagery','OpenTopoMap','OpenStreetMap'))
+```
+
+
+```{r,echo=F,message=F,warning='hide'}
+#Map data
+mapview(sheds)
+
+```
+
+Thinking about how watersheds aggregate human impacts will be core to this class, along
+with a basic understanding of how water moves through these watersheds.
+
+## Hydrographs
+
+The main way hydrologists, biogeochemists, ecologists, and anyone else working with 
+river data thinks about the total amount of water draining out of a watershed, is by looking
+at hydrographs. Hydrographs represent the volume of water moving past a specific point
+over a given period, which could be a single storm event, water year, or over decades.
+Hydrographs can tell us how water is moving through a hydrologic system, is most of the
+water coming out right after a rain storm (a 'flashy' hydrograph), or is something in the
+system slowing the water down and rainfall does not get rapidly converted to rainfall, but
+instead comes out mostly as baseflow (water leaving the system between storm or 
+snowmelt events).
+
+Looking at the graph below:
+
+- Which site has a more baseflow dominated hydrograph?
+- What might be impacting the hydrographs you see? 
+
+
+```{r,results='hide'}
+#Site codes from map
+site_cd<- c('07171000','07176000')
+
+#Download data
+usgs.site.data <- readNWISdata(sites=site_cd,
+                               service='dv',
+                               parameterCd='00060',
+                               startDate='2018-01-01',
+                               endDate='2019-01-01')
+
+
+#simplify data 
+q.data <- usgs.site.data %>%
+  #Rename site codes into site names
+  mutate(site_name=ifelse(site_no=='07171000','Watershed1','Watershed2')) %>%
+  #Rename and remove useless columns
+  dplyr::select(site_name,date=dateTime,q.cfs=X_00060_00003) %>%
+  #Filter out bad data
+  filter(q.cfs > 0)
+
+## Alter data structure to match plotting library
+q.wide <- spread(q.data,
+                    key=site_name,
+                    value=q.cfs) %>%
+  arrange(date) %>%
+  xts(order.by=.$date)
+```
+
+
+```{r}
+dygraph(q.wide) %>%
+  dyAxis('y',label='Q (cfs)')
+
+```
+
+In the above graph, Watershed1 is on the Verdigris River in Oklahoma, but so is Watershed2. The difference in flow patterns between the two is that Watershed2 is downstream of Oologah Lake, which was made by a large dam on the Verdigris River. In the hydrograph you can see the delayed delivery of water from the upstream portion of Watershed1 to the downstream station at Watershed2. 
+
+The way water moves through a landscape is an important control on what the water picks up as it flows over, through, and under the landscape. Further, different water quality constituents will respond differently to changes in hydrology. Three possible water quality responses are shown below. 
+
+```{r,fig.width=6,fig.height=5}
+chemical_response <- tibble(Q.cfs=c(1,10,100,1000),
+                            Enrichment=c(1,5,10,15),
+                            Chemostatis=c(5,5,5,5),
+                            Dilution=c(15,10,5,1)) %>%
+  gather(key=Response,value=Concentration,-Q.cfs)
+
+ggplot(chemical_response,aes(x=Q.cfs,y=Concentration,color=Response)) + 
+  geom_line() + 
+  theme_few() + 
+  scale_color_hc(name='') + 
+  xlab('Q (cfs)') + 
+  ylab('Constituent Concentration (mg/L)') + 
+  scale_x_log10() + 
+  theme(legend.position='top',legend.direction='horizontal')
+
+```
+
+In future lessons we will dive deeper into what water quality constituents exhibit these responses to changes in discharge. For now, it is most important to understand that water quality constituents can depend heavily on changes in discharge by eitehr decreasing in concentration with more water (Dilution), increasing in concnetration with more water (Enrichment). Some constituents are not responsive to changes in discharge and we call those Chemostatic. 
+
