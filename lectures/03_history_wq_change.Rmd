@@ -1,0 +1,31 @@
+---
+title: "History of Water Quality Change"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+# History of Water Quality Change (Week 2)
+
+Goals for today
+
+- Start to build a timeline of human impacts on water
+- Review approaches to finding, reading, and understanding primary literature
+- Define watershed biogeochemistry
+
+
+
