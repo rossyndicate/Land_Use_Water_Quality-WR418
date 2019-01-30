@@ -1,0 +1,100 @@
+---
+title: "Identifying Water Quality Problems in History"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+## Housekeeping
+
+- Tools for class
+- Questions from Monday?
+- HW reminder
+
+## Goals for today
+
+- Build an understanding of how we historically have found land-use -> WQ problems (non-pathogen)
+
+- Review watershed ecosystem concept as a modern primary tool for understanding 
+WQ change.
+
+## Historic stages of water quality impacts? 
+
+- In antiquity and modernity, increased erosion and nutrient loading is a land-use change -> water quality bellweather
+
+- Since the 1900s, many of these impacts have been discovered and understood
+through the lens of watershed biogeochemistry 
+
+## Why is this lake filling with sediment?
+
+<img src='https://ars.els-cdn.com/content/image/1-s2.0-S0012821X1830623X-gr001_lrg.jpg'>
+
+## Why is this estuary filling with sediment?
+
+<img src='https://i.pinimg.com/originals/07/81/e5/0781e554e84732be885dbaa04e20d269.jpg' > 
+
+## Why is my village flooding and filling with sediment? 
+
+<img src='https://img.myswitzerland.com/mys/n64559/images/buehne/53370_jahrundert-hochwasser-diemtigtal_diemtigtal-tourismus.jpg' >
+
+## Very brief timeline
+
+- ~ 2000 years ago, sedimentation in Roman lakes
+
+- ~ 500 years ago, sedimentation in Venice lagoon and other european estuaries
+  - subsequent rerouting rivers, a common theme in dealing with water quality issues)
+  
+- Beginning of modern watershed science in 1900s in [Switzerland](https://www.sciencedirect.com/science/article/pii/002216949390111L) and [Wagon Wheel Gap, CO](https://www.nap.edu/read/5589/chapter/5#27)
+
+
+## Interlude
+
+<iframe src="https://player.vimeo.com/video/309715467" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/309715467">EPOCH</a> from <a href="https://vimeo.com/kevinmcgloughlin">Kevin McGloughlin</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+## Watershed (catchment) studies
+
+<img src='http://www.history-of-hydrology.net/mediawiki/images/2/22/Wagon_Wheel_Gap_Photo.jpg'>
+
+- All early catchment studies were motivied by a growing understanding of the link 
+between deforestation, flooding, and sedimentation
+
+- These early studies in 1910 in Colorado and many more through 1958 almost 
+entirely studied [water quantity change and erosion](http://coweeta.uga.edu/publications/swank_88_streamflow.pdf)
+
+## Watershed ecosystem studies {.build}
+
+- [Tansley 1935](https://esajournals.onlinelibrary.wiley.com/doi/10.2307/1930070)
+	
+*a particular category of physical systems, consisting of organisms and inorganic components in a relatively stable equilibrium, open and of various sizes and kinds*
+  
+- Making a watershed the ecosystem unit is a powerful tool [tool](https://www.esf.edu/cue/documents/Bormann-Likens_Nutrient-Cycling_1967_000.pdf)
+
+
+## Hubbard Brook
+
+- Herb Bormann and Gene Likens
+
+<img src='https://hubbardbrook.org/sites/default/files/banner/watershedswide.png'>
+
+- Critically important approach that has been replicated 100s of times
+
+
+## Activity
+
+- Go to: http://hbef.streampulse.org/

@@ -21,11 +21,34 @@ slides > slide {
 
 # History of Water Quality Change (Week 2)
 
-Goals for today
+## Housekeeping
+- Email, and canvas communication norms
+- Questions from last week?
+- HW reminder
+
+## Goals for today
 
 - Start to build a timeline of human impacts on water
 - Review approaches to finding, reading, and understanding primary literature
-- Define watershed biogeochemistry
+
+## Timeline of WQ Change
+
+- In groups of 3 or 4 draw a timeline of any and all important moments, events,
+ideas, regulations, etc... in the history of Water Quality change. 
+
+- This can include things like: First evidence of cultural eutrophication, 
+the Great Stink of London, Cholera identified as waterborne illness etc...
+
+- Do your best to guess when these things happened, but it's okay to be wrong, we 
+are going to fill this out as a class throughout the semester. 
+
+## How would we systematically fill this out?
+
+- Primary research literature is an important way to learn about the most 
+current and well-supported ideas in a field.
+- Reading primary literature can be difficult because of technical language,
+confusing figures, and, unfortunately, bad-writing
+- [Google Scholar](https://scholar.google.com/) 
 
 
 
