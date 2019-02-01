@@ -69,8 +69,68 @@ slides > slide {
 
 <img src='https://www.ph.ucla.edu/epi/snow/graphics/cricketfig6.jpg'>
 
-## 
 
-*Nearly 4% of the global disease burden could be prevented by improving water supply* 
+## Cholera (cont.)
 
+- Still a problem in many parts of the world
+- Dynamics are closely tied to [people and water cycles](https://www.pnas.org/content/pnas/109/17/6602.full.pdf)
+
+
+
+## E. coli
+
+- Discovered in 1885 by Theodor Escherich
+- One of the most well-studied organisms on earth
+- Still causes more than 100,000 illnesses in USA every year
+
+
+## E. coli
+
+<style>.mcclatchy-embed{position:relative;padding:40px 0 56.25%;height:0;overflow:hidden;max-width:100%}.mcclatchy-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%}</style><div class="mcclatchy-embed"><iframe src="https://www.sacbee.com/news/local/article214286679.html/video-embed" width="640" height="400" frameborder="0" allowfullscreen="true"></iframe></div>
+
+
+## Historic solutions
+
+## Thames 
+
+<img src='https://walkingthelandscape.files.wordpress.com/2016/03/cross-section-of-the-victoria-embankment.gif'>
+
+## Chicago river
+
+<img src='https://interactive.wttw.com/sites/default/files/13-0313_historical_Box_125_013.jpg'>
+
+## Paris
+
+<img src='https://media.nomadicmatt.com/sewersparis2.jpg'>
+
+## Problems with the rerouting approach? {.build}
+
+<img src='http://www.beachapedia.org/images/4/49/Cso-ss0-524.jpg'>
+
+## Modern solutions
+
+## Wastewater treatment
+
+<img src='http://www.butec.com.lb/wp-content/uploads/2015/01/Tripoli-Wastewater-Treatment-Plant3-1140x555.jpg'>
+
+## Drinking water treatment
+
+<img src='https://www.edenprairie.org/Home/ShowPublishedImage/5487/636248337136570000'>
+
+## It's almost 2020
+
+- What pathogenic water quality problems have we solved?
+- Why do so many persist? 
+
+## Homework
+
+- Find a primary literature article about a water quality problem, you can look for really modern work on contaminants, historic work on e.coli, or ancient paleoecology articles on a water qualiyt problem. 
+
+- Read the article and answer the following questions in less than 250 words:
+
+- What water quality problem do the authors identify?
+- What techniques did the authors use to identify the problem? (laboratory chemical analysis, models, historc reconstruction, etc...)
+- Does the water quality impact mostly affect people, the environment, or both? 
+- For how long has this water quality problem existed? 
+- Do the authors propose any solutions? If so, what are they? If not, what do you think might be a solution? 
 
