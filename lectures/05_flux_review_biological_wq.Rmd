@@ -1,0 +1,76 @@
+---
+title: "Flux review and waterborne pathogens"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+## Housekeeping
+
+- HW for next week will be posted after class
+- Questions from Wednesday? 
+- Finish watershed biogeochemistry section
+
+## Watershed Biogeochemisty at Hubbard Brook
+
+- Acid Rain
+- Deforestation
+- Ice Storm
+- Dilutification
+- Calcium experiment
+
+
+## What's the flux? 
+
+- the action or process of flowing or flowing out
+- the rate of transfer of fluid, particles, or energy across a given surface
+
+## Flux of energy
+
+<img src='https://i.ytimg.com/vi/NcBIbTFSwSI/maxresdefault.jpg'>
+
+## Flux of water
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fh1OrsHY_H4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Flux of water quality?
+
+- Hydrology is the study of water generally
+- Biogeochemistry, hydrology, ecology, toxicology and many other fields all study water quality
+- For some of these fields [concentration] is the key water quality feature
+- For others, the flux of a contaminant matters more
+- How do we calculate contaminant flux? 
+
+## Waterborne pathogens
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/a/a2/The_silent_highwayman.jpg'>
+
+## Cholera
+
+- John Snow discovered source of Cholera at Broad Street Pump in 1854
+- Filippo Pacini discovered cholera in 1854 in Italy, 
+- Robert Koch rediscovered it 30 years later 
+- Why all in the 1850s? 
+
+<img src='https://www.ph.ucla.edu/epi/snow/graphics/cricketfig6.jpg'>
+
+## 
+
+*Nearly 4% of the global disease burden could be prevented by improving water supply* 
+
+
