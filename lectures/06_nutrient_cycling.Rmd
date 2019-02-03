@@ -1,0 +1,66 @@
+---
+title: "Nutrient cycling"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+## Housekeeping
+
+
+- Questions from Friday? 
+
+## What is a nutrient?
+
+- Wiki definition: "A nutrient is a substance used by an organism to survive, grow, and reproduce"
+- In groups of 3 or 4 try to identify as many nutrients you know of as possible. 
+  - If you can, note what this nutrient does to help sustain life
+  
+## What is a nutrient cycle? {.build}
+
+<img src='https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41570-018-0041-7/MediaObjects/41570_2018_41_Fig1_HTML.png'>
+
+
+## How do nutrient cycles interact? {.build}
+
+
+<img src='https://courses.cit.cornell.edu/css412/mod3/img/P%20_limiting.jpg'>
+
+
+
+## How do nutrient cycles interact?
+
+<div class="columns-2">
+
+<img src='https://courses.cit.cornell.edu/css412/mod3/img/P%20_limiting.jpg'>
+
+
+<img src='https://courses.cit.cornell.edu/css412/mod3/img/N_limiting.jpg'>
+
+</div>
+
+## How do nutrient cycles interact? {.build}
+
+- Relative ratio of elements required for life [Redfield 1934](http://cmore.soest.hawaii.edu/summercourse/2012/documents/bronk_05-30-12/Redfield_1934.pdf)
+<img src='../images/Redfield_Ratio.PNG'>
+
+## How do nutrient cycles interact? {.build}
+
+<img src='http://science.sciencemag.org/content/sci/342/6155/205/F1.large.jpg?width=800&height=600&carousel=1'>
+
+
