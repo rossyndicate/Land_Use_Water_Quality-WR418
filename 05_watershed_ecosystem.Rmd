@@ -1,0 +1,40 @@
+
+
+# Watershed-Ecosystem Approach
+
+A modern approach to understanding water quality change in rivers and lakes involves 
+integrating ideas from both hydrology and ecology, particularly the watershed (catchment, I use these interchangeably)
+and ecosystem concepts. Both of these ideas are relatively new and their integrated study
+has only happened for the last fifty years.
+
+### Modern watershed studies
+
+While there is ample evidence that some understanding of watershed ideas were present
+in deeper history (a great book on this is [A Forest on The Sea](https://jhupbooks.press.jhu.edu/title/forest-sea)). Modern watershed studies only began
+in the late 1800s and early 1900s, with the first recorded study as presented by McCulloch and Robinson
+[(1993)](https://www.sciencedirect.com/science/article/pii/002216949390111L/) in Switzerland. This study compared hydrologic response between a forested catchment and a pasture, showing forested catchments had lower erosion, flood flows, and annual water yields, with higher baseflows [(MuCulloch & Robinson, 1993)](https://www.sciencedirect.com/science/article/pii/002216949390111L/). These kind of *paired* catchment 
+studies were replicated throughout the United States shortly after the Swiss experiment with important 
+studies in Wagon Wheel Gap in 1910. The approach in the United States copied the Swiss approach in many ways,
+but many watershed studies were truly experimental in nature, where forested catchments were instrumented *before* deforestation. The researchers would collect some data (discharge, precip, etc...) before deforestation and compare watershed response both before and after cutting and compared to an uncut forest. This experimental approach became the gold-standard for watershed studies and is still commonly used today. 
+
+### Ecosystems 
+
+Shortly after many of these initial watershed studies, another important idea in environmental sciences was 
+invented. Before 1935, the term *ecosystem* did not exist, and ecologist's were in a long-lasting heated debate
+about how plant communities changed over time, mostly in the absence of our current understnading of ecosystems
+as the integrated biotic and abiotic systems we think of today. In a stunningly readable and clear argument, Sir Arthur Tansley argues that we can't understand plant community change without the ecosystem concept. In the article- [The Use and Abuse of Vegetational Concepts and Terms](https://www.esf.edu/cue/documents/Tansley_Use-Abuse-VegConcepts_1935.pdf)- defines an ecosystem as: " These ecosystems, as we may call them , are of the most various kinds and sizes. They form one category of the multitudinous physical systems of the universe, which range from the universe as a whole down to the atom." This
+now deeply familiar idea changed the field of ecology, and, when linked with the watershed concept is one of 
+the most important approaches we use to understand changes in water quality.
+
+## Ecosystems as watersheds
+
+Early forest watershed research in the 1900s fundamentally changed the way we manage forests for both sustained
+biomass and reduced erosion, increased water quality. After 1935, ecosystem ideas fundamentally changed the way we think about environmental systems. However it wasn't until the  1960s that these ideas were explitly
+linked, changing the way we think about what stream chemistry can tell us about land-use impacts on water
+quality and ecosystem processes. In their paper [Nutrient cycling](https://www.esf.edu/cue/documents/Bormann-Likens_Nutrient-Cycling_1967_000.pdf), F.H. Bormann and G. E. Likens lay out a compelling argument for using small watersheds as one physically bounded example of Tansley's ecosystem concept. This paper is clear and relatively easy to understand and rather than re-writing their ideas, you should just read it here:
+
+[Bormann and Likens, 1967](https://www.esf.edu/cue/documents/Bormann-Likens_Nutrient-Cycling_1967_000.pdf). 
+
+
+
+

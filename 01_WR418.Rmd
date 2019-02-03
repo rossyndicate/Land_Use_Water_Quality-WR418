@@ -25,7 +25,7 @@ similar to [R for Data Science](https://r4ds.had.co.nz/), which can be used to t
 college students about the interaction of human land-use and downstream water quality
 change.
 
-## Course (and eventual book) Goals
+## Course Goals
 
 The broadest goals of the book/course are for students to develop both an 
 intuitive and quantitative understanding of:

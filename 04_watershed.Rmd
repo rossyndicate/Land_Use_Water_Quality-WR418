@@ -141,5 +141,5 @@ ggplot(chemical_response,aes(x=Q.cfs,y=Concentration,color=Response)) +
 
 ```
 
-In future lessons we will dive deeper into what water quality constituents exhibit these responses to changes in discharge. For now, it is most important to understand that water quality constituents can depend heavily on changes in discharge by eitehr decreasing in concentration with more water (Dilution), increasing in concnetration with more water (Enrichment). Some constituents are not responsive to changes in discharge and we call those Chemostatic. 
+In future lessons we will dive deeper into what water quality constituents exhibit these responses to changes in discharge. For now, it is most important to understand that water quality constituents can depend heavily on changes in discharge by either decreasing in concentration with more water (Dilution), increasing in concentration with more water (Enrichment). Some constituents are not responsive to changes in discharge and we call those Chemostatic. 
 
