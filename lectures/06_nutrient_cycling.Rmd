@@ -36,6 +36,22 @@ slides > slide {
 <img src='https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41570-018-0041-7/MediaObjects/41570_2018_41_Fig1_HTML.png'>
 
 
+## What is a nutrient cycle? 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_IBx0zpNoEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Is this a nutrient cycle? 
+
+<img src='https://people.uwec.edu/piercech/hg/Pictures/merccycle.jpg'>
+
+
+
+## Is this a nutrient cycle?
+
+<img src='https://www.researchgate.net/profile/Keith_Hunter2/publication/237552074/figure/fig1/AS:618747198984192@1524532236226/Simple-box-model-of-the-global-iron-cycle-The-fluxes-external-to-the-ocean-were-taken.png'>
+
+from [(Hunter and Boyd 2007)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.561.4291&rep=rep1&type=pdf)
+
 ## How do nutrient cycles interact? {.build}
 
 
@@ -57,10 +73,29 @@ slides > slide {
 ## How do nutrient cycles interact? {.build}
 
 - Relative ratio of elements required for life [Redfield 1934](http://cmore.soest.hawaii.edu/summercourse/2012/documents/bronk_05-30-12/Redfield_1934.pdf)
-<img src='../images/Redfield_Ratio.PNG'>
+
+<img src='../images/Redfield_Ratio.PNG' height='500'>
 
 ## How do nutrient cycles interact? {.build}
 
 <img src='http://science.sciencemag.org/content/sci/342/6155/205/F1.large.jpg?width=800&height=600&carousel=1'>
 
+
+## Chemical reactions that govern nutrient and biogeochemical cycles
+
+- Electron exchange (Redox reactions)
+
+- Proton exchange (Acid/Base reactions)
+
+- Assimilation (incorporating nutrient into cellular structures)
+
+- Osmotic regulation
+
+- Capturing photons to split water (photosynthesis requires Mn)
+
+- Technology
+
+## Redox
+
+<img src='https://images.slideplayer.com/27/9007286/slides/slide_12.jpg'>
 
