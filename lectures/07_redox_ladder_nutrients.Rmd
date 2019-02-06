@@ -23,7 +23,99 @@ slides > slide {
 ## Housekeeping
 
 
-- No 
+- No office hours tomorrow and Monday moved to noon
+- Questions from Monday? 
 
-## What is a nutrient?
+
+## Ideas from Monday
+
+- Liebig's law of the minimum 
+
+- Redfield ratio
+
+- co-dependence of all nutrient cycles
+
+- Many of the reactions that govern this co-dependence are 
+redox reactions
+
+
+
+## Redox review {.build}
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qw0lHu4CNAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+4Fe$_{(s)}$ + 3O$_2$ $->$ 2Fe$_2$O$_{3s}$
+
+## Rules of redox
+
+- Reduction/oxidation reactions
+- Electrons are exchanged from one atom to another
+- Atoms that gain electrons are called *reduced* 
+- Atoms that lose electrons are called *oxidized*
+- Oxidation Is Loss Reduction Is Gain of electrons (OIL-RIG)
+
+## Breaking down a redox reaction
+
+4Fe$_{(s)}$ + 3O$_2$ $->$ 2Fe$_2$O$_{3s}$
+
+## Oxidative state (or oxidation number)
+
+- A simplified way of keeping track of electrons
+- Follow the rules to figure it out:
+
+
+## Rule 1 
+
+- If single element (or self-bonded element)-oxidation state of 0
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Simple_Periodic_Table_Chart-en.svg/1200px-Simple_Periodic_Table_Chart-en.svg.png>
+
+- O$_2$, H$_2$, Al, Ag, Hg, Fl$_2$
+
+## Rule 2
+
+- Monatomic ions have oxidation state of their charge
+
+- Na$^+$, Cl$^-$
+
+## Rule 3
+
+- Alkali metals (far left of periodic table) = +1 oxidation number
+
+<img src='https://www.gordonengland.co.uk/elements/periodic-alkali.png'>
+
+
+## Rule 3 (bonus)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uixxJtJPVXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Rule 4
+
+- Alkaline metals (second from left on periodic table) have oxidation number of +2
+
+## Rule 5
+
+- Hydrogen is +1 when bonded to a non-metal
+- Hydrogen is -1 when bonded to a metal
+
+## Rule 6
+
+- Oxygen is almost always -2
+- Unless it is in a peroxide it is -1 (H$_2$O$_2$)
+
+## Rule 7
+
+- Fluorine is always -1
+
+<img src='https://www.planetdeadly.com/wp-content/uploads/fluorine-dangerous.jpg'>
+
+## Rule 8
+
+- Sum of oxidation numbers in a molecule is zero or the 
+charge of the molecule. 
+
+- NaCl, SO$_4^{2-}$
+
+[(Burgin et al., 2011)](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/090227)
 
