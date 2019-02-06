@@ -47,6 +47,11 @@ redox reactions
 
 4Fe$_{(s)}$ + 3O$_2$ $->$ 2Fe$_2$O$_{3s}$
 
+## Redox sustains life
+
+<img src='http://www.americanaquariumproducts.com/images/graphics/redoxbasics2.jpg'>
+
+
 ## Rules of redox
 
 - Reduction/oxidation reactions
@@ -69,7 +74,7 @@ redox reactions
 
 - If single element (or self-bonded element)-oxidation state of 0
 
-<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Simple_Periodic_Table_Chart-en.svg/1200px-Simple_Periodic_Table_Chart-en.svg.png>
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Simple_Periodic_Table_Chart-en.svg/1200px-Simple_Periodic_Table_Chart-en.svg.png'>
 
 - O$_2$, H$_2$, Al, Ag, Hg, Fl$_2$
 
@@ -89,6 +94,11 @@ redox reactions
 ## Rule 3 (bonus)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uixxJtJPVXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Rule 3 (bonus explanation)
+
+<img src='http://www.technologyuk.net/physics/matter/images/matter_0019.gif'> 
 
 ## Rule 4
 
@@ -117,5 +127,51 @@ charge of the molecule.
 
 - NaCl, SO$_4^{2-}$
 
+## Assigning oxidation number
+
+In groups of 2 or 3 assign oxidation numbers to the following compounds
+
+- C$_6$H$_{12}$O$_6$
+- NO$_3^-$
+- PO$_4^-$
+- NH$_3$
+- NH$_4^+$
+- CaCO$_3$
+
+
+## Why do we care about oxidation number?
+
+- The reactions that maintain life depend on electron exchange
+- Chemical reactions need to be balanced by mass (moles of chemicals)
+  - But also by electrons
+- Understanding element, pollutant, and nutrient transformations requires
+knowing redox chemistry
+
+## Redox potential {.build}
+
+- Like pH ... but electrons so pE
+
+<img src='https://files.mtstatic.com/site_4334/108860/0?Expires=1549469215&Signature=XzrwiLUhIMRnG6q~uM9QM-HE35LexK~nyhp~pW8ZpAi6VNdnZ5RlP-WicRAcmirTCPXf-0llGmCFiCTZmROuyHLdDVzBm4VfuKG2i28GE0V3Qv1~aySuYCjO3z1aNvpqJxIDFoUV9ytYVkQuCcjwO4GDulPLfirT43Q6N~evgTI_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA'>
+
+
+
+## Redox potential
+
+<img src='https://wol-prod-cdn.literatumonline.com/cms/attachment/42b73d5e-1db9-435f-ad4f-3e685f62d778/i1540-9295-9-1-44-f03.jpg'>
+
+from:
 [(Burgin et al., 2011)](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/090227)
 
+## Redox potential
+
+<img src='https://www.flinnsci.com/globalassets/flinn-scientific/all-product-images-rgb-jpegs/ap7041.jpg?v=6134a4f2ede648138d9ef1ea6bd62517'>
+
+
+## Redox ladder
+
+<img src='https://ars.els-cdn.com/content/image/1-s2.0-S0169772200001091-gr1.gif'>
+
+
+## Gibbs free energy
+
+- Friday
