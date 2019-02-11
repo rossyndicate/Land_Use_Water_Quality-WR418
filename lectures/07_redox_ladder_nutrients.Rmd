@@ -133,7 +133,7 @@ In groups of 2 or 3 assign oxidation numbers to the following compounds
 
 - C$_6$H$_{12}$O$_6$
 - NO$_3^-$
-- PO$_4^-$
+- PO$_4^{3-}$
 - NH$_3$
 - NH$_4^+$
 - CaCO$_3$

@@ -1,0 +1,149 @@
+---
+title: "Gibbs energy in the environment"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+
+
+## Housekeeping
+
+- Monday office hours moved to noon
+- Reading assignment for upcoming Monday
+- HW will be assigned Monday and due 1-week after
+- Questions from Wednesday? 
+
+
+## Review from Wednesday
+
+- PO$_4^{3-}$
+- FePO$_4$
+- MgSO$_4$
+
+
+## Goals for today
+
+- Quick review of thermodynamics
+- Understand Gibbs Free Energy -> nutrient cycles
+- Using redox understanding for WQ treatment
+
+## First Law {.build}
+
+Conservation of energy (and mass)
+
+$\Delta$U = Q - W
+
+
+U = change in internal energy
+Q = heat added to system
+W = Work done by the system
+
+
+## Second Law {.build}
+
+You always lose (entropy increases)
+
+<img src='https://kaiserscience.files.wordpress.com/2015/07/2nd-law-of-thermodynamics.jpg'>
+
+## Third Law {.build}
+
+Entropy approaches zero as it gets really cold (0$^∘$K)
+
+## Why thermodynamics?
+
+- Govern the reactions that cause element transformations
+- And the amount of energy from each reaction
+
+<img src='http://www.kentchemistry.com/images/links/Kinetics/TB08_003.GIF'>
+
+
+## Energy in chemical reactions {.build}
+
+<img src='https://d1vdx9ifs4n5d7.cloudfront.net/s3fs-public/legacy_files/imce/online/Activation%20energy.png'>
+
+
+## Gibbs
+
+1873 
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Josiah_Willard_Gibbs_-from_MMS-.jpg/330px-Josiah_Willard_Gibbs_-from_MMS-.jpg'>
+
+## Free energy
+
+- $\Delta$G < 0
+- $\Delta$G > 0
+
+
+## $\Delta$G in the environment {.build}
+
+2H$_2$ + O$_2$ -> 2H$_2$O
+
+5H$_2$ + 2NO$_3^-$ + 2H$^+$ -> N$_2$ + 6H$_2$O
+
+4H$_2$ + SO$_4^{2-}$ + H$^+$ -> 4H$_2$O + HS$^-$
+
+4H$_2$ + CO$_2$ -> CH$_4$ + 2H$_2$O
+
+
+## $\Delta$G in the environment {.build}
+
+2H$_2$ + O$_2$ -> 2H$_2$O : $\Delta$G = -238 kJ (aerobic oxidation)
+
+5H$_2$ + 2NO$_3^-$ + 2H$^+$ -> N$_2$ + 6H$_2$O : $\Delta$G = - 224 kJ (nitrate reduction/denitrification)
+
+4H$_2$ + SO$_4^{2-}$ + H$^+$ -> 4H$_2$O + HS$^-$ : $\Delta$G  = -38 kJ (sulfate reduction, rotten egg reaction)
+
+4H$_2$ + CO$_2$ -> CH$_4$ + 2H$_2$O : $\Delta$G  = -33 kJ (methanogenesis, bottom of the energy barrel)
+
+## Calculating $\Delta$G for a reaction {.build}
+
+aA + bB -> cC + dD
+
+G$^∘$ = $_{\psi}\Delta$G$_{products}$ - $_{\psi}$$\Delta$G$_{reactants}$
+
+Caluclating G at non-standard concentrations and temp
+
+G = $\Delta$G$_f^∘$ + nRT ln[x]
+
+n=number of moles, R= Gas law constant, T=Temp in Kelvin
+
+Combine the two to get final formula
+
+$\Delta$G = $\Delta$G$^∘$ + RT ln$$\left(\frac{([C]^c*[D]^d)}{([A]^a*[B]^b)}\right)$$
+
+
+## Microbial smackdown {.build}
+
+$\Delta$G = what reactions are going to happen
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zS5lJpRkoes?start=227" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Controlling redox for nutrient removal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M63U4VKMPzA?start=220" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Next monday
+
+- Read your assigned paper (posted on canvas)
+- Small group discussion and class summaries
+
+
+
