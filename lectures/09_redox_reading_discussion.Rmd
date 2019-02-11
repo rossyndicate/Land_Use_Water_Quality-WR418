@@ -30,6 +30,28 @@ slides > slide {
 
 ## Readings
 
+Burgin et al., 2011; Finlay et al., 2013; Verhoeven and Meulement 1999
+
+- What is the nature of your paper? A review, an original study, a synthesis?
+- What was the main point of the paper?
+  - What figures, tables, or paragraphs support the main argument of the authors?
+  - Do you prefer tables or figures? 
+  - Did the authors present any counter-evidence? What was it? How did they 
+  use data or arguments to overcome this counter-evidence?
+- What was confusing or hard to understand in the paper? 
+- What nutrient cycles did the authors discuss? 
+- How did the authors incorporate redox into their work? 
+  - Did you notice any missing ideas, nutrient cycling or redox? 
+  - How might gibbs free energy be added to the paper to improve it? 
+- Draw one of the nutrient/redox cycles the authors discuss
+  - There is no wrong answer here just working to understand the ideas
+- If you had to summarize the paper in its entirety to a non-scientist
+in one-sentence, what would you say? 
+
+## Wednesday
+
+- Bringing it back to the water with algae blooms
+
 
 
 
