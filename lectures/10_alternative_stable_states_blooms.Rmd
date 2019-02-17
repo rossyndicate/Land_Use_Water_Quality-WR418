@@ -1,0 +1,86 @@
+---
+title: "Cyanos and Alternative Stable States"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+
+
+## Housekeeping
+
+- HW will be posted today and due next Friday
+- Notes for past 2 weeks of lecture will be posted this weekend
+- Questions from Monday?
+
+## Cyanobacteria {.build}
+
+<img src='https://singularityhub.com/wp-content/uploads/2018/06/cyanobacteria_499155529.jpg'>
+
+- neurotoxins, cytotoxins, endotoxins, hepatoxins 
+
+## Microcystin 
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Microcystin-LR.svg/1920px-Microcystin-LR.svg.png' width=80%s>
+
+## Why cyanos over algae? 
+
+https://www.sciencedirect.com/science/article/pii/S1568988311001557
+
+
+## Algae blooms and alternative stable states
+
+<img src='https://www.lakescientist.com/wp-content/uploads/2015/04/image3.png' width=80%>
+
+## 'Ball and cup model'
+
+https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1890/1540-9295%282003%29001%5B0376%3AASSIE%5D2.0.CO%3B2
+
+## What are the mechanisms of alternative stable states? {.build}
+
+Draw a diagram of potential feedbacks controlling algae blooms
+
+[Scheffer 2001](Scheffer_conceptual.pdf)
+
+## How can we use this understanding to manage blooms?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KPF5E5FRcTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## More management
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4v2o6tEIz-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## More managing
+
+<img src='https://d3i6fh83elv35t.cloudfront.net/static/2018/07/shade-balls.gif'>
+
+## More
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ze5z_z9S8dY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Mo'
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GAPXsC07d8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## What about the inverse? 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yCNkmi7VE0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

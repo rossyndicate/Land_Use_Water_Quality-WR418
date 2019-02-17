@@ -1,43 +1,45 @@
 
 
-# Watershed-Ecosystem Approach
+# Nutrients
 
 
 ## What is a nutrient?
 
-- Wiki definition: "A nutrient is a substance used by an organism to survive, grow, and reproduce"
-- In groups of 3 or 4 try to identify as many nutrients you know of as possible. 
-  - If you can, note what this nutrient does to help sustain life
-  
-## What is a nutrient cycle? {.build}
+Nutrients are the substances that help life survive, grow, and reproduce. These
+can be complex carbohydrates used for energy like starches or amino acids used to
+build proteins, or we can think of nutrients as the elements that make these complex
+life-building blocks. Frequently when talking about life, we focus on a group of 
+elements that are most common in almost all biologically relevant molecules. This
+group is called CHNOPS for Carbon, Hydrogen, Nitrogen, Oxygen, Phosphorus, and Sulfur. 
+Together these elements make up 98% of living tissues. The video below does a good 
+job explaining why these elements (and many others) are vital to life: 
 
-<img src='https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41570-018-0041-7/MediaObjects/41570_2018_41_Fig1_HTML.png'>
-
-
-## What is a nutrient cycle? 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_IBx0zpNoEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Is this a nutrient cycle? 
-
-<img src='https://people.uwec.edu/piercech/hg/Pictures/merccycle.jpg'>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tuBWjY9BpEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+The elements vital to life are constantly cycling in and out of life forms and into
+abiotic forms. The carbon molecules in a peach are converted to CO$_2$ when we eat
+the peach, break it down into it's component parts, and respire the sugar, using the 
+energy to maintain ourselves. The movement of this carbon molecule into our bodies, and
+then into the atmosphere, and, eventually, back into another plant is called a biogeochemical 
+cycle. A full discusiong of biogeochemical cycling is beyond the scope of this course
+but this is a great [book](https://www.elsevier.com/books/biogeochemistry/schlesinger/978-0-12-385874-0) if you are interested. Instead, we will focus on a subset of biogeochmical cycles called
+nutrient cycles, in particular the Nitrogen and Phosphorus cycles, which have a 
+heavy influence on water quality. 
 
-## Is this a nutrient cycle?
+## Interacting nutrient cycles
 
-<img src='https://www.researchgate.net/profile/Keith_Hunter2/publication/237552074/figure/fig1/AS:618747198984192@1524532236226/Simple-box-model-of-the-global-iron-cycle-The-fluxes-external-to-the-ocean-were-taken.png'>
+### Liebig's law of the minimum
 
-from [(Hunter and Boyd 2007)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.561.4291&rep=rep1&type=pdf)
-
-## How do nutrient cycles interact? {.build}
-
-
-<img src='https://courses.cit.cornell.edu/css412/mod3/img/P%20_limiting.jpg'>
-
-
-
-## How do nutrient cycles interact?
+Nutrient cycles interact in a variety of ways, but some of our earliest concepts 
+of how nutrient cycles depend on each other was from ideas from agriculture. One 
+such concept is called ["Liebig's law of the minimum](https://en.wikipedia.org/wiki/Liebig%27s_law_of_the_minimum) which states
+that plants grow not in response to the total amount of resources they have 
+(water, nutrients, light, etc...) but in proportion to the most scarce resource 
+(the limiting nutrient). So if a plant has all the N it needs but not enough P
+it will only grow to the point where it runs out of P. While we have a more rich 
+understanding of coupled nutrient cycling, this concept is still a useful way 
+for starting to think about how one nutrient can impact others. 
 
 <div class="columns-2">
 
@@ -46,35 +48,78 @@ from [(Hunter and Boyd 2007)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=
 
 <img src='https://courses.cit.cornell.edu/css412/mod3/img/N_limiting.jpg'>
 
+
 </div>
 
-## How do nutrient cycles interact? {.build}
+### Redfield ratio
 
-- Relative ratio of elements required for life [Redfield 1934](http://cmore.soest.hawaii.edu/summercourse/2012/documents/bronk_05-30-12/Redfield_1934.pdf)
+Another critical way we understand nutrient cycling is by understanding ecological
+stoichiometry, which is the study of how lifeforms require elements in certain ratios
+and how they change in order to meet these requirements. The idea that lifeforms have 
+specific ratios of elements they need to maintain comes from early research by [Alfred C. Redfield in 1934](http://cmore.soest.hawaii.edu/summercourse/2012/documents/bronk_05-30-12/Redfield_1934.pdf). Through oceanic surveys of C, N, and P content in marine biomass Redfield found that there was a consistent ratio of these elements to each other, across the world's oceans. We
+now call this ratio the redfield ratio which as originally stated was 106 C:16 N:1 P. Where 
+there is 106 moles of carbon, for every 16 moles of Nitrogen, for every 1 mol of Phosphorus in 
+the biomass of marine life. This ratio varies across different lifeforms, but it is another way
+of thinking about how nutrient cycles might interact. 
 
-<img src='../images/Redfield_Ratio.PNG' height='500'>
-
-## How do nutrient cycles interact? {.build}
-
-<img src='http://science.sciencemag.org/content/sci/342/6155/205/F1.large.jpg?width=800&height=600&carousel=1'>
+<img src='images/Redfield_Ratio.PNG' height='500'>
 
 
-## Chemical reactions that govern nutrient and biogeochemical cycles
+## The Nitrogen and Phosphorus cycles
 
-- Electron exchange (Redox reactions)
+Nitrogen and Phosphorus are vital elements for life and their biogeochemical cycles have been 
+heavily altered by people, with severe consequences for water quality. 
 
-- Proton exchange (Acid/Base reactions)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/leHy-Y_8nRs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- Assimilation (incorporating nutrient into cellular structures)
 
-- Osmotic regulation
 
-- Capturing photons to split water (photosynthesis requires Mn)
+## Excess nutrients cause water quality problems. 
 
-- Technology
+In order to sustain the world's growing population, we need to consistently supply
+nutrients to our croplands so that our crops can grow. Before 1900, most of this fertilizer
+was simply animal waste or manure direclty applied to land. With limited supplies of manure,
+there was a limited apacity for agriculture to maximize yields on croplands. Until the Haber-Bosch process was invented, which dramatically increased our capacity to deliver Nitrogen compounds directly to plants for croplands. 
+
+
+### Haber-Bosch
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o1_D4FscMnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The Haber-Bosch process coupled with the globalized mining of Phosphorus has made it so that 
+in many parts of the world these nutrients no longer limit plant growth. 
+
+### Phosphate mining
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aG_eaAt2JN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Excess nutrients
+
+The readily available N and P generated from Haber-Bosch and global phosphate mining
+has helped feed a growing global population, but frequently fertilizers end up 
+running off into adjacent water bodies. Causing algae blooms and subsequent eutrophication 
+in lakes, estuaries, and the near-coast environment. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6LAT1gLMPu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Modern nutrient water quality problems
+
+The problem of excess nutrients in freshwaters is a global problem that exists
+in almost every nation. Lots of modern research efforts are aimed at assessing the 
+extent of excess nutrients in the world's rivers, lakes, and coastal margins. Some of my 
+favorite papers or summaries of papers on the subject are here: 
+
+http://science.sciencemag.org/content/342/6155/205
+
+http://science.sciencemag.org/content/360/6387/427
+
+https://www.jstor.org/stable/1743244?seq=1#page_scan_tab_contents
+
+And many many more. 
 
 ## Redox
 
-<img src='https://images.slideplayer.com/27/9007286/slides/slide_12.jpg'>
-
+For biogeochemical cycles generally, and for nutrient cycling especially, redox 
+reactions are the chemical reactions that govern the transformations, transport,
+control, and impact of nutrients on waters. 
 
