@@ -1,0 +1,61 @@
+# Gibbs free energy in aquatic environments
+
+
+## Energy in chemical reactions
+
+As previously described, redox reactions power life by releasing energy when 
+electrons move from one compound or element to another. These reactions can
+yield different amounts of energy to the lifeform depending on the reagents involved.
+The total energy yield of a reaction is captured by the concept of Gibbs free 
+energy $\Delta G$. You may have come across the idea of Gibbs free energy when
+thinking about whether or not a reaction will proceed spontaneously where: 
+
+- $\Delta$G < 0 will be a spontaneous reaction
+- $\Delta$G > 0 will be non-spontaneous (requires energy input). 
+
+And for a general review of Gibbs free energy you can go [here](http://chemed.chem.purdue.edu/genchem/topicreview/bp/ch21/gibbs.php). And
+watch the video below that explains energy yield in the context of electrochemistry 
+(batteries)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IV4IUsholjg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+But we are really focused on the Gibbs free energy yield in living systems. 
+
+### Standard Gibbs free energy
+
+Over decades scientists have figured out the standard gibbs free energy of formation
+for a very long list of elements and compounds. We can use these free energy
+estimates of compounds to estimate the total energy yield of a reaction using the 
+following equation: 
+
+$G^o = {\sum}\Delta G_{products} - {\sum}\Delta G_{reactants}$ 
+
+Where $G^o$ is the standard free energy yield of a reaction at $25^o$ and 1 
+atmosphere pressure with 1 mole of that substance. We can use the above equation
+to estimate how much energy a microbe may get out of a reaction. For example the
+reaction: $3NO_{(g)} -> N_2O_{(g)} + NO_{2(g)} $ with $\Delta G_f^o$ (standard 
+gibbs free energy of formation values of):
+
+- $NO_{(g)}$ = 86.55 kJ/mol
+
+- $N_2O_{(g)}$ = 104.18 kJ/mol
+
+- $NO_{2(g)} $ = 51.29 kJ/mol
+
+Plugging these numbers into the equation we get
+
+$\Delta G^o = (1 * 104.18 kJ/mol + 1 * 51.29 kJ/mol) - (3 * 86.55)$
+
+$\Delta G^o = -104.18 kJ$
+
+Knowing that final standard free energy yield gives us a sense of how much
+energy a lifeform can get out of a redox reaction. But these numbers are
+at standard state. What about non-standard temperatures or concentrations? 
+
+
+## Non-standard $\Delta G$ yield
+
+Coming...
+
+
+

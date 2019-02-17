@@ -1,0 +1,155 @@
+
+
+# Redox biogeochemistry
+
+
+## Redox review 
+
+Redox is portmanteau of the words Reduction-oxidation and refers to 
+chemical reactions where electrons 'move' from one atom to the other (it's actually more complicated, but this idea works for our purposes). The video below shows one redox reaction showing the oxidation of elemental iron which has the net equation: 
+
+$4Fe_{(s)} + 3O_2 -> 2Fe_2O_{3(s)}$
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qw0lHu4CNAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The sparks in the video come from the movement of electrons in elemental Fe
+moving to oxygen, giving off heat (sparks).
+
+The below video provides a nice review of redox chemistry ideas: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lQ6FBA1HM3s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Redox reactions sustains life
+
+The movement of electrons from one elemental bond to another, release energy that
+lifeforms can use to maintain themselves. The amount of energy that a lifeform
+gets out of a reaction largely depends on the final electron acceptor or the element that is reduced by a redox reaction. For most advanced lifeforms, this 
+element is oxygen, which is one of the most energy efficient final electron acceptors. But there are many other potential final electron acceptors that 
+microbes can use as final electron accepters ($NO_3, SO_4^{2-}, CO_2$ and more). 
+These non-oxygen redox reactions can have serious implications for nutrient and
+biogeochemical cycling in waterbodies, and can be intentionally manipulated to 
+control water quality. 
+
+<img src='http://www.americanaquariumproducts.com/images/graphics/redoxbasics2.jpg'width=70%>
+
+
+### Rules of redox
+
+To understand how redox is important in water quality we first need to do 
+a quick review of redox chemistry. 
+
+- Reduction/oxidation reactions
+- Electrons are exchanged from one atom to another
+- Atoms that gain electrons are called *reduced* 
+- Atoms that lose electrons are called *oxidized*
+- Oxidation Is Loss Reduction Is Gain of electrons (OIL-RIG)
+
+### Breaking down a redox reaction
+
+There are systematic ways to know which elements gain or lose electrons in a 
+given chemical reaction. One important way to keep track of electrons in a reaction
+is by accounting for the oxidation number of elements throughout a reaction. The
+oxidation number is a way of conceptualizing which atom has extra electrons
+(more negative) versus which ones have lost some electrons (more positive). With 
+these rules we can break down the equation above into the elements that gain and
+lose electrons, without knowing anything else about the reaction. 
+
+$4Fe_{(s)} + 3O_2 -> 2Fe_2O_{3(s)}$
+
+## Oxidative state (or oxidation number) rules
+
+
+#### Rule 1 
+
+- If single element (or self-bonded element)-oxidation number of 0
+
+- O$_2$, H$_2$, Al, Ag, Hg, Fl$_2$ - all have oxidation number of 0
+
+#### Rule 2
+
+- Monatomic ions have oxidation number of their charge
+
+- Na$^+$ = +1, Cl$^-$ = -1
+
+#### Rule 3
+
+- Alkali metals (far left of periodic table) = +1 oxidation number
+
+<img src='https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2018/03/12031026/Periodic_table-group1.jpg width=70%>
+
+The alkali metals have an oxidation number of +1 which means they frequently are 
+in reactions where they give away an electron, which releases heat. As you go down
+the periodic table in the Alkali column, these reactions get more and more energetic as shown in the video below: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uixxJtJPVXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### Rule 4
+
+- Alkaline metals (second from left on periodic table) have oxidation number of +2
+
+<img src='http://googlegalaxyscience.com/wp-content/uploads/2017/07/gfgd.jpg'>
+
+#### Rule 5
+
+- Hydrogen is +1 when bonded to a non-metal
+- Hydrogen is -1 when bonded to a metal
+
+#### Rule 6
+
+- Oxygen is almost always -2
+- Unless it is in a peroxide it is -1 (H$_2$O$_2$)
+
+#### Rule 7
+
+- Fluorine is always -1 along with other halogens
+
+
+<img src='https://simanaitissays.files.wordpress.com/2015/03/periodictable.jpg'>
+
+#### Rule 8
+
+- Sum of oxidation numbers in a molecule is zero or the 
+charge of the molecule. 
+
+- NaCl = 0, SO$_4^{2-}$ = -2
+
+### Assigning oxidation number
+
+You can apply the above rules to figure out the oxidation number of most chemicals.
+
+
+- NO$_3^-$
+Here we don't know anything about N oxidation number so we first 
+apply the rule for oxygen (-2*3 molecules = -6) and then we see that the total
+charge is -1 so the molecule oxidation number =-1, 
+with these two pieces of information we know that the oxidation 
+number for N is equal to:`-6 + N = -1` or N = +5. 
+
+- CaCO$_3$
+Here we don't know the oxidation number for C, so we again apply the rules we do
+no and then we can figure out the oxidation number for C. First Ca is an alkaline 
+metal so it's oxidation number is 2. Again oxygen is -2 (-2*3 = -6) so that leaves us with the equation: `-6 + 2 + C = 0` where the oxidation number of C = +4. 
+
+### Why do we care about oxidation number?
+
+- The reactions that maintain life depend on electron exchange
+- Chemical reactions need to be balanced by mass (moles of chemicals)
+  - But also by electrons
+- Understanding element, pollutant, and nutrient transformations requires
+knowing redox chemistry
+
+### Redox in the environment
+
+Because different redox reactions yield different amounts of energy for lifeforms,
+there is essentially a redox economy where the microbes using the most efficient
+electron acceptor available will win out and ultimately survive. To understand this
+idea of different energy yields for different reactions, we need to review another
+chemistry concept called Gibbs Free energy. 
+
+
+
+
+
+
+
+

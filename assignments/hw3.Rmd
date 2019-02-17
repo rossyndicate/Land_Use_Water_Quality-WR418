@@ -45,22 +45,21 @@ with the equation:
   
     $CH_3COOH + 2O_2 -> 2CO_2 + H_2O$
     
-    where acetate is oxidized by $O_2$ as the final electron acceptor. Note the terminology
-    is confusing `oxidizing` a substance means that that substance is `reduced`. Oxidizing
-    is the act of taking electrons of a substance, thereby reducing it. For this reaction,
+    where acetate is oxidized by $O_2$ as the final electron acceptor (Remember
+    oxidation is loss of electrons, reduction is gain of electrons). For this reaction,
     we can calculate the total Gibbs free energy relased using the equation: 
     
-    $G^\degree = ${\sum}\Delta G_{products} - {\sum}\Delta G_{reactants}$
+    $G^\degree = {\sum}\Delta G_{products} - {\sum}\Delta G_{reactants}$
     
     The standard gibbs free energy ($\Delta G_f^\degree$) for each component in the reaction is: 
     
-     $CH_3COO^-$ = - 396.46
+     $CH_3COO^-$ = - 396.46 kJ/mol
      
-     $O_2$ = 0
+     $O_2$ = 0 kJ/mol
      
-     $CO_2$ = -385.98
+     $CO_2$ = -385.98 kJ/mol
      
-     $H_2O$ = -237.18
+     $H_2O$ = -237.18 kJ/mol
     
     What is the G$^\degree$ for the entire reaction?
     (Remember to multiply $\Delta G$ values by the # of moles of each reactant and product)
@@ -75,15 +74,15 @@ with the equation:
     
     Additional standard gibbs values you will need
     
-      $SO_4^{2-}$ = -744.53
+      $SO_4^{2-}$ = -744.53 kJ/mol
       
-      $H^+$ = 0
+      $H^+$ = 0 kJ/mol
       
-      $H_2S$ = -27.83
+      $H_2S$ = -27.83 kJ/mol
       
-      $NO_3^-$ = -108.74
+      $NO_3^-$ = -108.74 kJ/mol
       
-      $N_2$ = 0
+      $N_2$ = 0 kJ/mol
   
 
 7. Rank the final electron acceptors from the above equations in order of most gibbs free energy yield to least (use oxidation numbers to figure out which reactant loses and receives electrons)?
