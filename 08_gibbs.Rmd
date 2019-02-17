@@ -33,14 +33,14 @@ $G^o = {\sum}\Delta G_{products} - {\sum}\Delta G_{reactants}$
 Where $G^o$ is the standard free energy yield of a reaction at $25^o$ and 1 
 atmosphere pressure with 1 mole of that substance. We can use the above equation
 to estimate how much energy a microbe may get out of a reaction. For example the
-reaction: $3NO_{(g)} -> N_2O_{(g)} + NO_{2(g)} $ with $\Delta G_f^o$ (standard 
+reaction: $3NO_{(g)} -> N_2O_{(g)} + NO_{2(g)}$ with $\Delta G_f^o$ (standard 
 gibbs free energy of formation values of):
 
 - $NO_{(g)}$ = 86.55 kJ/mol
 
 - $N_2O_{(g)}$ = 104.18 kJ/mol
 
-- $NO_{2(g)} $ = 51.29 kJ/mol
+- $NO_{2(g)}$ = 51.29 kJ/mol
 
 Plugging these numbers into the equation we get
 
