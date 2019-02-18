@@ -1,0 +1,108 @@
+---
+title: "Weathering and Acids"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+
+
+## Housekeeping
+
+- HW due Friday, redownload if you downloaded before yesterday
+- Notes are mostly up on website
+- Questions from Friday?
+
+
+## Acid-Base Review
+
+<img src='https://www.preserveyourteeth.com/dentistry/wp-content/uploads/2017/05/Acid-Base-Balance-620x620.jpg'>
+
+## Strong and Weak Acids and Bases {.build}
+
+pKa
+
+$HCL + H_2O_{excess} -> H^+ + Cl^- + H_2O_{excess}$ pKa = < 1
+
+$CH_3COOH + H_2O_{excess} -> H^+ + CH_3COO^-^- + H_2O_{excess}$ pKa = 4.75
+
+$NaOH + H_2O_{excess} -> Na^+ + OH^- + H_2O_{excess}$ pKa = 13.8
+
+$NH_3 + H_2O_{excess} -> NH_4^+ + OH^- + H_2O_{excess}$ pKa = 9.25
+
+## pKa and buffers {.build}
+
+Weak acids and bases can serve as buffers to acidity or basic changes
+
+<img src='https://image.slidesharecdn.com/bio98al02-130808044241-phpapp01/95/acidbase-equilibria-ph-and-buffers-11-638.jpg?cb=1375937009'> 
+
+## Direct impacts of pH on water quality {.build}
+
+What are some direct impacts that pH may have on water quality?
+
+<img src='https://www.researchgate.net/profile/Robin_Taylor2/publication/221910170/figure/fig1/AS:305277594292224@1449795258157/Speciation-diagram-for-Fe-3-and-FeOH-2-as-a-function-of-pH-for-a-total-ironIII.png'>
+
+<img src='https://www.researchgate.net/profile/Ioannis_Manariotis2/publication/259458252/figure/fig2/AS:669408607338517@1536610857905/Speciation-of-mercury-in-distilled-water-C-o-25-mg-L.png'>
+
+<img src='https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40168-018-0482-8/MediaObjects/40168_2018_482_Fig1_HTML.png'>
+
+
+## Acids control chemical weathering rates
+
+- Discuss with your neighbor: why might care about chemical weathering in a water quality class? 
+
+## Chemical weathering
+
+<img src='https://www.researchgate.net/profile/Matteo_Ciantia/publication/275529469/figure/fig2/AS:391964601143309@1470463051698/a-Process-of-physical-weathering-b-Process-of-chemical-weathering-adapted-from.png'>
+
+## $CO_2$ as the primary weathering agent {.build}
+
+$Ca_2SiO_3 + 2CO_2 + H_2O -> Ca^{2+} + 2HCO_3^- + SiO_2$
+
+This reaction and others ultimately control the long-term C cycle:
+
+<img src='https://d32ogoqmya1dw8.cloudfront.net/images/eslabs/carbon/long_term_geological_carbon.jpg'>
+
+## Sidebar (ocean acidification) 
+
+<img src='http://www.nature.com/scitable/content/ne0000/ne0000/ne0000/ne0000/25853439/2-626w_1_2.jpg'>
+
+## How does weathering happen?
+
+<img src='https://microscopesandmonsters.files.wordpress.com/2017/10/carbonate_bicarbonate_equil.jpg'>
+
+## More water, more heat, fresher materia, more surface area: more weathering
+
+<img src='https://timbuktutravel.imgix.net/regions/kodak_images/000/000/111/original/reunion-island-timbuktu-travel.JPG?w=1420&h=946&auto=format&crop=fit&fit=min&dpr=1&q=50'>
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/8/8e/Eyjafjallaj%C3%B6kull.jpeg'>
+
+<img src='https://resources.stuff.co.nz/content/dam/images/1/l/b/7/n/k/image.related.StuffLandscapeSixteenByNine.710x400.1lghu5.png/1507765642168.jpg'>
+
+
+## Higher weathering rates means higher [concentrations] of cations and anions
+
+- What are cations?
+- Anions?
+
+Why does their concentration matter in the environment?
+
+
+
+
+
