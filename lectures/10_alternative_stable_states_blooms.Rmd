@@ -1,5 +1,5 @@
 ---
-title: "Cyanos and Alternative Stable States"
+title: "Weathering and Acids"
 author: "Matthew Ross"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 output:
@@ -24,63 +24,85 @@ slides > slide {
 
 ## Housekeeping
 
-- HW will be posted today and due next Friday
-- Notes for past 2 weeks of lecture will be posted this weekend
-- Questions from Monday?
-
-## Cyanobacteria {.build}
-
-<img src='https://singularityhub.com/wp-content/uploads/2018/06/cyanobacteria_499155529.jpg'>
-
-- neurotoxins, cytotoxins, endotoxins, hepatoxins 
-
-## Microcystin 
-
-<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Microcystin-LR.svg/1920px-Microcystin-LR.svg.png' width=80%s>
-
-## Why cyanos over algae? 
-
-https://www.sciencedirect.com/science/article/pii/S1568988311001557
+- HW due Friday, redownload if you downloaded before yesterday
+- Notes are mostly up on website
+- Questions from Friday?
 
 
-## Algae blooms and alternative stable states
+## Acid-Base Review
 
-<img src='https://www.lakescientist.com/wp-content/uploads/2015/04/image3.png' width=80%>
+<img src='https://www.preserveyourteeth.com/dentistry/wp-content/uploads/2017/05/Acid-Base-Balance-620x620.jpg'>
 
-## 'Ball and cup model'
+## Strong and Weak Acids and Bases {.build}
 
-https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1890/1540-9295%282003%29001%5B0376%3AASSIE%5D2.0.CO%3B2
+pKa
 
-## What are the mechanisms of alternative stable states? {.build}
+$HCL + H_2O_{excess} -> H^+ + Cl^- + H_2O_{excess}$ pKa = < 1
 
-Draw a diagram of potential feedbacks controlling algae blooms
+$CH_3COOH + H_2O_{excess} -> H^+ + CH_3COO^-^- + H_2O_{excess}$ pKa = 4.75
 
-[Scheffer 2001](Scheffer_conceptual.pdf)
+$NaOH + H_2O_{excess} -> Na^+ + OH^- + H_2O_{excess}$ pKa = 13.8
 
-## How can we use this understanding to manage blooms?
+$NH_3 + H_2O_{excess} -> NH_4^+ + OH^- + H_2O_{excess}$ pKa = 9.25
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KPF5E5FRcTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## pKa and buffers {.build}
 
+Weak acids and bases can serve as buffers to acidity or basic changes
 
-## More management
+<img src='https://image.slidesharecdn.com/bio98al02-130808044241-phpapp01/95/acidbase-equilibria-ph-and-buffers-11-638.jpg?cb=1375937009'> 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4v2o6tEIz-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Direct impacts of pH on water quality {.build}
 
+What are some direct impacts that pH may have on water quality?
 
-## More managing
+<img src='https://www.researchgate.net/profile/Robin_Taylor2/publication/221910170/figure/fig1/AS:305277594292224@1449795258157/Speciation-diagram-for-Fe-3-and-FeOH-2-as-a-function-of-pH-for-a-total-ironIII.png'>
 
-<img src='https://d3i6fh83elv35t.cloudfront.net/static/2018/07/shade-balls.gif'>
+<img src='https://www.researchgate.net/profile/Ioannis_Manariotis2/publication/259458252/figure/fig2/AS:669408607338517@1536610857905/Speciation-of-mercury-in-distilled-water-C-o-25-mg-L.png'>
 
-## More
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ze5z_z9S8dY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Mo'
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GAPXsC07d8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src='https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs40168-018-0482-8/MediaObjects/40168_2018_482_Fig1_HTML.png'>
 
 
-## What about the inverse? 
+## Acids control chemical weathering rates
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yCNkmi7VE0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- Discuss with your neighbor: why might care about chemical weathering in a water quality class? 
+
+## Chemical weathering
+
+<img src='https://www.researchgate.net/profile/Matteo_Ciantia/publication/275529469/figure/fig2/AS:391964601143309@1470463051698/a-Process-of-physical-weathering-b-Process-of-chemical-weathering-adapted-from.png'>
+
+## $CO_2$ as the primary weathering agent {.build}
+
+$Ca_2SiO_3 + 2CO_2 + H_2O -> Ca^{2+} + 2HCO_3^- + SiO_2$
+
+This reaction and others ultimately control the long-term C cycle:
+
+<img src='https://d32ogoqmya1dw8.cloudfront.net/images/eslabs/carbon/long_term_geological_carbon.jpg'>
+
+## Sidebar (ocean acidification) 
+
+<img src='http://www.nature.com/scitable/content/ne0000/ne0000/ne0000/ne0000/25853439/2-626w_1_2.jpg'>
+
+## How does weathering happen?
+
+<img src='https://microscopesandmonsters.files.wordpress.com/2017/10/carbonate_bicarbonate_equil.jpg'>
+
+## More water, more heat, fresher materia, more surface area: more weathering
+
+<img src='https://timbuktutravel.imgix.net/regions/kodak_images/000/000/111/original/reunion-island-timbuktu-travel.JPG?w=1420&h=946&auto=format&crop=fit&fit=min&dpr=1&q=50'>
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/8/8e/Eyjafjallaj%C3%B6kull.jpeg'>
+
+<img src='https://resources.stuff.co.nz/content/dam/images/1/l/b/7/n/k/image.related.StuffLandscapeSixteenByNine.710x400.1lghu5.png/1507765642168.jpg'>
+
+
+## Higher weathering rates means higher [concentrations] of cations and anions
+
+- What are cations?
+- Anions?
+
+Why does their concentration matter in the environment?
+
+
+
+
 
