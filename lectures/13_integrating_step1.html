@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Water treatment, sorption, coagulation</title>
+  <title>HW3 review and more treatment</title>
 
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -10,7 +10,7 @@
 
 
 
-  <meta name="date" content="2019-02-25" />
+  <meta name="date" content="2019-02-27" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -21,7 +21,7 @@
     var SLIDE_CONFIG = {
       // Slide settings
       settings: {
-                title: 'Water treatment, sorption, coagulation',
+                title: 'HW3 review and more treatment',
                         useBuilds: true,
         usePrettify: true,
         enableSlideAreas: true,
@@ -3107,7 +3107,7 @@ if (document.readyState !== "loading" &&
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">February 25, 2019</p>
+            <p style="margin-top: 6px; margin-left: -2px;">February 27, 2019</p>
           </hgroup>
   </slide>
 
@@ -3121,77 +3121,102 @@ slides > slide {
 <slide class=""><hgroup><h2>Housekeeping</h2></hgroup><article  class="smaller " id="housekeeping">
 
 <ul class = 'build'>
-<li>a Large HW will be assigned this Friday, think of it as review for midterm</li>
+<li>Papers to read for Friday are in Canvas</li>
 <li>Midterm is March 13, Wed.</li>
-<li>No Class Friday, March 15.</li>
-<li>Questions from Friday?</li>
-<li>No Office hours today</li>
+<li>Questions from Monday?</li>
+<li>HW Review</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Water treatment</h2></hgroup><article  class="smaller " id="water-treatment">
+</article></slide><slide class=""><hgroup><h2>HW Check in</h2></hgroup><article  class="smaller " id="hw-check-in">
+
+<ol class = 'build'>
+<li><p>Nutrients</p></li>
+<li><p>Redox = Electrons</p></li>
+<li><p>Redox dependent reactions - lots</p></li>
+</ol>
+
+</article></slide><slide class=""><hgroup><h2>4) HW Oxidation number</h2></hgroup><article  class="smaller build" id="hw-oxidation-number">
 
 <ul class = 'build'>
-<li><p>Redox</p></li>
-<li><p>pH</p></li>
-<li><p>Sorption</p>
-
-<p>-Filtering</p></li>
-<li><p>Coagulation</p></li>
-<li><p>Disinfectant</p></li>
+<li>Acetate - \(CH_3COO^-\)</li>
+<li>Sulfate - \(SO_4^{2-}\)</li>
+<li>Hyrdrogen ion - \(H^+\)</li>
+<li>Carbon Dioxide - \(CO_2\)</li>
+<li>Hydrogen Sulfide - \(H_2S\)</li>
+<li>Water - \(H_2O\)</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Water treatment</h2></hgroup><article  class="smaller " id="water-treatment-1">
+</article></slide><slide class=""><hgroup><h2>5) \(\Delta G\) of Acetate oxidation</h2></hgroup><article  class="smaller build" id="delta-g-of-acetate-oxidation">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6qZWMNW7GmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<p>\(CH_3COOH + 2O_2 -&gt; 2CO_2 + H_2O\)</p>
 
-</iframe>
+<p>\(G^o = {\sum}\Delta G_{products} - {\sum}\Delta G_{reactants}\)</p>
 
-</article></slide><slide class=""><hgroup><h2>Wastewater treatment</h2></hgroup><article  class="smaller " id="wastewater-treatment">
+<p>\(CH_3COO^-\) = - 396.46 kJ/mol</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FvPakzqM3h8?start=110" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<p>\(O_2\) = 0 kJ/mol</p>
 
-</iframe>
+<p>\(CO_2\) = -385.98 kJ/mol</p>
 
-</article></slide><slide class=""><hgroup><h2>Sorption</h2></hgroup><article  class="smaller " id="sorption">
+<p>\(H_2O\) = -237.18 kJ/mol</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Az1h5qMfFQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</article></slide><slide class=""><hgroup><h2>5) More delta G</h2></hgroup><article  class="smaller build" id="more-delta-g">
 
-</iframe>
+<pre class = 'prettyprint lang-r'>co2 = -385.98
+h2o = -237.18 
+acetate = -396.46
+O2 = 0
+sum_products = 2*co2 + h2o
+sum_reactants = acetate + 2*O2
+deltag = sum_products - sum_reactants</pre>
 
-</article></slide><slide class=""><hgroup><h2>Sorption</h2></hgroup><article  class="smaller " id="sorption-1">
+<p>\(\Delta G\) = -612.68 kJ</p>
+
+<p>##6</p>
 
 <ul class = 'build'>
-<li><p>Solid material causing ions to be trapped on surface</p></li>
-<li><p>Activated charcoal frequently used in water treatment</p></li>
-<li><p>Why?</p></li>
+<li><p>\(CH_3COOH + 2O_2 -&gt; 2CO_2 + H_2O\) = -612.68 kJ</p></li>
+<li><p>\(CH_3COOH + 2SO_4^{2-} + 2H^+ -&gt; 2CO_2 + H_2S + 2 H_2O\) = 611.37</p></li>
+<li><p>\(CH_3COOH + 2NO_3^- + 2H^+ -&gt; 2CO_2 + N_2 + 4H_2O\) = -1106.74</p></li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Coagulation</h2></hgroup><article  class="smaller " id="coagulation">
+<p>##7 1) NO3 2) O2 3) SO4</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qV_1jfmhpnA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<p>Why is that out of order from the redox ladder?</p>
 
-</iframe>
+</article></slide><slide class=""><hgroup><h2>Redox and element phase</h2></hgroup><article  class="smaller " id="redox-and-element-phase">
 
-</article></slide><slide class=""><hgroup><h2>Coagulation</h2></hgroup><article  class="smaller " id="coagulation-1">
+<p><img src='https://ars.els-cdn.com/content/image/1-s2.0-S0043135412008986-fx1_lrg.jpg' width=80%></p>
 
-<ul class = 'build'>
-<li><p>Using dissolved ions to coagulate other dissolved particles and drop them out of solution</p></li>
-<li><p>Cation Bridging</p></li>
-<li><p>Other coagulants (Alum in the video)</p></li>
-</ul>
+</article></slide><slide class=""><hgroup><h2>Redox and pH phase diagram (pourbaix)</h2></hgroup><article  class="smaller " id="redox-and-ph-phase-diagram-pourbaix">
 
-</article></slide><slide class=""><hgroup><h2>Disinfectant</h2></hgroup><article  class="smaller " id="disinfectant">
+<p><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pourbaix_Diagram_of_Iron.svg/1200px-Pourbaix_Diagram_of_Iron.svg.png' width=60%></p>
 
-<ul class = 'build'>
-<li><p>Sodium-Hypochlorite NaOCl is the most frequently used one.</p></li>
-<li><p>Creates free radicals</p></li>
-</ul>
+</article></slide><slide class=""><hgroup><h2>Copper pourbaix diagram</h2></hgroup><article  class="smaller " id="copper-pourbaix-diagram">
 
-</article></slide><slide class=""><hgroup><h2>Water treatment (second time through)</h2></hgroup><article  class="smaller " id="water-treatment-second-time-through">
+<p><img src='https://www.researchgate.net/profile/MBJG_Freitas/publication/225598727/figure/fig1/AS:448247006273536@1483881822234/Pourbaix-diagram-for-copper-in-aqueous-solutions.png'></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6qZWMNW7GmE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</article></slide><slide class=""><hgroup><h2>Using these principles for managing mine waste</h2></hgroup><article  class="smaller " id="using-these-principles-for-managing-mine-waste">
 
-</iframe></article></slide>
+<p><img src='https://www.researchgate.net/profile/Arthur_Rose/publication/228698935/figure/fig1/AS:301907613634560@1448991792195/Eh-pH-diagram-for-iron-showing-fields-of-solubility-of-dissolved-species-blue-and.png' width=80%></p>
+
+</article></slide><slide class=""><hgroup><h2>When you can’t stop pyrite reactions</h2></hgroup><article  class="smaller " id="when-you-cant-stop-pyrite-reactions">
+
+<p><img src='http://www.canadianminingjournal.com/wp-content/uploads/2016/01/ThinkstockPhotos-126457603-1.jpg' width=80%></p>
+
+</article></slide><slide class=""><hgroup><h2>Changing redox and pH with chemicals</h2></hgroup><article  class="smaller " id="changing-redox-and-ph-with-chemicals">
+
+<p><img src='http://www.dappolonia.com/picts/Treatment%20Schematic%202.jpg' width=120%></p>
+
+</article></slide><slide class=""><hgroup><h2>More pre-treatment</h2></hgroup><article  class="smaller build" id="more-pre-treatment">
+
+<p>Key idea here is to clean water before it reaches the stream</p>
+
+<p><img src='https://www.nrcs.usda.gov/Internet/FSE_MEDIA/stelprdb1043236.jpg'></p>
+
+</article></slide><slide class=""><hgroup><h2>Groundwater</h2></hgroup><article  class="smaller build" id="groundwater">
+
+<p><img src='http://www.st-ma.com/images/prb_pic.jpg'></p></article></slide>
 
 
   <slide class="backdrop"></slide>

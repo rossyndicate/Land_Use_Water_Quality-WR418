@@ -1,0 +1,138 @@
+---
+title: "HW3 review and more treatment"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+
+
+## Housekeeping
+
+- Papers to read for Friday are in Canvas
+- Midterm is March 13, Wed. 
+- Questions from Monday?
+- HW Review
+
+## HW Check in
+
+1) Nutrients
+
+2) Redox = Electrons
+
+3) Redox dependent reactions - lots
+
+## 4) HW Oxidation number {.build}
+
+  + Acetate - $CH_3COO^-$
+  + Sulfate - $SO_4^{2-}$
+  + Hyrdrogen ion - $H^+$
+  + Carbon Dioxide - $CO_2$
+  + Hydrogen Sulfide - $H_2S$
+  + Water - $H_2O$
+  
+## 5) $\Delta G$ of Acetate oxidation {.build}
+
+ $CH_3COOH + 2O_2 -> 2CO_2 + H_2O$
+ 
+  $G^o = {\sum}\Delta G_{products} - {\sum}\Delta G_{reactants}$
+  
+  $CH_3COO^-$ = - 396.46 kJ/mol
+     
+  $O_2$ = 0 kJ/mol
+     
+  $CO_2$ = -385.98 kJ/mol
+     
+  $H_2O$ = -237.18 kJ/mol
+     
+## 5) More delta G {.build}
+
+```{r}
+co2 = -385.98
+h2o = -237.18 
+acetate = -396.46
+O2 = 0
+sum_products = 2*co2 + h2o
+sum_reactants = acetate + 2*O2
+deltag = sum_products - sum_reactants
+
+```
+
+$\Delta G$ =  `r deltag` kJ
+
+
+##6 
+
+```{r, include=F}
+so4= -744.53
+h = 0
+h2s = -27.83
+no3 = -108.74 
+n2 = 0
+deltag_s = (co2*2 + h2s + 2*h2o) - (acetate + so4*2 + 2*h)
+deltag_n = (2*co2 + n2 + 4*h2o) - (acetate + 2*no3 + 2*h)
+```
+
+- $CH_3COOH + 2O_2 -> 2CO_2 + H_2O$ = `r deltag` kJ
+    
+- $CH_3COOH + 2SO_4^{2-} + 2H^+ -> 2CO_2 + H_2S + 2 H_2O$ = `r deltag_s`
+    
+- $CH_3COOH + 2NO_3^- + 2H^+ -> 2CO_2 + N_2 + 4H_2O$ = `r deltag_n`
+
+
+##7 
+1) NO3
+2) O2
+3) SO4
+
+Why is that out of order from the redox ladder? 
+
+## Redox and element phase
+
+<img src='https://ars.els-cdn.com/content/image/1-s2.0-S0043135412008986-fx1_lrg.jpg' width=80%>
+
+## Redox and pH phase diagram (pourbaix)
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pourbaix_Diagram_of_Iron.svg/1200px-Pourbaix_Diagram_of_Iron.svg.png' width=60%>
+
+## Copper pourbaix diagram
+
+<img src='https://www.researchgate.net/profile/MBJG_Freitas/publication/225598727/figure/fig1/AS:448247006273536@1483881822234/Pourbaix-diagram-for-copper-in-aqueous-solutions.png'>
+
+## Using these principles for managing mine waste
+
+<img src='https://www.researchgate.net/profile/Arthur_Rose/publication/228698935/figure/fig1/AS:301907613634560@1448991792195/Eh-pH-diagram-for-iron-showing-fields-of-solubility-of-dissolved-species-blue-and.png' width=80%>
+
+## When you can't stop pyrite reactions
+
+<img src='http://www.canadianminingjournal.com/wp-content/uploads/2016/01/ThinkstockPhotos-126457603-1.jpg' width=80%>
+
+## Changing redox and pH with chemicals
+
+<img src='http://www.dappolonia.com/picts/Treatment%20Schematic%202.jpg' width=120%>
+
+## More pre-treatment {.build}
+
+Key idea here is to clean water before it reaches the stream
+
+<img src='https://www.nrcs.usda.gov/Internet/FSE_MEDIA/stelprdb1043236.jpg'>
+
+## Groundwater {.build}
+
+<img src='http://www.st-ma.com/images/prb_pic.jpg'>
+

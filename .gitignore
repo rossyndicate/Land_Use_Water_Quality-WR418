@@ -3,5 +3,5 @@
 .RData
 .Ruserdata
 data/
-.pptx
-.xlsx
+*.pptx
+*.xlsx

@@ -64,13 +64,14 @@ with the equation:
     What is the G$^\degree$ for the entire reaction?
     (Remember to multiply $\Delta G$ values by the # of moles of each reactant and product)
 
-6. What is the difference in standard free energy yields for these three reactions?
+6. What is the difference in standard free energy yields for these three reactions? {.build}
+
 
     $CH_3COOH + 2O_2 -> 2CO_2 + H_2O$
     
-    $CH_3COOH + 2SO_4^{2-} + 2H^+ -> 2CO_2 + H_2S + 2 H_2O$
+    $CH_3COOH + 1SO_4^{2-} + 2H^+  -> 2CO_2 + H_2S + 2H_2O$
     
-    $CH_3COOH + 2NO_3^- + 2H^+ -> 2CO_2 + N_2 + 4H_2O$
+    $CH_3COOH + 2NO_3^- + 4H^+ -> 2CO_2 + N_2 + 4H_2O$
     
     Additional standard gibbs values you will need
     

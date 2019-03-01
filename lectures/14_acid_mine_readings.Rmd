@@ -1,0 +1,82 @@
+---
+title: "Mines! (and mistakes)"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+## Housekeeping
+
+- HW will be up today
+
+- Notes up this weekend
+
+- Questions from Wednesday
+
+## My basic chemistry mistake(s). {.build}
+
+Sulfur
+
+```{r include=F}
+co2 = -385.98
+h2o = -237.18 
+acetate = -396.46
+O2 = 0
+sum_products = 2*co2 + h2o
+sum_reactants = acetate + 2*O2
+deltag = sum_products - sum_reactants
+
+so4= -744.53
+h = 0
+h2s = -27.83
+no3 = -108.74 
+n2 = 0
+deltag_s = (co2*2 + h2s + 2*h2o) - (acetate + so4*2 + 2*h)
+deltag_n = (2*co2 + n2 + 4*h2o) - (acetate + 2*no3 + 2*h)
+delta_cor_s = (co2*2+h2s+2*h2o)-(acetate+so4+2*h)
+delta_cor_n = sum(co2*2,n2*4/5,(14/5)*h2o)-(acetate+no3*(8/5)+8/5*h)
+delta_cor_noh = sum(co2*2,n2*4/5,(6/5)*h2o,8/5*-157.18)-(acetate+no3*(8/5)+8/5*h)
+
+```
+
+$CH_3COOH + 2SO_4^{2-} + 2H^+ -> 2CO_2 + H_2S + 2H_2O$ = `r deltag_s`
+    
+$CH_3COOH + 1SO_4^{2-} + 2H^+  -> 2CO_2 + H_2S + 2H_2O$ = `r delta_cor_s`
+
+
+## Nitrogen mistakes
+
+$CH_3COOH + 2NO_3^- + 2H^+ -> 2CO_2 + N_2 + 4H_2O$ = `r deltag_n`
+
+$CH_3COOH + \frac85NO_3^- +\frac85H^+ ->  2CO_2 + \frac45N_2 + \frac{14}5H_2O $ = `r delta_cor_n`
+
+$CH_3COOH + \frac85NO_3^- ->  2CO_2 + \frac45N_2 + \frac{6}5H_2O + \frac85OH^- $ = `r delta_cor_noh`
+
+## Readings
+
+- With three people who read the same paper as you discuss:
+
+- What is the main point of the paper? 
+
+- How do the authors prove this point?
+
+- What figures, tables, or paragraphs helped you understand the main point?
+
+- What is a secondary point of the paper? How do the authors show this point?
+
+
