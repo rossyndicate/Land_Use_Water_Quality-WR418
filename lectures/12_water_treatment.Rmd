@@ -28,6 +28,7 @@ slides > slide {
 - Midterm is March 13, Wed. 
 - No Class Friday, March 15. 
 - Questions from Friday?
+- No Office hours today 
 
 ## Water treatment
 
