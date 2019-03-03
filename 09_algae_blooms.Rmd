@@ -1,0 +1,37 @@
+# Harmful Algal Blooms
+
+
+Algae blooms can be a natural process that occurs in lakes, rivers, and estuaries,
+when conditions are just right (temperature, nutrients, etc...). But these blooms 
+can become harmful to people when so much algae grows that when it dies, algal 
+decomposition removes all the oxygen from the water column. Another kind of 
+harmful algal bloom can occur when certain species of cyanobacteria, that produce
+toxins grow rapidly. Human activities (increasing temperatures, excess nutrients)
+have increased the likelihood and extent of many algae blooms. 
+The video below highlights the key drivers of these blooms. 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/706kZXlHZRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Alternative stable states 
+
+One important idea that lake ecologists have discovered in the past 30 years is
+that lakes are susceptible to sudden shifts in ecological status. With regards
+to harmful algal blooms specifically, this essentially means that nutrients 
+can be added for years to a lake with no visible sign of a transition to a more
+eutrophic, algal bloom dominated state. Then, all of a sudden the lake can switch 
+into an algal dominated state. The key idea with alternative stable states in lakes
+is that simply removing the same amount of nutrients from the system that were 
+originally added, will not return the lake to a lower algae state. This idea has
+been written about 1000s of times, but a great paper from 1993 by Scheffer and 
+others is really well-written and [clear](https://www.sciencedirect.com/science/article/pii/016953479390254M).
+
+For a primer on alternative stable states you should visit 
+[this page](https://www.nature.com/scitable/knowledge/library/alternative-stable-states-78274277)
+
+
+
+
+
+

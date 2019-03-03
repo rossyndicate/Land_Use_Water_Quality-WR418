@@ -55,7 +55,124 @@ at standard state. What about non-standard temperatures or concentrations?
 
 ## Non-standard $\Delta G$ yield
 
-Coming...
+The above equation gives the standard free energy yield with 1 mole of each
+reactant at $25^o$C and 1 atmosphere pressure. Of course, almost all reactions 
+in nature will not be at standard conditions like these. To calculate this "actual" 
+Gibbs free energy in the environment we need to use one last equation. 
+If we had the generic chemical reaction: 
+$aA+bB = cC+dD$
+
+Then we would estimate the actual gibbs free energy yield of a reaction as: 
+
+$\Delta G = \Delta G^o + RT ln\left(\frac{([C]^c*[D]^d)}{([A]^a*[B]^b)}\right)$
+
+Where $\Delta G^o$ is the standard free energy yield of a reaction (calculated 
+above), R is the universal gas constant $R = 0.008314 \frac{kJ}{mol K}$ and K
+is temperature in Kelvin $K= Temp^oC + 273.15$
+
+## Redox ladder
+
+Knowing the $Delta G$ of a reaction can tell us which microbes are likely to be
+active under different environmental conditions. This is because microbes can use
+a variety of compounds as so-called "final electron acceptors." Depending on the
+final electron acceptor used by microbes the metabolism of energy bearing compounds
+like sugar or acetic acid will generate different amounts of energy. The microbes
+using the most energy-efficient pathway (i.e. the most negative $Delta G$) will
+"win" and likely that reaction will be dominant in those environmental conditions.
+The most efficient final electron acceptor is oxygen, but there are a large variety
+of other final electron acceptors with varying energy yields. To capture these 
+complex ideas of energy yield, biogeochemists use a term called the "redox ladder."
+This term indicates the declining energy yield as microbial communities
+switch final electron acceptors. 
+
+<img src='https://www.esf.edu/efb/schulz/Limnology/RedoxReac2.jpg'> 
+
+The above image is from this very thorough website at [ESF](https://www.esf.edu/efb/schulz/Limnology/redox.html) which you can use 
+for additional review. 
+
+As microbial communities descend down the redox ladder, there is increasingly less
+free energy produced. The order of electron acceptors from most energy to least 
+energy is: oxygen, then nitrate, then manganese (not shown above),
+then iron, then sulfate, and finally, carbon dioxide. The redox ladder is mostly 
+a conceptual idea of how microbial communities are organized by redox reactions 
+and energy yields, but frequently the redox ladder is mapped directly onto physical
+space. For example, near the sediment surface of a shallow pond, there is oxygen
+exchange with the water column and oxygen is available as the most efficient
+final elecron acceptor. But as you go deeper into the sediment, the oxygen is consumed
+by microbes closer to the surface, and thre is eventually so little that it is
+more efficient to use nitrate ($NO_3^-$) as a final electron acceptor. Going even
+deeper the microbes run out of nitrate and switch to iron reduction, and so on. 
+A good example of how the redox ladder maps to physical space is called a 
+Winogradsky column 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5TP0CrzPVZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Redox potential
+
+The redox ladder is one way of capturing the reactions that are likely to occur,
+but there are two other ways. First is to simpley describe the environment as 
+oxygen-rich or not. An oxic environment is likely to have oxygen as the final
+electron acceptor, suboxic environments can have a mix of oxygen and other 
+final electron acceptors, while microbes in anoxic (no oxygen) environments will
+rely on non-oxygen electron acceptors (like $NO_3^-$). 
+
+Another, more quantitative way to describe the redox environment of natural waters
+(like lakes or ponds) sediments, or aquifers is to directly measure the reduction 
+potential in the environment. This $E_h$ scale goes from -1 to 1 with 1 representing
+oxic environments where reduction is likely to occur and -1 representing reduced 
+environments with limited potential for reduction. This excellent [paper](https://pubs.acs.org/doi/10.1021/es9026248) (by a CSU professor, Thomas 
+Borch) provides a clear explanation 
+of how reduction potential and redox more generally control reactions 
+that govern water quality, with a key figure below: 
+
+<img src='https://pubs.acs.org/appl/literatum/publisher/achs/journals/content/esthag/2010/esthag.2010.44.issue-1/es9026248/20150720/images/medium/es-2009-026248_0001.gif'>
+
+It's beyond the scope of this course (at present) to deeply define the reduction
+potential scale but wikipedia does a pretty good [job](https://en.wikipedia.org/wiki/Reduction_potential) if you are curious.
+
+## Redox and nutrients 
+
+The paper above by Borch and others outlines a variety of ways that redox
+conditions control water quality, but I wanted to highlight specifically two ways
+that redox conditions control nutrient concentrations in inland waters. 
+
+### Nitrogen cycling and redox
+
+First, as highlighted previously the nitrogen cycle includes a critical step where
+biologically-available nitrogen in the form of $NO_3^-$ or $NH_3$ is eventually 
+converted to biologically inert $N_2$. This removal of nitrogen from inland waters
+is a critical way that we can reduce nutrient pollution in lakes, rivers, and
+the near-coastal environment. For the denitrification to occur, microbes need
+anoxic conditions so that $NO_3^-$ reduction (denitrification) is the most 
+efficient final electron acceptor. But, in order to remove all of the $NH_3$ from
+the system as well, a nitrification step must first occur where $NH_3$ is converted
+to $NO_3^-$. This process where $NH_3$ is used as electron donor (energy source)
+requires oxygen, so full removal of nitrogen from inland waters requires both 
+oxic and anoxic conditions. These processes (with a more advanced picture of 
+the redox reactions involved) are captured in the figure below from this 
+very helpful explaner on the [Nitrogen cycle.](https://www.nature.com/scitable/knowledge/library/the-nitrogen-cycle-processes-players-and-human-15644632)
+
+<img src='http://www.nature.com/scitable/content/ne0000/ne0000/ne0000/ne0000/15673541/f1_bernhard.jpg'>
+
+
+### Phosphorus 
+
+Unlike the nitrogen cycle, Phosphorus has no gaseous phase on earth, so removing 
+it from inland waters either requires it to be taken up by plants or other lifeforms
+or for it to be bound up by other minerals. In many lakes, the most
+common form of P binding is when $PO_4^{3-}$ with it's charge of -3 binds 
+up with aqueous iron ($Fe^{3+}$). This effectively removes the Phosphorus from 
+the water column and makes it inaccessible to algae. However, once the $FePO_4$
+sinks to the bottom of a lake or wetland, the iron can be reduced to $Fe^{2+}$ 
+and the phosphate will then desorb from the iron, being released into the
+environment as bioavailable P. As a result, Phosphorus dynamics in inland waters
+are deeply dependent on redox reactions and conditions. 
+
+Redox conditions are some of the ultimate controls on nutrient cycling, but what
+happens when excess nutrients reach the coast or lakes? Frequently, it causes
+harmful algal blooms.
+
+
 
 
 

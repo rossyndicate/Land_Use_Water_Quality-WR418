@@ -96,6 +96,7 @@ nitrate_reduction
 Based on your analysis is denitrification likely to be the dominant redox pathway
 in this environment? Please show gibbs free energy calculations for both. 
 
+Temperature in the wetland is 15 degrees C. 
 
 # Question set 2 (watersheds)
 
