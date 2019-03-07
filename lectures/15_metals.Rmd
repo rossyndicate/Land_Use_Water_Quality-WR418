@@ -1,0 +1,152 @@
+---
+title: "Metals and other trace elements"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+## Housekeeping
+
+- HW is due a week from today (no late assignments will be accepted)
+
+- Midterm is next Wednesday March 13
+
+- Questions from Friday's paper discussion?
+
+## Metals and other trace elements
+
+<img src='https://www.westech-inc.com/hubfs/Minerals_Blog/acid_mine_drainage.jpg'>
+
+
+## Metals and other trace elements
+
+<img src='https://www.thoughtco.com/thmb/_OLcyyM2_Qk3lZrQ3ZbnoxIubl8=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Periodic-Table-Metals-56a12db33df78cf772682c44.png'>
+
+## What do you already know?
+
+- With a small group, think of a metal or trace element you think (or know) is a pollutant
+
+- How does this metal get into surface waters? 
+
+- Why is it a pollutant of concern? Is it directly toxic to aquatic life, to humans? 
+
+- What is the mechanism of toxicity? Does it create free radicals that can
+attack DNA and cell walls? Does it get mistaken for a similar element
+and folded into our proteins incorrectly? 
+
+## Selenium {.build}
+
+Both an old problem:
+
+<img src='http://www.sci.sdsu.edu/salton/SeToxicTimeBombMd.gif'>
+
+
+and a very modern [issue](https://www.nytimes.com/2012/02/23/science/earth/mutated-trout-raise-new-concerns-over-selenium.html?_r=2&pagewanted=all)
+
+## Selenium
+
+- Mobilized by mining, coal-ash, and agriculture (by increasing weathering rates of Se bearing bedrock)
+
+- Mostly non-toxic to people, but highly toxic to fish and birds. 
+
+- Disrupts DNA in embyros 
+
+- Can bioaccumulate 
+
+- EPA limit 1.5 $\mu g/L$ in lakes, 3$\mu g/L$
+
+## Selenium 
+
+- Problem in mining regions of east, western CA, and CA
+
+<img src='https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/selenium-in-ecosystems-western-us-sites.jpg'>
+
+## Selenium phases
+
+- Most readily taken up in the foodweb as selenate ($SeO_4^{2-}$)
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Pourbaix_diagram_for_Selenium.svg/800px-Pourbaix_diagram_for_Selenium.svg.png'>
+
+
+## Cadmium
+
+- Non-essential (not a nutrient). Toxic at low levels.
+
+- Historically very low concentrations in most river basins
+
+- Poisonous to humans
+
+- Humans now mobilize >90% of Cadmium through mining activities
+
+- Toxicity is heavily dependent on concentration of other ions ($Ca^{2+},Mg^{2+}$)
+
+- In freshwaters acute toxicity (1-hour) is 1.8 $\mu g/L$ and chronic (4 days) is 0.72$\mu g/L$. 
+
+- In estuaries/ocean: acute: 33 $\mu g/L$ and chronic: 7.9 $\mu g/L$
+
+- Why would cadmium toxicity be dependent on other ions? 
+
+
+## Chromium 
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Corrosion_of_alloys_in_NaCl.jpg/1280px-Corrosion_of_alloys_in_NaCl.jpg' width=80%>
+
+
+## Chromium 
+
+- Toxic to both humans and aquatic life at high concentrations but
+a vital micronutrient for insulin function at low-concentration. 
+
+- Mobility and toxicity is highly dependent on oxidation state
+
+- $Cr^{3+}$ is mostly less-mobile and less toxic. 
+
+- $Cr^{6+}$ is more mobile and more toxic
+
+- Natural weathering product but elevated by human activities and spills
+
+
+## Chromium
+
+<img src='https://i.stack.imgur.com/cLQVv.png'>
+
+
+## Hofmeister series {.build}
+
+$F^-$ = $SO_4^{2-}$ > $Cl^-$ > $NO_3^-$ > $Br^-$
+
+$NH_4^+$ > $K^+$ > $Na^+$ > $Mg^{2+}$ > $Ca^{2+}$
+
+## And on and on
+
+https://skytruth-org.carto.com/viz/751b8218-5f4a-4ad9-89dd-f2b5b0f5a318/embed_map
+
+## How do you find out about trace element contamination? 
+
+
+[this is a great review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4144270/)
+
+
+
+
+
+
+
+
+
+
