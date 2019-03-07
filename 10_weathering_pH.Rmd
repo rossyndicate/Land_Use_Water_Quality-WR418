@@ -1,0 +1,62 @@
+# Chemical weathering and acididity
+
+The ultimate source of many nutrients key to life come from the 
+chemical weathering of bedrock, or the dissolving of solid parent material into
+its component elements of base cations, anions, metals, and other trace elements.
+Chemical weathering happens when water, filled with organic, carbonic, and
+other acids, reaches bedrock, which it slowly dissolves. Humans have profoundly 
+altered weathering rates across the world, by increasing the amount of acidity
+in rain, streamwater, and from mining. Increasing chemical weathering rates
+mobilizes more cations and anions along with other metals and trace elements, 
+increasing their concentrations in freshwaters. 
+
+As with previous lessons, the folks at Crash Course have built a series of videos
+that provide an excellent review of the key chemistry ideas that govern chemical
+weathering rates and how humans have altered these rates. 
+
+## Acid rain
+
+One of the most profound and widespread impacts people have had on chemical 
+weathering rates is by increasing the acidity of rain. Essentially, combustion of
+coal and other fossil fuels, releases $NO_x$ and $SO_x$ compounds, which interact
+with water vapor to form the strong acids: nitric and sulfuric acid. 
+Higher acidity from these compounds leads to higher weathering rates 
+(or in the case of the video, higher statue-melting rates). 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ANi709MYnWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### pH review
+
+One critical idea when working in acid-base chemistry is the idea of a pH scale
+(and it's inverse the pOH scale). The video below explains this idea quite clearly.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LS67vS10O5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Buffers
+
+One way to lessen the impact of adding a strong acid or base to a solution is to 
+buffer the system with weak acid and bases. The nuts and bolts of buffered 
+solutions is explained in the below video. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Fdt5WnYn1k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## The carbonate equilibrium buffer
+
+In natural waters the most important buffer is the carbonate equilibrium system
+whereby $CO_2$ dissolves into solution forming both $HCO_3^-$ and $H_2CO_3$. 
+Excess $HCO_3^-$ in natural waters acts as a natural buffer, limiting the
+impact of additonal acids being added to the system. Other buffers exisit in
+natural systems and the sum of their ability to absorb incoming acids is called:
+**Alkalinity**. 
+
+This [paper](http://www.chem1.com/acad/pdf/c3carb.pdf) by Stephen Lower goes into 
+much more detail about the carbonate equilibrium system, alkalinity, and natural 
+waters. You should review this in addition to watching the above videos. 
+
+## Acid-mine drainage
+
+Acid-mine drainage is a human-induced change to natural waters 
+that can completely override any alkalinity in the system
+and dramatically reduce the pH. 
+
