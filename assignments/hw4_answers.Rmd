@@ -1,0 +1,290 @@
+---
+title: "HW3"
+author: "Matthew Ross"
+date: "2/15/2019"
+header-includes: 
+      - \usepackage{soulutf8}
+      - \usepackage{gensymb}
+output:
+  pdf_document: default
+  html_document: default
+editor_options: 
+  chunk_output_type: console
+---
+
+# Setup
+In this assignment you will be reviewing the major ideas we have covered in class
+so far including: watershed hydrology, history of water quality change,
+pollutant flux versus concentration, nutrient cycling, redox chemistry, 
+gibbs free energy yield, algae blooms, weathering, and water treatment approaches.
+
+This assignment counts for double compared to all the other assignments and should
+be an excellent way for you to prepare for the mid-term. 
+
+# Question 1)
+
+A wetland was constructed to remove nitrogen from a small municipality that 
+couldn't afford to install a traditional wastewater treatment plant. However,
+the bedrock surrounding the community is rich in Gypsum ($CaSO_4$) which enriches
+the water in sulfate ($SO_4^{2-}$). A retired biogeochemist in the community
+pointed out that all this excess sulfate could make denitrification less likely.
+She's too old to really want to work out the math, so she has asked you: **Will
+denitrification likely occur in these wetlands?**
+
+## Setup
+
+We'll start with where hw3 ended and Gibbs free energy. This time instead of 
+estimating Gibbs free energy at standard state, we will calculate energy yield
+based on real-world concentrations using the equation for a generic reaction
+
+$aA+bB = cC+dD$
+
+$\Delta G = \Delta G^o + RT ln\left(\frac{([C]^c*[D]^d)}{([A]^a*[B]^b)}\right)$
+
+Where $\Delta G^o$ is the standard free energy yield of a reaction (calculated 
+in hw3), R is the universal gas constant $R = 0.008314 \frac{kJ}{mol K}$ and K
+is temperature in Kelvin $K= Temp^oC + 273.15$
+
+## Evaluation
+
+We will be using a slightly simplified equation for calculating denitrification vs
+sulfate reduction energy potential. 
+
+$4NO_3^- + 5CH_2O + 4H^+ -> 5CO_2 + 2N_2 + 7H_2O$ $\Delta G^o$ = -113 kJ
+
+$SO_4^{2-} + 2CH_2O + 2H^+ -> 2CO_2 + H_2S + 2H_2O$ $\Delta G^o$ = -25kJ
+
+To see if denitrification will likely occur in this wetland we need to know 
+the concentrations of all the constituents and compute the actual 
+gibbs free energy of  sulfate reduction versus the gibbs free energy of 
+denitrification. If one is more efficient than the other then those microbes 
+will be more active.  
+
+Based on your analysis is denitrification likely to be the dominant redox pathway
+in this environment? Please show gibbs free energy calculations for both. 
+
+Temperature in the wetland is 15 degrees C.
+
+```{r, include=F}
+library(tidyverse)
+
+```
+
+
+## Answer 1)
+
+I used the following code to answer this question
+```{r}
+ch2 = 16*10^-2
+hc = 10^-4
+noc = 4*10^-4
+soc = 300*10^-3
+co2c=.1
+h2oc=.1
+h2sc=20*10^-5
+temp=288.15
+R = .008314
+n2c=.001
+
+tibble(compound = c('no3','ch2o','h+','co2','n2','h2o','so4','h2s'),
+       `concentration_molar`=c(noc,ch2,hc,co2c,n2c,h2oc,soc,h2sc)) %>%
+  knitr::kable()
+```
+
+
+```{r}
+sulfate_reduction = -25 + R*temp*log((co2c^2*h2sc*h2oc^2)/(ch2^2*soc*hc^2))
+
+nitrate_reduction = -113 + R*temp*log((co2c^5*n2c^2*h2oc^7)/(hc^4*noc^4*ch2^5))
+
+
+```
+
+$\Delta G$ of denitrification = `r nitrate_reduction`
+
+$\Delta G$ of sulfate reduction = `r sulfate_reduction`
+
+Denitrification will still occur because it still
+yields more energy than sulfate reduction.
+ 
+
+# Question set 2 (watersheds)
+
+1) What is a watershed? (see online notes)
+
+2) What is a hydrograph? (see online notes)
+
+3) The presenter at this conference talked about dilution, chemostasis, and 
+enrichment. Could you draw these three ideas on a graph? What does each process
+tell us about how water pollution changes with flooding? (see online notes)
+
+4) Can you name some elements that enrich, dilute, or are chemostatic with large
+changes in discharge? 
+
+
+Frequently soil-associated compounds can enrich during a storm as they are flushed 
+out of soil solution and into streamwater. This applies for dissolved organic
+carbon and nitrate in many systems. 
+
+In snowmelt dominated systems, much of the water will not directly interact with
+the bedrock, leading to mostly pure water mixing directly into a stream which
+can dilute any weathering products like cations and anions.
+
+Conversely in many rain-dominated systems or even in snow/rain systems weathering
+products are chemostatic because incoming rain reacts with bedrock to dissolve
+bedrock at approximately the same rate that it moves through the system. When
+reaction rate equals transport rate, you get a chemostatic signal, which is 
+quite common for weathering products. 
+
+
+# Question set 3 (watershed ecosystem)
+
+1) What is the watershed ecosystem concept? (see online notes)
+
+2) What decade was this idea implemented? (see online notes)
+
+3) What is one major result from the Hubbard Brook watershed experiments?
+
+Go to the website [http://hbef.streampulse.org/](http://hbef.streampulse.org/)
+
+# Question set 4 (nutrients)
+
+1) What is Liebig's law of the minimum? (see online notes)
+
+2) What is the Haber-Bosch process? (see online videos)
+
+3) What is the Redfield ratio? What does it tell us about nutrient cycling? 
+(see online notes)
+
+4) How is phosphorus supplied to agricultural systems? 
+
+Mostly through apatite mining, but also guano and human biosolid applications. 
+
+
+
+# Question set 5 (concentration vs flux and algae)
+
+1) A river has relatively high mean nitrate concentrations downstream of an ag field
+but the units are in molar and the river watch group usually reports concentrations
+in mg/L. What is the concentration of $NO_3^-$ in mg/L of a
+0.0004 molar (moles/liter) average $NO_3^-$ concentration river? 
+
+```{r}
+no3_mol = 62.0049 #g/mol
+conc_molar = 0.0004 #mol/liter
+no3_g_l = conc_molar*no3_mol #gram/liter
+no3_mg_l = no3_g_l *1000 #mg/L
+
+```
+
+The concentration in mg/L is `r no3_mg_l`.
+
+2) A shrimp farming group that lives on the same river, just downstream is worried
+not about the concentration of $NO_3^-$ but about the flux. What is the average
+daily flux of $NO_3^-$ from the river if the average flow is 10 cubic feet per 
+second. Flux should be reported in kg/day. 
+
+```{r}
+lps = 10*28.3168 # convert to liters per second
+gps = no3_g_l*lps # grams of nitrate per second
+gpd = gps*24*60*60 #60 seconds per minute #60 minutes per hour 24 hours in a day
+kg_pd = gpd/1000
+kg_py = kg_pd*365
+
+```
+
+There is  `r kg_pd` kg/day of nitrate moving downstream
+
+3) What is the annual flux? 
+
+The annual flux is: 221,481.2 kg/year (in a non leap year)
+
+4) Why might the farmers be concerned about flux more than concentration? 
+
+For shrimp farmers, presumably farming shrimp in an estuary, the build-up of 
+nutrients over time can be a bigger problem than instantaneous concentration issues, 
+because even with low concentration, high flux of nutrients will eventually cause
+problems. 
+
+
+5) What are the consequences of excess nutrients in lakes or the ocean? 
+
+Algal blooms, eutrophication, potentially toxic cyanobacterial blooms.
+
+6) How does eutrophication happen?  (see online notes)
+
+7) What are two differences between algae and cyanobacteria? 
+
+Cyanobacteria can fix nitrogen from the atmosphere, and they produce a variety
+of toxins that depends on the species. 
+
+
+
+# Question set 6 (weathering and mining)
+
+1) What is chemical weathering?  (online notes)
+
+2) What conditions lead to high rates of chemical weathering?  (online notes)
+
+3) How does the carbon cycle interact with weathering? (online notes)
+
+4) What is a "buffered" system? (online notes)
+
+5) How does mining alter weathering (give at least 2 examples) (online notes)
+
+
+# Question set 7 (water treatment)
+
+1) What is coagulation? 
+
+The binding of dissolved ions (usually negatively charged) with at least doubly 
+charged cations. Binding these dissovled ions can form solid particles.
+
+2) What is sorption? 
+
+The binding of dissolved ions onto a mineral surface. 
+
+3) What is floculation? 
+
+The bundling of many smaller suspended particles into a single larger particle,
+which will have increased mass and fall to the bottom of the water column. 
+
+4) How does a water treatment plant use these processes to improve 
+water quality (either drinking or wastewater treatment).
+
+The combination of these processes (in the order of coagulation, floculation, sorption)
+helps remove dissolved particles like DOC that can interfere with disinfectants,
+removes suspended particles that would discolor drinking water, and also 
+removes larger parasites from solution. 
+
+5) Name two other ways we can treat water to improve it's quality (remove
+nutrients, get rid of disease, etc...)
+
+We can use anoxic chambers to promote denitrification (nutrient removal) and 
+also use disinfectants like bleach to kill any microscopic organisms that aren't
+removed by previous steps. 
+
+# Question set 8 (general)
+
+1) What is point-source pollution?
+
+Pollution that comes from a single known source like a factory, a pipe, stormwater
+drainages, and other sources that have a discrete discharge point. 
+
+2) What is non-point source pollution?
+
+Diffuse and landscape level pollution tha thas no single discharge like agriculture
+surface mining, and urbanization. 
+
+3) Which is easier to control? Why?
+
+Because point source pollution has a known provenance, it is far easier to control
+
+4) How does the Clean Air Act impact modern day water quality? (That's not
+a typo, if you've come to class we talk a lot about how the Clean Air Act
+has modern day impacts on water quality.)
+
+No answer to this one on purpose. 
+
+
+

@@ -1,0 +1,294 @@
+---
+title: "Sensors "
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+## Housekeeping
+
+- If you haven't chosen your contaminant you have already lost points on the final
+
+- Questions from readings on Monday?
+
+
+## Thinking about data
+
+- What is a sensor? 
+
+- Why might sensors be helpful in water quality studies? 
+
+- Who uses sensors?
+
+
+## Scientists love sensors
+
+- https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.5537
+
+- https://pubs.acs.org/doi/abs/10.1021/acs.est.6b02155
+
+
+## An example of samples taken yearly
+```{r setup,include=F}
+library(dataRetrieval)
+library(tidyverse)
+library(lubridate)
+library(dygraphs)
+library(ggthemes)
+library(xts)
+knitr::opts_knit$set(root.dir='..')
+knitr::opts_chunk$set(echo = FALSE,warning=F,cache=F)
+
+```
+
+
+```{r,include=F,eval=F}
+
+
+sdate = '2011-01-01'
+
+edate='2019-04-02'
+
+poto_n <- readNWISdata(sites='01646500',parameterCd='99133',
+                         service='iv',
+                         startDate=sdate,
+                         endDate=edate) %>%
+  rename(no3=X_99133_00000)
+
+save(poto_n,file='data/poto_nwis.RData')
+```
+
+
+```{r}
+load('data/poto_nwis.RData')
+
+small_poto <- poto_n %>%
+  mutate(yday=yday(dateTime),
+         year=year(dateTime)) %>%
+  filter(yday==182) %>%
+  group_by(year(dateTime)) %>%
+  sample_n(1) %>%
+  ungroup() %>%
+  select(dateTime,no3) %>%
+  xts(.$no3,order.by=.$dateTime) 
+
+
+dygraph(small_poto[,-1],
+        main=paste('Nitrate in the Potomac River,',nrow(small_poto),'Samples')) %>%
+  dyOptions(connectSeparatedPoints = T,strokeWidth = 0,drawPoints = T,
+            pointSize=4) %>%
+  dyAxis('y',label='Nitrate (mg/L)', valueRange = c(0.001,2.25)) 
+```
+
+## Samples taken randomly during the year
+
+
+```{r,echo=F}
+
+small_poto <- poto_n %>%
+  sample_frac(0.0001) %>%
+  select(dateTime,no3) %>%
+  xts(.$no3,order.by=.$dateTime) 
+
+dygraph(small_poto[,-1],
+        main=paste('Nitrate in the Potomac River,',nrow(small_poto),'Samples')) %>%
+  dyOptions(connectSeparatedPoints = T,strokeWidth = 0,drawPoints = T,
+            pointSize=4) %>%
+  dyAxis('y',label='Nitrate (mg/L)', valueRange = c(0.001,2.25)) 
+  
+```
+
+
+## Samples taken monthly (most common practice)
+
+```{r,echo=F}
+
+small_poto <- poto_n %>%
+  mutate(month=month(dateTime),year=year(dateTime)) %>%
+  group_by(month,year) %>%
+  sample_n(1) %>%
+  ungroup() %>%
+  select(dateTime,no3) %>%
+  xts(.$no3,order.by=.$dateTime) 
+
+dygraph(small_poto[,-1],
+        main=paste('Nitrate in the Potomac River,',nrow(small_poto),'Samples')) %>%
+  dyOptions(connectSeparatedPoints = T,strokeWidth = 0,drawPoints = T,
+            pointSize=4) %>%
+  dyAxis('y',label='Nitrate (mg/L)', valueRange = c(0.001,2.25)) 
+  
+```
+
+
+## 10X random samples
+
+```{r}
+small_poto <- poto_n %>%
+  sample_frac(0.001) %>%
+  select(dateTime,no3) %>%
+  xts(.$no3,order.by=.$dateTime) 
+
+
+dygraph(small_poto[,-1],
+        main=paste('Nitrate in the Potomac River,',nrow(small_poto),'Samples')) %>%
+  dyOptions(connectSeparatedPoints = T,strokeWidth = 0,drawPoints = T,
+            pointSize=4) %>%
+  dyAxis('y',label='Nitrate (mg/L)', valueRange = c(0.001,2.25)) 
+  
+```
+
+## 100X samples
+
+```{r}
+small_poto <- poto_n %>%
+  sample_frac(0.01) %>%
+  select(dateTime,no3) %>%
+  xts(.$no3,order.by=.$dateTime) 
+
+
+dygraph(small_poto[,-1],
+        main=paste('Nitrate in the Potomac River,',nrow(small_poto),'Samples')) %>%
+  dyOptions(connectSeparatedPoints = T,strokeWidth = 0,drawPoints = T,
+            pointSize=4) %>%
+  dyAxis('y',label='Nitrate (mg/L)', valueRange = c(0.001,2.25)) 
+```
+
+
+## Daily samples
+
+```{r}
+small_poto <- poto_n %>%
+  mutate(date=as.Date(dateTime)) %>%
+  group_by(date) %>%
+  summarize(no3=mean(no3,na.rm=T)) %>%
+  ungroup() %>%
+  xts(.$no3,order.by=.$date) 
+
+
+dygraph(small_poto[,-1],
+        main=paste('Nitrate in the Potomac River,',nrow(small_poto),'Samples')) %>%
+  dyOptions(connectSeparatedPoints = T,strokeWidth = 0,drawPoints = T,
+            pointSize=4) %>%
+  dyAxis('y',label='Nitrate (mg/L)', valueRange = c(0.001,2.25)) 
+```
+
+
+
+## Full dataset for one year
+
+```{r}
+small_poto <- poto_n %>%
+  filter(year(dateTime) == 2018) %>%
+  select(dateTime,no3) %>%
+  xts(.$no3,order.by=.$dateTime) 
+
+
+dygraph(small_poto[,-1],
+        main=paste('Nitrate in the Potomac River,',nrow(small_poto),'Samples')) %>%
+  dyOptions(connectSeparatedPoints = T,strokeWidth = 0,drawPoints = T,
+            pointSize=4) %>%
+  dyAxis('y',label='Nitrate (mg/L)', valueRange = c(0.001,2.25)) 
+```
+
+
+## Sensor data discussion
+
+- What can the sensor data show us that grab samples can't?
+
+- What is one other advantage of sensor data? 
+
+- What are some disadvantages of sensor data? 
+
+## Telemetry (live datafeeds)
+
+- http://smartreservoir.org/forecasts/
+
+
+## Drift and calibration issues
+
+```{r}
+
+dygraph(small_poto[,-1],
+        main=paste('Nitrate in the Potomac River,',nrow(small_poto),'Samples')) %>%
+  dyOptions(connectSeparatedPoints = T,strokeWidth = 0,drawPoints = T,
+            pointSize=4) %>%
+  dyAxis('y',label='Nitrate (mg/L)', valueRange = c(0.001,2.25)) 
+```
+
+
+
+## How do sensors work? 
+
+- Usually physics stuff 
+
+  - Attenuation, reflection, and absorption, of light
+  - Attenuation of electrical signals
+  - Thermocouples, etc..
+
+## Specific Conductance
+
+- https://www.vernier.com/manuals/con-bta/
+
+## Temperature
+
+  - Thermocouples
+
+  - Infrared
+
+## Turbidity
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/8gYJJjxY8g0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Chlorophyll a
+
+- https://www.ysi.com/File%20Library/Documents/Technical%20Notes/T606-The-Basics-of-Chlorophyll-Measurement.pdf
+
+## CDOM
+
+<img src='https://www.fondriest.com/environmental-measurements/wp-content/uploads/2017/08/cdom_filter_fluorometer.jpg'> 
+
+## More!
+
+- Nitrate (optical)
+
+- Phosphate (mini-portable lab)
+
+- Dissolved Oxygen (optical)
+
+- pH (electrical current)
+
+- Oxidation Reduction Potential (REDOX, electrical)
+
+- Stage
+
+## What can't we measure? 
+
+- Why can't we measure everything with field portable sensors? 
+
+
+## Homework for this week
+
+- Annotated bibliography for your group contaminant
+
+- 5 papers shared across the whole group (the most important ones)
+
+- 5 papers that each individual member of the group 
+finds on their own. 
+
+
+

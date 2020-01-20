@@ -18,7 +18,8 @@ output:
 # Land Use and Water Quality (WR418)
 
 
-This working repository hosts all lecture material, code, assignments, and the syllabus for Land Use and Water Quality (WR418) taught at Colorado State University.
+This working webpage hosts all lecture material, code, assignments, and the syllabus for Land Use and Water Quality (WR418) taught at Colorado State University. This class is undergoing
+rapid change and 
 
 The long-term vision for this project is to work towards an open access book
 similar to [R for Data Science](https://r4ds.had.co.nz/), which can be used to teach
@@ -27,7 +28,7 @@ change.
 
 ## Course Goals
 
-The broadest goals of the book/course are for students to develop both an 
+The broadest goals of the course are for students to develop both an 
 intuitive and quantitative understanding of:
 
 - How human decisions about land-use alters how water moves through the landscape,
@@ -35,32 +36,94 @@ intuitive and quantitative understanding of:
  
 - The chemical reactions and processes that govern the connection between land-use
 and downstream water quality, over short and long time-scales.
- 
-- The history of human impacts to water quality from water quality impacts in 
-ancient rome to modern pharmaceuticals entering our lakes and rivers.
 
 - The status of water quality in lakes and rivers across the globe and how it relates
 to legislation, developoment, and environmental change broadly.
 
 # Approach
 
-To reach these educational goals we will use a variety of approaches focused on 
-engaging students directly with primarily literature on water quality, discussing
-current events related to land-use and water quality, quantitative analyses of 
-land-use and water quality change over time, and a focused final project. 
+To reach these goals, we will have a dynamic classroom that incorporates lectures,
+readings, discussion, presentation, work days, and more. Detailed approach notes 
+and details are below. 
 
-## Assignments
+## Class policies
 
-All assignments will be distributed through canvas
+### Inclusive classroom
+
+We will have an inclusive classroom: 
+respecting and valuing the diverse backgrounds, perspectives, and identities
+of individuals in the class. Students are expected to have an awareness of and
+sensitivity to language or actions that may be exclusionary or alienating. I 
+am committed to fostering a collaborative and inclusive class and appreciate
+any feedback on how to improve my own practice.  
+
+This is particularly important in a class that will have group work,
+peer grading, and generally serve individuals with a large range in background
+with watershed, chemistry, statistics, and other skills we will use in class. 
+We all get better if we work together. 
+A final note on treatment of others: one of the most important things when 
+interacting with others who have more or less research experience than you is to
+learn how to ask effective questions that show you understand and value 
+other people's time. "What work
+can I do to prepare my question in a way that makes it easiest for someone to 
+help me?" I want you to ask questions and work collaboratively and do so in a way
+that helps you and everyone else.
+
+
+### Assignments
+
+All assignments will be distributed through Canvas.
+
+### Asking for help and code on the internet:
+
+One of the most common ways people learn to code is to use the age-old 
+(okay, maybe 10 years) technique of asking the internet for help. This is a great idea!
+But! When you do you should ask for help in specific ways that enable people
+to answer your question more easily and clearly. Great instructions are here: 
+https://blog.revolutionanalytics.com/2014/01/how-to-ask-for-r-help.html
+and a more general guide to help in R is here:
+https://www.r-project.org/help.html.
+
+### Using other people's code
+
+Inevitably, you will want to perform a task in R that someone else has already 
+done. This is useful and part of why the R community is so great. But! If 
+you use other people's code, you should:
+
+  a) explitly cite where you got the code or the inspiration for it
+  
+  b) work hard to understand the code and what it does, break it down into 
+  pieces, and try to rebuild it 
+  
+Code that you did not write and is not cited will be treated as academic 
+plagiarism. Assignments will vary in how much code is allowed to be shared 
+between students, but the general rule is that you should be submitting your own
+code or code from your own team. As an example of best practices, a lot of the
+inspiration for this page (and the class in general) comes from Mine Cetikaya-Rundel
+and her amazing [STA 199](http://www2.stat.duke.edu/courses/Spring18/Sta199/policies/) 
+course at Duke
+
+## Academic integrity
+
+Academic integrity: You are responsible for adhering to all university policies on academic
+integrity and student conduct https://tilt.colostate.edu/integrity/knowTheCode/. TILT
+has a number of resources for students related to writing and study skills:
+https://tilt.colostate.edu/integrity/resourcesStudents/.
+
+## Attendance
+
+This class will heavily depend on you being present.
+There will be a participation grade that will reflect a combination of 
+your consistent presence, focus in class, and participation in group work. We 
+will also occasionally have quizzes to check in on your understanding of material
+but also to make sure you are present. 
 
 ## Notes
+
 If you learn by taking notes, I encourage you to take notes in class when there 
 are lectures. However, all lectures will be posted online on my [GitHub account](https://github.com/OpenEcoDataLab/Land_Use_Water_Quality-WR418). Additionally,
 a more verbose version of the notes will be on [this site](http://matthewrvross.com/wr418/land-use-and-water-quality-wr418.html) (look to your left).
 
-## Attendance
-I will not take attendance, but this class will heavily depend on you being present. There
-will be a participation grade that will reflect a combination of your consistent presence, focus in class, and participation in group discussions (it's okay if you don't like speaking in front of the whole class, but you should particpate during breakout period). 
 
 ## Grading 
 
@@ -69,47 +132,35 @@ library(knitr)
 library(kableExtra)
 library(tibble)
 library(lubridate)
+library(googlesheets4)
+
 
 grading <- tibble(Assignments='50%',
-                  Midterm='15%',
+                  Midterm='20%',
                   Final='20%',
-                  Participation='15%')
+                  Participation='10%')
 
 kable(grading)
 ```
 
 ## Schedule 
+
 This schedule will likely change considerably as we move through the course,
 but I will keep it updated. Every Friday there will be an assignment due the next 
 Friday, unless otherwise stated.
 
 ```{r, echo=F}
 
-schedule <- tibble(`Week Number`=1:16,
-                   `Week Starting`=seq(ymd('2018-01-21'),ymd('2018-05-10'),by=7),
-                   Topic=c('Getting started and course review',
-                           'Global history of water quality change, point source pollution',
-                           'Non-point source pollution, nutrients, sediment, dissolved organic carbon',
-                           'Algae, eutrophication, cyanobacterial blooms',
-                           'weathering reactions, cations, anions',
-                           'Water treatment approaches and history',
-                           'Metals chemistry, pH as a master variable',
-                           'Organic contaminants, MIDTERM',
-                           'Spring Break',
-                           
-                           'Isotopes,Legislation governing water quality in the USA and abroad',
-                           'Sensors, Remote sensing of land-use change and water quality',
-                           'River/Lake network water quality influences',
-                           'Mapping water quality issues in Colorado and Fort Collins',
-                           'Water quality legacy impacts, biotic indices',
-                           'Contaminant interactions, phytolosis, transformation',
-                           'BYO contaminant presentations (final)'))
+schedule <- sheets_find('WR418, spring 2020') %>%
+  dplyr::pull(id) %>%
+  read_sheet() %>%
+  dplyr::select(1:3)
+
+
+
 kable(schedule) %>%
- kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+ kable_styling(bootstrap_options = c("striped", "hover", 
+                                     "condensed", "responsive")) %>%
+  column_spec(3,width='15em')
 ```
 
-## Academic integrity
-Academic integrity: You are responsible for adhering to all university policies on academic
-integrity and student conduct https://tilt.colostate.edu/integrity/knowTheCode/. TILT
-has a number of resources for students related to writing and study skills:
-https://tilt.colostate.edu/integrity/resourcesStudents/.

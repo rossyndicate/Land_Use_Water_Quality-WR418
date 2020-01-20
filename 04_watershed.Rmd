@@ -39,9 +39,12 @@ library(ggthemes)
 knitr::opts_chunk$set(echo=F,message=F,warning=F)
 #Build a function to read in watershed data
 shed.reader <- function(x){
-  shp <- list.files(x,full.names=T)
-  shed <- st_read(shp) %>%
-    mutate(Name=x)
+  shp <- list.files(x,full.names=T) 
+  shed <- shp[grepl('globalwatershed.shp',shp)]
+  name = str_split_fixed(x,'/',3)[,3]
+  
+  shed <- st_read(shed) %>%
+    mutate(Name=name)
 }
 
 #List watershed file locations

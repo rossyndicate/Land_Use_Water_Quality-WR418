@@ -1,0 +1,89 @@
+---
+title: "Organic contaminants and the final"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+## Housekeeping
+
+- Midterm is Wednesday
+
+- Questions from over break?
+
+## Organic contaminants
+
+In a small group discuss the following questions:
+
+- Why do we call organic contaminants "organic?"
+
+- What are some common organic contaminants? 
+
+- Where are these contaminants a big problem?
+
+- How do they get into freshwaters? 
+
+- How can we treat them? 
+
+
+## Final
+
+- In groups of 3 or 4
+
+- Pick a pollutant or class of contaminants that impacts freshwaters that we haven't discussed in-depth in class. 
+
+- Write a 5-8 page research report on that contaminant OR give a 12 minute presentation to the class and write a 1-page summary (not including citations). 
+
+- In the talk or report you should use the primary literature to identify: 
+
+  - What is your contaminant?
+  - How does it impact aquatic ecosystems and/or humans? 
+  - What are it's chemical properties and how do these lead
+  to the impacts you highlight from above? (Including
+  things like pH sensitivity, redox controls, )
+  - What land cover is this contaminant typically
+  associated with? How does this land cover produce this 
+  contaminant?
+  - What are the major unknowns for this contaminant? 
+  
+- Groups will be asked to fill out a survey about
+participation of each member, and we will grade you both
+as a whole group and as individuals. 
+  
+## Final Timeline
+
+- Form groups (today)
+
+- Pick your contaminant (next Monday)
+
+  - This will be distributed as a google signup sheet
+  
+  - No contaminant should be repeated. First come first
+  served
+  
+  
+- Report Outline (April 19)
+
+
+## Citations
+
+- Zotero, Mendeley, etc... can make a lot easier
+
+- Zotero works with google docs. 
+
+

@@ -1,0 +1,92 @@
+---
+title: "Clean Water Act"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+## Housekeeping
+
+- Any questions from Eric's visit on Friday?
+
+- Questions for annotated bibliography (due Friday)
+
+## Clean Water Act (what you might already know)
+
+- What is the clean water act?
+
+- When was it enacted? 
+
+- Has it been effective? 
+
+## Clean Water Act (the law itself)
+
+[Current form](https://www.epa.gov/sites/production/files/2017-08/documents/federal-water-pollution-control-act-508full.pdf)
+
+
+## Key Events
+
+- 1948 Water Pollution Control Act
+
+- Mostly disorganized and confusing, so failed to achieve goal
+
+## Key Events
+
+<img src='https://i.redd.it/33xxk4nt9s211.jpg' width=80%>
+
+## Key Events
+
+<img src='https://lh3.googleusercontent.com/3E_x0UbWDK53UJHWU362E6Ku2I_1H-v9_bDLAuIsU3TXR36TaQZyEm2q4YvDLPddDa3P_3ZXcTSbkaqcHaW8qW1Drp1wAfgIXxeI6tFaiGYBhiMyGODJSiweis_4qCSnetvDWvcubci_q9YcFSJnAF7NyKQqIdV_A2HdC2m30n4BoALqr3TFKCqHjBEaAi9CSDpFLwSl5R-i9DNX42kQ97YG81oUrsrwHrbKN0nNnAByy5jDOqr-G75pCXWmzlwVW0WzrP9Rw4EGpsCnrsugJd8mdATNQYieuePU8hEPlD-utGXt5bBcWqKfJIrfJL7PObBgOESpdQl_S8-qr3wOSc2iKO_9ffKl8Tj5J-pPl9qDfCFbQMTDTGLcBL8L--gJF3fhEKGyiQifTsbyxkIWx-uFUEaR97lkupU-2vD3g06cIpjL2AY_YhRL06CVUvfKzqPktTDscDP8t6wtZReUNJG5kX_s_mwsNPWDBHLKT6aqQMKNw4htt3EXyBPvfkgFRwoc9kt2VnLnb_nmCNAZvSU94Bm2pSlpn6vQmDflz0-EYd6QpZKnPZwAU_D5WkoLl2V2hWlRXogkzdT7fjzfVBcaqzLRV5JzDvSbEqimHN_jfly0UB9NtkHEfEqp_1tLbUF_QYPxVVS1ohO6LAlUI3NUCjrRtF8=w1218-h1326-no' width=80%>
+
+## 1972
+
+- Clean Water Act 
+
+- Creation of the EPA, single overseeing authority
+
+- States must have standards at least as strict as feds
+
+- Way more details here:
+
+- https://cfpub.epa.gov/watertrain/moduleFrame.cfm?parent_object_id=2577
+
+## CWA approach
+
+- (1) water quality protection rules based on establishing enforceable standards that apply to the chemical, physical, or biological condition of surface water bodies
+
+- (2) protection measures based on treatment technology requirements for facilities that discharge effluent, pollutants, wastes, or other substances into water bodies
+
+
+## CWA approach
+
+<img src='https://cfpub.epa.gov/watertrain/images/cwa/slide6-7.gif' width=100%>
+
+
+## Activity 
+
+[CDPHE](http://cdphe.maps.arcgis.com/apps/Viewer/index.html?appid=f1541d2f21834642ba1551c674fd4a79)
+
+
+## Regulatory reach
+
+- WOTUS 2015
+
+- No More
+
+
+
