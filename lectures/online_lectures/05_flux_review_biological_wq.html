@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Metals and other trace elements</title>
+  <title>Flux review and waterborne pathogens</title>
 
   <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <meta name="generator" content="pandoc" />
 
 
 
-  <meta name="date" content="2020-03-10" />
+  <meta name="date" content="2019-02-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,7 +21,7 @@
     var SLIDE_CONFIG = {
       // Slide settings
       settings: {
-                title: 'Metals and other trace elements',
+                title: 'Flux review and waterborne pathogens',
                         useBuilds: true,
         usePrettify: true,
         enableSlideAreas: true,
@@ -258,6 +259,7 @@ background: black;
 }
 
 slides > slide {
+display: none;
 font-family: 'Open Sans', Arial, sans-serif;
 font-size: 26px;
 color: #797979;
@@ -278,19 +280,17 @@ transition: all 0.6s ease-in-out;
 }
 
 slides > slide.far-past {
+display: none;
 }
 
 slides > slide.past {
+display: block;
 opacity: 0;
 }
 
 slides > slide.current {
 display: block;
 opacity: 1;
-z-index: 1;
-}
-slides > slide:not(.current) {
-z-index: 0;
 }
 
 slides > slide.current .auto-fadein {
@@ -305,11 +305,13 @@ background-size: 100% 100%;
 }
 
 slides > slide.next {
+display: block;
 opacity: 0;
 pointer-events: none;
 }
 
 slides > slide.far-next {
+display: none;
 }
 
 slides > slide.dark {
@@ -381,6 +383,8 @@ width: 1100px;
 
 slides.layout-widescreen > slide.far-past,
 slides.layout-faux-widescreen > slide.far-past {
+display: block;
+display: none;
 -webkit-transform: translate(-2260px);
 -moz-transform: translate(-2260px);
 -ms-transform: translate(-2260px);
@@ -414,6 +418,8 @@ pointer-events: none;
 
 slides.layout-widescreen > slide.far-next,
 slides.layout-faux-widescreen > slide.far-next {
+display: block;
+display: none;
 -webkit-transform: translate(2260px);
 -moz-transform: translate(2260px);
 -ms-transform: translate(2260px);
@@ -1345,19 +1351,7 @@ opacity: 1;
 .overview .slide-area {
 display: none;
 }
-slides > slide {
-background: linear-gradient(#ffffff, #ffffff 85%, #e6e6e6);
-background-color: white;
-}
-slides > slide {
-opacity: 0;
-}
 @media print {
-
-@page {
-size: landscape;
-margin: 0;
-}
 
 slides slide {
 display: block !important;
@@ -3082,10 +3076,6 @@ if (document.readyState !== "loading" &&
       font-style: italic;
     }
 
-    summary {
-      display: list-item;
-    }
-
     slides > slide {
       -webkit-transition: all 0.01s ease-in-out;
       -moz-transition: all 0.01s ease-in-out;
@@ -3101,10 +3091,6 @@ if (document.readyState !== "loading" &&
       transition: opacity 0.6s ease-in 0.01s;
       opacity: 0;
     }
-/* https://github.com/ropensci/plotly/pull/524#issuecomment-468142578 */
-slide:not(.current) .plotly.html-widget{
-  display: block;
-}
 
   </style>
 
@@ -3121,7 +3107,7 @@ slide:not(.current) .plotly.html-widget{
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">March 10, 2020</p>
+            <p style="margin-top: 6px; margin-left: -2px;">February 01, 2019</p>
           </hgroup>
   </slide>
 
@@ -3132,125 +3118,136 @@ slides > slide {
 }
 </style>
 
-<slide class=""><hgroup><h2>Housekeeping</h2></hgroup><article  id="housekeeping" class="smaller ">
+<slide class=""><hgroup><h2>Housekeeping</h2></hgroup><article  class="smaller " id="housekeeping">
 
 <ul class = 'build'>
-<li><p>Thursday we will go over test</p></li>
-<li><p>Thursday, we will also go over final outline</p></li>
-<li><p>Homework over spring break will be reading some papers</p></li>
-<li><p>There will be a quiz coming back from break on those papers</p></li>
+<li>HW for next week will be posted after class</li>
+<li>Questions from Wednesday?</li>
+<li>Finish watershed biogeochemistry section</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>COVID-19</h2></hgroup><article  id="covid-19" class="smaller ">
+</article></slide><slide class=""><hgroup><h2>Watershed Biogeochemisty at Hubbard Brook</h2></hgroup><article  class="smaller " id="watershed-biogeochemisty-at-hubbard-brook">
 
 <ul class = 'build'>
-<li><p>My #1 concern is your health</p></li>
-<li><p>If you are feeling ill, stay home</p></li>
-<li><p>Reach out if you need support</p></li>
-<li><p>Get ready for online delivery</p></li>
+<li>Acid Rain</li>
+<li>Deforestation</li>
+<li>Ice Storm</li>
+<li>Dilutification</li>
+<li>Calcium experiment</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Online delivery</h2></hgroup><article  id="online-delivery" class="smaller ">
+</article></slide><slide class=""><hgroup><h2>What’s the flux?</h2></hgroup><article  class="smaller " id="whats-the-flux">
 
 <ul class = 'build'>
-<li>Flipped class</li>
+<li>the action or process of flowing or flowing out</li>
+<li>the rate of transfer of fluid, particles, or energy across a given surface</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Metals and other trace elements</h2></hgroup><article  id="metals-and-other-trace-elements" class="smaller ">
+</article></slide><slide class=""><hgroup><h2>Flux of energy</h2></hgroup><article  class="smaller " id="flux-of-energy">
 
-<p><img src='https://www.westech-inc.com/hubfs/Minerals_Blog/acid_mine_drainage.jpg'></p>
+<p><img src='https://i.ytimg.com/vi/NcBIbTFSwSI/maxresdefault.jpg'></p>
 
-</article></slide><slide class=""><hgroup><h2>Metals and other trace elements</h2></hgroup><article  id="metals-and-other-trace-elements-1" class="smaller ">
+</article></slide><slide class=""><hgroup><h2>Flux of water</h2></hgroup><article  class="smaller " id="flux-of-water">
 
-<p><img src='https://www.thoughtco.com/thmb/_OLcyyM2_Qk3lZrQ3ZbnoxIubl8=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Periodic-Table-Metals-56a12db33df78cf772682c44.png'></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fh1OrsHY_H4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
-</article></slide><slide class=""><hgroup><h2>What do you already know?</h2></hgroup><article  id="what-do-you-already-know" class="smaller ">
+</iframe>
+
+</article></slide><slide class=""><hgroup><h2>Flux of water quality?</h2></hgroup><article  class="smaller " id="flux-of-water-quality">
 
 <ul class = 'build'>
-<li><p>With a small group, think of a metal or trace element you think (or know) is a pollutant</p></li>
-<li><p>How does this metal get into surface waters?</p></li>
-<li><p>Why is it a pollutant of concern? Is it directly toxic to aquatic life, to humans?</p></li>
-<li><p>What is the mechanism of toxicity? Does it create free radicals that can attack DNA and cell walls? Does it get mistaken for a similar element and folded into our proteins incorrectly?</p></li>
+<li>Hydrology is the study of water generally</li>
+<li>Biogeochemistry, hydrology, ecology, toxicology and many other fields all study water quality</li>
+<li>For some of these fields [concentration] is the key water quality feature</li>
+<li>For others, the flux of a contaminant matters more</li>
+<li>How do we calculate contaminant flux?</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Selenium</h2></hgroup><article  id="selenium" class="smaller build">
+</article></slide><slide class=""><hgroup><h2>Waterborne pathogens</h2></hgroup><article  class="smaller " id="waterborne-pathogens">
 
-<p>Both an old problem:</p>
+<p><img src='https://upload.wikimedia.org/wikipedia/commons/a/a2/The_silent_highwayman.jpg'></p>
 
-<p><img src='http://www.sci.sdsu.edu/salton/SeToxicTimeBombMd.gif'></p>
-
-<p>and a very modern <a href='https://www.nytimes.com/2012/02/23/science/earth/mutated-trout-raise-new-concerns-over-selenium.html?_r=2&amp;pagewanted=all' title=''>issue</a></p>
-
-</article></slide><slide class=""><hgroup><h2>Selenium</h2></hgroup><article  id="selenium-1" class="smaller ">
+</article></slide><slide class=""><hgroup><h2>Cholera</h2></hgroup><article  class="smaller " id="cholera">
 
 <ul class = 'build'>
-<li><p>Mobilized by mining, coal-ash, and agriculture (by increasing weathering rates of Se bearing bedrock)</p></li>
-<li><p>Mostly non-toxic to people, but highly toxic to fish and birds.</p></li>
-<li><p>Disrupts DNA in embyros</p></li>
-<li><p>Can bioaccumulate</p></li>
-<li><p>EPA limit 1.5 \(\mu g/L\) in lakes, 3\(\mu g/L\)</p></li>
+<li>John Snow discovered source of Cholera at Broad Street Pump in 1854</li>
+<li>Filippo Pacini discovered cholera in 1854 in Italy,</li>
+<li>Robert Koch rediscovered it 30 years later</li>
+<li>Why all in the 1850s?</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Selenium</h2></hgroup><article  id="selenium-2" class="smaller ">
+<p><img src='https://www.ph.ucla.edu/epi/snow/graphics/cricketfig6.jpg'></p>
+
+</article></slide><slide class=""><hgroup><h2>Cholera (cont.)</h2></hgroup><article  class="smaller " id="cholera-cont.">
 
 <ul class = 'build'>
-<li>Problem in mining regions of east, western CA, and CA</li>
+<li>Still a problem in many parts of the world</li>
+<li>Dynamics are closely tied to <a href='https://www.pnas.org/content/pnas/109/17/6602.full.pdf' title=''>people and water cycles</a></li>
 </ul>
 
-<p><img src='https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/thumbnails/image/selenium-in-ecosystems-western-us-sites.jpg'></p>
-
-</article></slide><slide class=""><hgroup><h2>Selenium phases</h2></hgroup><article  id="selenium-phases" class="smaller ">
+</article></slide><slide class=""><hgroup><h2>E. coli</h2></hgroup><article  class="smaller " id="e.-coli">
 
 <ul class = 'build'>
-<li>Most readily taken up in the foodweb as selenate (\(SeO_4^{2-}\))</li>
+<li>Discovered in 1885 by Theodor Escherich</li>
+<li>One of the most well-studied organisms on earth</li>
+<li>Still causes more than 100,000 illnesses in USA every year</li>
 </ul>
 
-<p><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Pourbaix_diagram_for_Selenium.svg/800px-Pourbaix_diagram_for_Selenium.svg.png'></p>
+</article></slide><slide class=""><hgroup><h2>E. coli</h2></hgroup><article  class="smaller " id="e.-coli-1">
 
-</article></slide><slide class=""><hgroup><h2>Cadmium</h2></hgroup><article  id="cadmium" class="smaller ">
+<style>.mcclatchy-embed{position:relative;padding:40px 0 56.25%;height:0;overflow:hidden;max-width:100%}.mcclatchy-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%}</style>
+
+<div class="mcclatchy-embed">
+<iframe src="https://www.sacbee.com/news/local/article214286679.html/video-embed" width="640" height="400" frameborder="0" allowfullscreen="true">
+
+</iframe></div>
+
+</article></slide><slide class=""><hgroup><h2>Historic solutions</h2></hgroup><article  class="smaller " id="historic-solutions">
+
+</article></slide><slide class=""><hgroup><h2>Thames</h2></hgroup><article  class="smaller " id="thames">
+
+<p><img src='https://walkingthelandscape.files.wordpress.com/2016/03/cross-section-of-the-victoria-embankment.gif'></p>
+
+</article></slide><slide class=""><hgroup><h2>Chicago river</h2></hgroup><article  class="smaller " id="chicago-river">
+
+<p><img src='https://interactive.wttw.com/sites/default/files/13-0313_historical_Box_125_013.jpg'></p>
+
+</article></slide><slide class=""><hgroup><h2>Paris</h2></hgroup><article  class="smaller " id="paris">
+
+<p><img src='https://media.nomadicmatt.com/sewersparis2.jpg'></p>
+
+</article></slide><slide class=""><hgroup><h2>Problems with the rerouting approach?</h2></hgroup><article  class="smaller build" id="problems-with-the-rerouting-approach">
+
+<p><img src='http://www.beachapedia.org/images/4/49/Cso-ss0-524.jpg'></p>
+
+</article></slide><slide class=""><hgroup><h2>Modern solutions</h2></hgroup><article  class="smaller " id="modern-solutions">
+
+</article></slide><slide class=""><hgroup><h2>Wastewater treatment</h2></hgroup><article  class="smaller " id="wastewater-treatment">
+
+<p><img src='http://www.butec.com.lb/wp-content/uploads/2015/01/Tripoli-Wastewater-Treatment-Plant3-1140x555.jpg'></p>
+
+</article></slide><slide class=""><hgroup><h2>Drinking water treatment</h2></hgroup><article  class="smaller " id="drinking-water-treatment">
+
+<p><img src='https://www.edenprairie.org/Home/ShowPublishedImage/5487/636248337136570000'></p>
+
+</article></slide><slide class=""><hgroup><h2>It’s almost 2020</h2></hgroup><article  class="smaller " id="its-almost-2020">
 
 <ul class = 'build'>
-<li><p>Non-essential (not a nutrient). Toxic at low levels.</p></li>
-<li><p>Historically very low concentrations in most river basins</p></li>
-<li><p>Poisonous to humans</p></li>
-<li><p>Humans now mobilize &gt;90% of Cadmium through mining activities</p></li>
-<li><p>Toxicity is heavily dependent on concentration of other ions (\(Ca^{2+},Mg^{2+}\))</p></li>
-<li><p>In freshwaters acute toxicity (1-hour) is 1.8 \(\mu g/L\) and chronic (4 days) is 0.72\(\mu g/L\).</p></li>
-<li><p>In estuaries/ocean: acute: 33 \(\mu g/L\) and chronic: 7.9 \(\mu g/L\)</p></li>
-<li><p>Why would cadmium toxicity be dependent on other ions?</p></li>
+<li>What pathogenic water quality problems have we solved?</li>
+<li>Why do so many persist?</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>Chromium</h2></hgroup><article  id="chromium" class="smaller ">
-
-<p><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Corrosion_of_alloys_in_NaCl.jpg/1280px-Corrosion_of_alloys_in_NaCl.jpg' width=80%></p>
-
-</article></slide><slide class=""><hgroup><h2>Chromium</h2></hgroup><article  id="chromium-1" class="smaller ">
+</article></slide><slide class=""><hgroup><h2>Homework</h2></hgroup><article  class="smaller " id="homework">
 
 <ul class = 'build'>
-<li><p>Toxic to both humans and aquatic life at high concentrations but a vital micronutrient for insulin function at low-concentration.</p></li>
-<li><p>Mobility and toxicity is highly dependent on oxidation state</p></li>
-<li><p>\(Cr^{3+}\) is mostly less-mobile and less toxic.</p></li>
-<li><p>\(Cr^{6+}\) is more mobile and more toxic</p></li>
-<li><p>Natural weathering product but elevated by human activities and spills</p></li>
-</ul>
-
-</article></slide><slide class=""><hgroup><h2>Chromium</h2></hgroup><article  id="chromium-2" class="smaller ">
-
-<p><img src='https://i.stack.imgur.com/cLQVv.png'></p>
-
-</article></slide><slide class=""><hgroup><h2>Hofmeister series</h2></hgroup><article  id="hofmeister-series" class="smaller build">
-
-<p>\(F^-\) = \(SO_4^{2-}\) &gt; \(Cl^-\) &gt; \(NO_3^-\) &gt; \(Br^-\)</p>
-
-<p>\(NH_4^+\) &gt; \(K^+\) &gt; \(Na^+\) &gt; \(Mg^{2+}\) &gt; \(Ca^{2+}\)</p>
-
-</article></slide><slide class=""><hgroup><h2>And on and on</h2></hgroup><article  id="and-on-and-on" class="smaller ">
-
-<p><a href='https://skytruth-org.carto.com/viz/751b8218-5f4a-4ad9-89dd-f2b5b0f5a318/embed_map' title=''>https://skytruth-org.carto.com/viz/751b8218-5f4a-4ad9-89dd-f2b5b0f5a318/embed_map</a></p>
-
-</article></slide><slide class=""><hgroup><h2>How do you find out about trace element contamination?</h2></hgroup><article  id="how-do-you-find-out-about-trace-element-contamination" class="smaller ">
-
-<p><a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4144270/' title=''>this is a great review</a></p></article></slide>
+<li><p>Find a primary literature article about a water quality problem, you can look for really modern work on contaminants, historic work on e.coli, or ancient paleoecology articles on a water qualiyt problem.</p></li>
+<li><p>Read the article and answer the following questions in less than 250 words:</p></li>
+<li>What water quality problem do the authors identify?</li>
+<li>What techniques did the authors use to identify the problem? (laboratory chemical analysis, models, historc reconstruction, etc…)</li>
+<li>Does the water quality impact mostly affect people, the environment, or both?</li>
+<li>For how long has this water quality problem existed?</li>
+<li><p>Do the authors propose any solutions? If so, what are they? If not, what do you think might be a solution?</p></li>
+</ul></article></slide>
 
 
   <slide class="backdrop"></slide>

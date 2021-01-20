@@ -1,0 +1,491 @@
+---
+title: "Waterborne illness"
+author: "Matthew ROss"
+date: "3/23/2020"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+editor_options: 
+  chunk_output_type: console
+---
+
+
+# Waterborne Illnesses
+
+While COVID-19 is on everyone's mind, I thought we could shift 
+some of our attention to thinking about waterborne illnesses and a classic story of how we first identified the problem of contaminated water in London, England. One of the amazing things about this story is that without computing power or a statistical setup, John Snow was able to accurately identify the source of a deadly outbreak. Cholera is still a deadly disease globally and one we are still researching as it intersects with hydrology and epidemiology. 
+
+A critical part of John Snow's research was having access to accurate data. Cholera is a much deadlier and swifter disease than
+COVID-19, so John Snow's data was a grim death count per household. With COVID-19, where many people are asymptomatic it is much harder to track. We will explore the quality of data for COVID-19 using [Covid Tracking Project Data](https://covidtracking.com/). If you want to 
+see a variety of COVID-19 visuals, [ourworldindata](https://ourworldindata.org/coronavirus) has a ton of useful visualizations. 
+
+## Cholera 
+
+Humanity's understanding of waterborne illness was rudimentary until the
+mid-1800s when many different scientists discovered that microbes in 
+water and air could carry disease. One of the most famous examples of this
+was John Snow (not that one) in 1854 discovering a pump in London that was 
+infecting folks with Cholera. In this assignment we will reproduce some of
+his analyses. 
+
+## Exploring the 1854 Cholera data
+
+There is a nice package called `cholera` that contains a bunch of modern 
+approaches to understanding the data that John Snow collected. We will 
+use this package to plot and explore how Cholera spread in London in 1854. 
+
+```{r setup, include=T, message = FALSE, warning = FALSE}
+
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+library(tidyverse)
+library(cholera) # Data
+library(ggthemes) #Get ggtheme data
+library(lubridate)
+library(knitr)
+library(kableExtra)
+library(dataRetrieval)
+library(sf)
+library(mapview)
+
+theme_set(theme_few()) # Setting the theme for all ggplot graphs to theme_few.
+```
+
+
+### Original Data
+
+```{r}
+cases <- timeSeries(vestry=F)$data #Loading in a timeseries of cases
+
+ggplot(cases,aes(x=date,y=deaths)) + 
+  geom_point() + 
+  geom_line() + 
+  xlab('Date (1854)') + 
+  ylab('Daily death count')
+  
+
+```
+
+
+#### Q1 - Looking at the graph, when do you think the broad street pump was closed? 
+
+
+#### Q2 - Use the command `geom_vline` to add a vertical line to the 
+#### above plot for when the pump was actually closed (look up the date online)
+
+
+```{r}
+
+#To make the closing date change the date below
+closing_date <- ymd('1854-09-05')
+
+
+# Your code here
+ggplot(cases,aes(x=date,y=deaths)) + 
+  geom_point() + 
+  geom_line() + 
+  xlab('Date (1854)') + 
+  ylab('Daily death count')
+
+
+```
+
+
+
+#### Q3) What is one explanation for the difference between your expectation and reality of the pump closing? 
+
+
+### Map of cholera
+
+ - blue is pumps
+ - black dots are geospatially accurate death counts
+ 
+```{r,fig.width=6,fig.height=6}
+snowMap(case.col='black')
+```
+
+
+
+### Make zoomable map
+
+#### Download data with spatial reference
+
+
+This [website](http://blog.rtwilson.com/john-snows-cholera-data-in-more-formats/) has a bunch of geospatial data for the
+1854 outbreak. We can use this data to look at the locations of
+the outbreak in modern London, but first we need to download it. You don't need to run this code, it's just here
+so you can play with it if you want. 
+```{r, eval = FALSE}
+
+#You don't need to understand this code, it's just here in case you are curious.
+
+#Download data directly
+download.file('rtwilson.com/downloads/SnowGIS_SHP.zip',
+              destfile='data/snow.zip',method='curl') 
+
+#Unzip data
+unzip('data/snow.zip',exdir='data')
+
+
+```
+
+
+### Read in map data
+
+```{r, fig.height=6}
+#Read in data using sf
+
+cholera <- st_read('data/SnowGIS_SHP/Cholera_Deaths.shp') %>%
+  #Transform to global projection
+  st_transform(4326)
+
+
+mapview(cholera,zcol='Count')
+```
+
+#### Q4) Approximately how far was the outbreak from the River Thames?  
+
+
+#### Q5) Why would proximity to a river matter for a cholera outbreak? 
+
+
+## Why that pump? 
+
+One of the key ideas ascribed to John Snow is that he identified 
+waterborne illnesses. This is not strictly true, but he did use data visualization and analysis techniques to identify the pump that was contaminated and spreading cholera in the community. At the time, John Snow, who knew more than nothing, didn't have access to R (or any computer help), but he still figured out which pump was the source of the outbreak, by estimating the center of the outbreak. Estimating the center of the outbreak, and it's ripples into the community can now be visualized using a method called, "kernel-density" plots. 
+
+### Mapping the density kernels based on a pooled method
+
+```{r}
+snowMap(case.col = 'black')
+addKernelDensity(pump.subset = "pooled", color = 'red')
+```
+
+### Mapping the density Kernels with an invidual method.
+
+```{r}
+# Mapping the density Kernels with an invidual method.
+snowMap(case.col = 'black')
+addKernelDensity(pump.subset = "individual")
+```
+
+#### Q6) How do the two different kernel grouping methods ("pooled" and "individual") differ?
+
+
+## COVID-19
+
+We can explore COVID-19 spread in the United States using
+the `covid19us` package which pulls data daily from the 
+covid tracking project. 
+
+### Positive cases
+
+First let's look at the growth in cases. 
+
+```{r}
+library(covid19us)
+
+#Download data
+us <- get_us_daily()
+
+
+ggplot(us,aes(x=date,y=positive)) + 
+  geom_point() + 
+  ylab('Cumulative COVID-19 cases')
+
+
+```
+
+
+#### Q7) Make the same plot as above but on a log10 scale for the y axis.
+
+
+```{r}
+#Your code here
+```
+
+
+#### Q8) What does this plot tell you about the growth of
+COVID-19? 
+
+
+### Colorado COVID-19 Data
+
+One of the key things going on in America, is that we are
+not testing at super high rates. We can look at the relationship between testing and positive cases using Colorado data. 
+
+```{r}
+
+#Download data
+co <- get_states_daily(state='CO') %>%
+  #Add a column that is percent positive
+  mutate(positive_percent = positive/total)
+
+ggplot(co,aes(x=date,y=positive_percent)) + 
+  geom_point() + 
+  ylab('% of tests that were positive')
+
+```
+
+
+#### Q9) What does the above graph tell you about the growth of cases in Colorado? 
+
+Hint: A positive test more likely comes from someone showing signs of severe illness. 
+
+#### Q10) How might an airborne illness like COVID-19 spread differently than a waterborne illness like Cholera?
+
+
+# WR419
+
+## COVID-19, whose testing and who is not? 
+
+### Colorado testing as percent of population
+
+
+How many people in colorado are being tested as a percent of population? 
+
+```{r}
+
+#Make a new column with proportional testing rates (pop is5.6 million according to internet)
+
+co_pop <- 5600000
+co$total_prop <- (co$total/co_pop)*100
+
+
+ggplot(co,aes(date,total_prop)) + 
+  geom_point() + 
+  ylab('% of population tested')
+```
+
+
+#### Q11) How do these testing rates compare to other countries?
+
+Hint: ourworldindata.org has lots of international datasets
+
+#### Q12) Make the same graphs for a different state, are they testing more or less than Colorado? 
+
+
+```{r}
+#Your Code here
+```
+
+
+
+## Who is testing at higher per-capita rates? 
+
+There is a large difference among states (and nations) testing for COVID-19, and this will, in part, dictate how governments respond. The following work is geared towards developing an understanding of what factors might predict a states per-capita testing rate. 
+
+
+### Get additional data. 
+
+With the help of former WR-419 student, Spencer Rhea, we can download and analyze census data (things like race, income, etc...) to see if these factors predict per-capita 
+testing rates. 
+
+
+```{r}
+#Load in census data (which is a shapefile = geospatial data)
+#Dataset is called state_census
+load('data/state_census.RData')
+#Get cumulative testing rates
+all_state_cume <- get_states_current()
+
+all_state_cume
+#Join datasets 
+covid_states <- inner_join(state_census,all_state_cume,by='state')
+
+
+#Create per-capita tested column 
+covid_states$tests_per_thousand = (covid_states$total/(covid_states$population) * 1000) %>% round(.,2)
+
+
+mapview(covid_states,zcol='tests_per_thousand')
+```
+
+#### Q13) Just by looking at the map, what do you think might explain testing rates in the USA? 
+
+
+### Is age a predictor? 
+
+To explore what might be a predictor of testing rates, we can plot explanatory variables from the census (like age, education, etc...) against the per-capita testing rates. 
+
+```{r}
+
+
+ggplot(covid_states,aes(x=median_age,y=tests_per_thousand)) + 
+  geom_label(aes(label=state),position=position_jitter()) + 
+  ylab('Tests per thousand')+ 
+  xlab('Median Age')
+
+
+
+
+```
+
+Age does not look like it's a predictor of testing rates, this could be because median age does not accurately capture the distribution of ages. You could have a state with a large but mostly immobile populations of children and people >65 and the median age is 35. You could have another state with a bunch of middle-aged folks who are very actively moving and maybe spreading the disease, and that state's average age would also be 35. So median age doesn't tell us too much. 
+
+### Is income? 
+
+```{r}
+ggplot(covid_states,aes(x=median_house_income,y=tests_per_thousand)) + 
+  geom_label(aes(label=state),position=position_jitter()) +
+  ylab('Tests per thousand') + 
+  xlab('Median Household Income')
+```
+
+Median household income does look like it could be at least part of the testing story. Wealthier states may simply have more resources for testing or they could have populations that travel internationally and nationally a lot more.  
+
+
+### Q14) Explore at least two more predictor variables, make a plot, and explain why (or not) it may predict testing rates. 
+
+
+hint: use `names(state_census)` to check for all possible predictors.
+
+```{r}
+
+```
+
+
+
+## Video
+```{r}
+
+library(tidyverse)
+library(covid19us)
+library(gganimate)
+library(lubridate)
+library(scales)
+library(tidycensus)
+library(RcppRoll)
+
+
+#devtools::install_github("aedobbyn/covid19us")
+
+current <- get_states_current()
+
+
+states <- USAboundaries::us_states()
+
+
+all <- get_states_daily(state = 'all',date = 'all') %>%
+  rename(Cumulative = positive,
+         New = positive_increase,
+         Date = date) 
+
+
+
+#Use only state/times with at least 50 cases
+#And 2 new cases
+
+all_100 <- all %>%
+  group_by(state) %>%
+  filter(Cumulative > 100) %>%
+  filter(New > 2) %>%
+  mutate(run_new = roll_meanl(New, 5),
+         ppos = New/total_test_results_increase*100,
+         run_pos = roll_medianl(ppos,5),
+         total_death = max(death,na.rm=T)) %>%
+    arrange(Cumulative) %>%
+  slice(-(1:5)) %>%
+  ungroup()
+
+
+names(all_100)
+co_100 <- all_100 %>%
+  dplyr::filter(state == 'CO')
+
+View(co_100)
+
+covid_anim <- ggplot(all_100,
+                     aes(x=Cumulative,y=run_new,
+                         color=total_death,
+                         group=state)) +
+  geom_line() + 
+  geom_segment(aes(xend=Cumulative*5,
+                   yend=run_new),
+               linetype=2,
+               color='red') + 
+  geom_point(size=2) +
+  geom_text(aes(x=Cumulative*5,
+                label=state),
+            hjust=0) + 
+    scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
+         labels = trans_format("log10", math_format(10^.x))) +
+  scale_x_log10(breaks = trans_breaks("log10", function(x) 10^x),
+        labels = trans_format("log10", math_format(10^.x))) + 
+  scale_color_viridis_c(name = 'Deaths',
+                        trans='log10') + 
+  transition_reveal(Date) +
+  coord_cartesian(clip='off') +
+  labs(title='COVID-19 USA Growth: {frame_along}',
+       y='Daily new cases',
+       x= 'Cumulative cases') + 
+  ggthemes::theme_few(base_size = 20) + 
+  theme(legend.position=c(0.75,0.2))
+
+animate(covid_anim,nframes=60,width=700,height=500,
+        fps = 10)
+
+
+anim_save(filename='StateGrowthPos.gif')
+```
+
+
+
+## Fort Collins
+```{r}
+download.file('https://docs.google.com/spreadsheets/d/e/2PACX-1vQLNokCu-CD-7XMSqhV1-t4H0cYzOcszJIf8KCyr3yP82jZ2TD53iWaFb7r_7dtAELfTt8ndM-dQvgj/pub?output=csv&gid=1219297132',destfile='foco.csv')
+
+
+
+foco <- read_csv('foco.csv') %>%
+    mutate(date = mdy(ReportedDate)) %>%
+    filter(Type == 'Confirmed') %>%
+    dplyr::select(number = CaseCount,
+         sex = Sex,
+         age = Age,
+         city = City,
+         date) %>%
+    filter(city %in% c('Loveland','Fort Collins','Berthoud')) 
+
+foco_summary <- foco %>%
+  group_by(date,city) %>%
+  count() %>%
+  rename(new = n) %>%
+  arrange(date) %>%
+  group_by(city) %>%
+  mutate(week = week(date),
+         cume = cumsum(new),
+         runnew = roll_meanl(new,5))
+
+
+
+# ggplot(foco_summary,aes(x=cume,y=runnew,color=date)) + 
+#   geom_point() + 
+#   scale_x_log10() + 
+#   scale_y_log10() 
+
+
+
+# ggplot(foco_summary,aes(x=date,y=cume)) + 
+#   geom_point() + 
+#   scale_y_log10()
+
+
+ggplot(foco_summary,aes(x=date,y=runnew)) + 
+  geom_point() + 
+  stat_smooth(span = 0.3)  +
+  facet_wrap(~city)
+
+weekly_summary <- foco_summary %>%
+  group_by(week) %>%
+  summarize(week_sum = sum(new),
+            count = n())
+
+ggplot(weekly_summary,aes(x=week,y=week_sum)) + 
+  geom_point() + 
+  stat_smooth(span = 0.3)
+
+
+```
+

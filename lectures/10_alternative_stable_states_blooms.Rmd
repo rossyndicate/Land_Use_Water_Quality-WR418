@@ -24,9 +24,10 @@ slides > slide {
 
 ## Housekeeping
 
-- HW will be posted today and due next Friday
-- Notes for past 2 weeks of lecture will be posted this weekend
-- Questions from Monday?
+- HW will be posted today
+
+
+## Quiz review
 
 ## Cyanobacteria {.build}
 

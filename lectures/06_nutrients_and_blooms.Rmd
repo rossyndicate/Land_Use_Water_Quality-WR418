@@ -99,7 +99,6 @@ from [(Hunter and Boyd 2007)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=
 
 - Technology
 
-## Redox
+## Consequences of too many nutrients
 
-<img src='https://images.slideplayer.com/27/9007286/slides/slide_12.jpg'>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WWTeWK7ziD8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -3,13 +3,15 @@ title: "Land Use and Water Quality"
 author:
 - "Dr. Matthew Ross"
 - 'matt.ross(at)colostate.edu'
-- 'Office Hours: M,TR 10:00-11:00 AM'
+- 'Office Hours: TBD'
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 site: bookdown::bookdown_site
 documentclass: book
 output:
   bookdown::gitbook: default
   #bookdown::pdf_book: default
+editor_options: 
+  chunk_output_type: console
 ---
 
 
@@ -31,8 +33,8 @@ change.
 The broadest goals of the course are for students to develop both an 
 intuitive and quantitative understanding of:
 
-- How human decisions about land-use alters how water moves through the landscape,
- the materials it picks up, and, what we can and can't do to improve degraded water quality.
+- Understanding basic aqueous chemistry to better understand
+dominant chemical controls on water quality
  
 - The chemical reactions and processes that govern the connection between land-use
 and downstream water quality, over short and long time-scales.
@@ -42,9 +44,27 @@ to legislation, developoment, and environmental change broadly.
 
 # Approach
 
-To reach these goals, we will have a dynamic classroom that incorporates lectures,
-readings, discussion, presentation, work days, and more. Detailed approach notes 
-and details are below. 
+To reach these goals, we will have a flipped classroom.
+All content will be delivered before class begins in the form of 
+previously recorded YouTube videos from me or our partner content creators
+[Richard Marinos](http://www.richardmarinos.com/) (at the University of Buffalo)
+and [Anna Bergstrom](https://bergstromlab.weebly.com/) (at Boise State University). 
+Our philosophy is to share in content generation so that we can bring you
+the highest quality lectures before class and save class time for paper discussions,
+homework time, and group projects. 
+
+With this approach it is critical that you watch all lectures and read all 
+materials before class. This is your homework for the most part, with plenty of
+in-class time dedicated to other tasks that are traditionally done at home (like
+assignments). This is even more important because we will be using the R programming
+language for all of our assignments. I know most of you have never used R before,
+so we have ample class time to help you integrate this vital tool into your 
+understanding of water quality. 
+
+Finally, this is the first time we are doing the course this way, so there 
+will be constant changes to this site, based on new content. I will work to have this
+content updated at least a week before you need to work on the material, but please
+let me know if you are getting lost in the syllabus. 
 
 ## Class policies
 
@@ -127,6 +147,8 @@ a more verbose version of the notes will be on [this site](http://matthewrvross.
 
 ## Grading 
 
+
+
 ```{r, echo=F,message=F,warning=F}
 library(knitr)
 library(kableExtra)
@@ -135,8 +157,8 @@ library(lubridate)
 library(googlesheets4)
 
 
-grading <- tibble(Assignments='50%',
-                  Midterm='20%',
+grading <- tibble(Assignments='40%',
+                  Quizzes='30%',
                   Final='20%',
                   Participation='10%')
 
@@ -146,16 +168,14 @@ kable(grading)
 ## Schedule 
 
 This schedule will likely change considerably as we move through the course,
-but I will keep it updated. Every Friday there will be an assignment due the next 
-Friday, unless otherwise stated.
+but I will keep it updated. Every Thursday there will be an assignment due the next 
+Thursday, unless otherwise stated.
 
-```{r, echo=F}
+```{r, echo=F, warning=F, message=F}
 
-schedule <- sheets_find('WR418, spring 2020') %>%
-  dplyr::pull(id) %>%
-  read_sheet() %>%
-  dplyr::select(1:3)
-
+schedule <- read_sheet('https://docs.google.com/spreadsheets/d/1m6kpDUhUr4SP1yTXJsEgNZa3sMFFScaZ7siEFeY-oBo/edit#gid=0') %>%
+  dplyr::select(1:4) 
+  
 
 
 kable(schedule) %>%

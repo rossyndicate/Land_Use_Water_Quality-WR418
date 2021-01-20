@@ -1,0 +1,156 @@
+---
+title: "Thermal pollution and algae blooms"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+
+
+
+## Housekeeping
+
+- HW will be posted today
+
+
+## Quiz review
+
+## Core ideas from Tuesday
+
+- Nutrients are required for life
+
+- Ag and Urban areas contribute excess nutrients to waterbodies
+
+- These excess nutrients can cause algae blooms and other problems
+
+- Managing nutrients requires understanding nutrient cycling
+
+- Nutrient cycles describe how elements move in and out 
+of different biotic and abiotic compartments
+
+## Core ideas for today
+
+- Industrial plants often use river or reservoir water to cool down industrial processes
+
+- This can create "thermal pollution": water that returns to the river/lake at a warmer temperature than it came in at. 
+
+- Thermal pollution causes all kinds of problems from direct toxicity to causing more or more harmful algae blooms
+
+- Algae blooms can actually be cyanobacterial blooms, which are typically more dangerous to people
+
+- Bloom states can be self-sustaining because of internal ecosystem feedbacks
+
+
+
+## Sources of Thermal pollution
+
+<img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Crystal_River_Nuclear_Generating_Plant_Unit_3.jpg/1280px-Crystal_River_Nuclear_Generating_Plant_Unit_3.jpg' width=80%> 
+
+
+## Sources of Thermal pollution
+
+<img src='https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/side_image/public/thumbnails/image/wss-wuse-sewage-treatment-plant.jpg'>
+
+
+## Mechanisms of thermal pollution
+
+- Dissolved oxygen decreases with increasing temperature
+
+<img src = 'https://s3-eu-west-1.amazonaws.com/aaimagestore/essays/1199314.006.jpg'>
+
+
+## Mechanisms of thermal pollution
+
+- Enzymatic activity changes with temperature
+
+<img src = 'https://jeb.biologists.org/content/jexbio/218/12/1856/F1.large.jpg?width=800&height=600&carousel=1'>
+
+## Mechanisms of thermal pollution
+
+- Enzymatic activity changes with temperature
+
+<img src = 'https://jeb.biologists.org/content/jexbio/218/12/1856/F3.large.jpg?width=800&height=600&carousel=1'>
+
+## Mechanisms of thermal pollution
+
+- Rapid temperature shifts can "shock" organisms
+
+<img src = 'https://www.greatershelbyville.com/uploads/1/1/4/6/114670639/published/usace-shelbyville-dam-and-lake.jpg?1524081385'>
+
+
+## Thermal pollution
+
+<img src='https://img.latestgkgs.com/2018/09/15/thermal-pollution-1537006389.jpg'>
+
+
+
+## Cyanobacteria {.build}
+
+<img src='https://singularityhub.com/wp-content/uploads/2018/06/cyanobacteria_499155529.jpg'>
+
+- neurotoxins, cytotoxins, endotoxins, hepatoxins 
+
+## Microcystin 
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Microcystin-LR.svg/1920px-Microcystin-LR.svg.png' width=80%>
+
+## Why cyanos over algae? 
+
+https://www.sciencedirect.com/science/article/pii/S1568988311001557
+
+
+## Algae blooms and alternative stable states
+
+<img src='https://www.lakescientist.com/wp-content/uploads/2015/04/image3.png' width=80%>
+
+## 'Ball and cup model'
+
+https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1890/1540-9295%282003%29001%5B0376%3AASSIE%5D2.0.CO%3B2
+
+## What are the mechanisms of alternative stable states? {.build}
+
+Draw a diagram of potential feedbacks controlling algae blooms
+
+[Scheffer 2001](Scheffer_conceptual.pdf)
+
+## How can we use this understanding to manage blooms?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KPF5E5FRcTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## More management
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4v2o6tEIz-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## More managing
+
+<img src='https://d3i6fh83elv35t.cloudfront.net/static/2018/07/shade-balls.gif'>
+
+## More
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ze5z_z9S8dY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Mo'
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GAPXsC07d8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## What about the inverse? 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yCNkmi7VE0I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

@@ -1,0 +1,88 @@
+---
+title: "Intro to Water Quality"
+author: "Matthew Ross"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  ioslides_presentation:
+    incremental: true
+    widescreen: true
+    smaller: true
+    transition: 0.01
+editor_options: 
+  chunk_output_type: console
+---
+
+<style>
+slides > slide {
+  overflow-x: auto !important;
+  overflow-y: auto !important;
+}
+</style>
+
+## Key ideas from Thursday
+
+- Industrial plants often use river or reservoir water to cool down industrial processes
+
+- This can create "thermal pollution": water that returns to the river/lake at a warmer temperature than it came in at. 
+
+- Thermal pollution causes all kinds of problems from direct toxicity to causing more or more harmful algae blooms
+
+- Algae blooms can actually be cyanobacterial blooms, which are typically more dangerous to people
+
+- Bloom states can be self-sustaining because of internal ecosystem feedbacks
+
+
+## Key ideas for today
+
+- Dissolved forms of carbon play an important role in the global carbon cycle
+
+- They also are critical for how lakes and rivers function
+
+- DOC (Dissolved Organic Carbon) can interfere with water treatment plants and create problems for drinking water
+
+- There are two ways DOC enters into waterways: 1) Allocthonous inputs (coming from terrestrial sources like decaying leaves) and 2) Autocthonous inputs like internal production of DOC from algae
+
+- Depending on the form, DOC can be highly reactive or more or less inert. 
+
+
+## Global carbon cycle review
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aLuSi_6Ol8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Global carbon cycle
+
+<img src='https://www.thoughtco.com/thmb/rgN3pNqUNGEPCmByjsiFUCSZMWM=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/carboncycle-56a128bc5f9b58b7d0bc94a3.jpg'>
+
+## Inland waters matter!
+
+<img src=https://www.researchgate.net/profile/Bernhard_Wehrli/publication/258822737/figure/fig1/AS:282058036400177@1444259284911/Inland-waters-in-the-global-carbon-cycle-The-numbers-above-the-rising-arrows-indicate.png>
+
+## Carbon as energy source in foodwebs
+
+- Food pyramid
+
+<img src = https://www.lakegeorgeassociation.org/wp-content/uploads/2017/03/food-web-diagram.jpg> 
+
+## Carbon as light altering dye
+
+- Carbon can be colored (Colored Dissolved Organic Matter)
+
+- This alters the light regime in rivers and lakes 
+
+<img src='https://www.fondriest.com/news/wp-content/uploads/2013/09/CaloosBody.jpg'> 
+
+
+## Carbon as disinfectant byproduct 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vIKFpQhVqI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Carbon as disinfectant byproduct
+
+<img src = 'https://ars.els-cdn.com/content/image/1-s2.0-S0043135418307267-fx1.jpg' width="90%"> 
+
+## Where does the DOC come from? 
+
+- Allocthonous 
+
+- Autocthonous 

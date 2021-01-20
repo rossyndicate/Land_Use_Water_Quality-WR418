@@ -24,6 +24,7 @@ slides > slide {
 Goals for today
 
 - Pique your interest
+
 - Get to know each other
 
 ## Land-Use change
@@ -48,7 +49,7 @@ If you enjoy looking at these timelapses, I encourage you to play around with th
 ## 
 
 <video width="720" height="440" controls>
-  <source src="mr7.mp4" type="video/mp4">
+  <source src="rs_images/mr7.mp4" type="video/mp4">
 </video>
 
 ## Types of Water Quality Change
@@ -77,15 +78,15 @@ For each image answer the following questions
 
 ## Animas
 
-<img src='https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2015%2F08%2Fanimas-river-mine-waste-water-jpeg.jpg&w=800&c=sc&poi=face&q=85'>
+<img src='https://api.time.com/wp-content/uploads/2015/08/animas-river-mine-waste-water-jpeg.jpg?w=800&quality=85'>
 
 ## West Virginia
 
-<img src='me.jpg' style="width:700px">
+<img src='rs_images/me.jpg' style="width:700px">
 
 ## West Virginia 2
 
-<img src='mr_water.jpg' style="width:700px">
+<img src='rs_images/mr_water.jpg' style="width:700px">
 
 ## Gulf Coast
 
@@ -104,22 +105,17 @@ and on and on and on.
 ## Treatment
 
 - Most water quality problems are pernicious and wicked
+
 - Difficult to treat once they start and hard to disentangle from the land-use
 change that causes them
 
-## Treatment
+- What are some ways we (globally) are improving water quality?  
 
-<img src='https://coyotegulch.files.wordpress.com/2010/02/watertreatment.jpg'>
 
 ## Summary
 
-- What do these water quality impacts have in common?
+
 - Which impacts do you think will be fixed in the next year, decade, century? 
 
-
-## Final slide
-- Did we pique your interest?
-- Hopefully you understand my background a little better
 - The goal of this course is for you to intuitively and quantitatively understand the linkages between human's actions on land and our downstream water quality impacts. 
-- Before Friday's class please complete Canvas Quiz on your background and previous
-experience with related topics (remote sensing, water quality, etc...)
+

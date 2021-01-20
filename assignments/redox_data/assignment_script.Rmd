@@ -1,0 +1,160 @@
+---
+title: "Redox conditions in the Poudre"
+author: "Natalie Schmer"
+date: "3/31/2020"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 4
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+
+library(tidyverse)
+library(mapview)
+library(sf)
+library(ggthemes)
+library(here)
+
+
+poudre <- read_csv(here('assignments/redox_data','poudre_data.csv')) %>%
+  #Sort sites as they go down river
+    mutate(site = factor(site,levels = c("Mountain", "Rist", "Legacy", "Timberline", "Prospect", "ELC", "Archery")))
+
+
+
+```
+
+
+# Introduction
+
+Over the past year, the Ross Lab (including our TA Miles and
+Natalie Schmer, a grad student in the lab) has been working with the city of Fort Collins to monitor water quality using a sensor network. Much of the motivation for this sensor network has directly to do with redox chemistry and anoxia. In this assignment, you'll explore some of the data from the sensor network and discuss a little how we can use this data to understand the Cache La Poudre river and how redox varies in 
+space and time along the river. 
+
+## Map the sensor sites
+
+```{r}
+#Read in the coordinates and make them into a spatial object 
+sensorcoords <- read_csv(here('assignments/redox_data',"sensor_coords.csv"))
+
+
+sensorcoords <- sensorcoords %>% 
+                        st_as_sf(coords= c("long", "lat"),
+                                 crs = 4326)
+
+#Use mapview to check them out
+mapview::mapview(sensorcoords)
+```
+
+
+#### Q1) Pick a site on the map above and describe why the site may have been placed where it is
+
+## Data exploration 
+
+### What is the nature of the data we have? 
+
+When you are starting with a dataset that someone else gives you, you always want to explore the nature of the data first by using a few key commands. I always start with something like `str()` to look at the structure of the data and then I might use `summary()` to look at the values of the data and maybe `unique()` to look at unique values. 
+
+```{r}
+str(poudre)
+
+summary(poudre)
+
+unique(poudre$site)
+
+
+```
+
+#### Q2) What is the date range for the data we have in hand?
+
+#### Q3) What are the unique variables measured at each site? 
+
+```{r}
+# Your code here
+
+```
+
+
+## Data set-up 
+
+### For some of the plots, we will need to have a "wide" data set-- currently, we are using "long". To make data wide, we need to take each unique variable and create a separate column with the values for that variable. Use the operation `pivot_wider` to do this. 
+
+```{r}
+poudre_wide <- poudre %>% 
+  pivot_wider(names_from = "variable",values_from = "values")
+
+head(poudre_wide)
+```
+
+#### Q4) What is the pivot_wider operation actually doing to the data? 
+
+
+
+### Plotting some data
+
+Let's look at dissolved oxygen changing over the three week period of data. 
+
+```{r}
+#Setup our plotting theme (background, font, etc...)
+
+theme_set(theme_clean())
+
+
+ggplot(poudre_wide,aes(x=datetime,y=do_mg, color=site)) + 
+  geom_line(lwd=1) +
+  scale_color_brewer(type='div',palette = 'RdYlBu',
+                     direction=-1) + 
+  ylab('Dissolved Oxygen (mg/L)') + 
+  xlab('Date')
+
+```
+
+
+### Q5) Make a similar plot of a different variable (pH, orp, etc...). Does this variable cause the change in Dissolved Oxygen or is it an effect of the Dissolved Oxygen change
+
+```{r}
+## Your Code Here
+```
+
+
+### Q6) What do you think happened in the Poudre River on October 10th-11th that changed the dynamics so much? 
+
+
+## Dissolved Oxygen and Oxidation-Reduction Potential
+
+As discussed in class, oxygen is a strong oxidizing agent, so how do dissolved oxygen dynamics impact oxidation-reduction potential? 
+
+#### Q7) Make a plot of DO (x-axis) vs ORP (y-axis) for the data coloring the data by site
+
+```{r}
+# Your code here
+
+```
+
+
+#### Q8) What does this plot tell us about dissolved oxygen 
+dynamics in our streams? About oxidation potential? 
+
+
+## Dissolved oxygen and pH
+
+Dissolved oxygen in streams and lakes comes from two possible sources: 1) Turubulence or free air exchange with water and air which mixes atmospheric oxygen into water and 2) internal DO production from algae, cyanobacteria, and other photosynthesizing organisms.  Photosynthetically produced DO comes with another chemical reaction, the conversion of CO$_2$ to biomass or energy. Because of carbonate equilibria, removing CO$_2$ from the water column can increase the pH as a result of biotic activity. So, one way to explore if DO comes from biotic or abiotic sources is to examine variation in pH vs DO. 
+
+#### Q9) Make a plot of DO (x-axis) vs pH (Y-axis).
+
+```{r}
+#Your code here
+```
+
+
+#### Q10) Which sites appear to have DO contributions from photosynthesis? Which ones are mostly from turbulent exchange?
+
+#### Q11) Make one more plot looking at ORP and another variable, what controls ORP in streams? 
+
+# WR419)
+
+
