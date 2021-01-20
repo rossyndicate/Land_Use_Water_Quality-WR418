@@ -14,8 +14,16 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T4Pcv8pcTRo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## To Watch Before Jan 27th 
-
 ### Laws of Thermodynamics
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EA_hxAblI0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## To Watch Before Jan 27th 
+
+### Enthalpy 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qnl6LoGvjRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Gibbs Free Energy
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QS1OykuHzjk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
