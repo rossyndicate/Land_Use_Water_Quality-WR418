@@ -1,0 +1,50 @@
+
+
+# Acid Base Chemistry
+
+
+The overall goals and syllabus for this module are 
+[here](https://docs.google.com/document/d/1ocdCc9SNwXUg32JraaYkpWGra6jVos0Dh3lswGycySE/edit?usp=sharing). Links to slides are here as well.
+
+This week we will also be using videos from the excellent 
+Crash Course Chemistry series on YouTube. So to see what the learning
+goals are for these videos, you will have to refer to the syllabus for 
+the module. 
+
+## Before February 1
+
+Watch the following videos
+
+### Introduction to Acid Base Chemistry
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MthC25cZr_Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Acid and Base Reactions
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ANi709MYnWg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### pH and pOH scales
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LS67vS10O5Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Before February 3rd
+
+
+### Buffers
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Fdt5WnYn1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Solving for pH examples
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eVcKfHA2dJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+### Environmental Acidity
+
+TBP (To Be posted before Feb 1)
+
+
+
