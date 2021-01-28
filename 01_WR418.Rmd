@@ -3,7 +3,7 @@ title: "Land Use and Water Quality"
 author:
 - "Dr. Matthew Ross"
 - 'matt.ross(at)colostate.edu'
-- 'Office Hours: TBD'
+- 'Office Hours: M 12-1,T: 12:30-1:30'
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 site: bookdown::bookdown_site
 documentclass: book
@@ -179,8 +179,49 @@ schedule <- read_sheet('https://docs.google.com/spreadsheets/d/1m6kpDUhUr4SP1yTX
 
 
 kable(schedule) %>%
- kable_styling(bootstrap_options = c("striped", "hover", 
-                                     "condensed", "responsive")) %>%
   column_spec(3,width='15em')
 ```
 
+
+# Resources
+
+
+### R
+
+Most of our homeworks in this class will be done in RStudio Cloud using
+the programming language R. I know many of you have never taken R or any
+programming courses, but we will provide you with ample resources.
+
+In addition to those you may want to check out these general resources
+
+- [R Cheatsheets](https://rstudio.com/resources/cheatsheets/) - Quick 2 Page references
+
+  - [Intro to R](https://raw.githubusercontent.com/rstudio/cheatsheets/master/base-r.pdf)
+
+  - [Importing data](https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-import.pdf)
+  
+  - [Transforming data](https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-transformation.pdf)
+  
+  - [RMarkdown](https://raw.githubusercontent.com/rstudio/cheatsheets/master/rmarkdown-2.0.pdf)
+  
+  - [RStudio](https://raw.githubusercontent.com/rstudio/cheatsheets/master/rstudio-ide.pdf)
+  
+  - [Visualizing data](https://raw.githubusercontent.com/rstudio/cheatsheets/master/data-visualization-2.1.pdf)
+  
+- R Courses - Free Introductions to R
+  
+  - [CSU R Course](https://csu-r.github.io/Module1/)
+  
+  - [Harvard R Courses](https://online-learning.harvard.edu/subject/r)
+
+If you find more resources, let me know and I'll post them here!
+  
+### Chemistry
+
+In addition to R, this course relies heavily on basic chemistry knowledge. 
+
+I really like using to review my chem knowledge:
+
+- [Khan Academy](https://www.khanacademy.org/science/chemistry)
+
+- [Libre Texts](https://chem.libretexts.org/)

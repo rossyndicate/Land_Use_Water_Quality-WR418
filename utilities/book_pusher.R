@@ -2,8 +2,6 @@
 # repository. 
 
 bookdown::render_book('01_WR418.Rmd','all')
-
-
 # Mostly copied from this nice blog post: 
 #https://amywhiteheadresearch.wordpress.com/2014/11/12/copying-files-with-r/
 #get where book lives

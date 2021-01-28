@@ -11,6 +11,9 @@ attendance
 notes
 grading
 schedule
+resources
+r
+chemistry
 introduction-week-1
 land-use-change
 types-of-water-quality-change
@@ -26,6 +29,7 @@ boulder
 treatment
 summary
 thermodynamics
+lesson-plan-and-slides
 to-watch-before-jan-25th
 introduction
 systems
