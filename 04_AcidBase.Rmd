@@ -11,7 +11,7 @@ Crash Course Chemistry series on YouTube. So to see what the learning
 goals are for these videos, you will have to refer to the syllabus for 
 the module. 
 
-## Before February 1
+## Before Feb 1
 
 Watch the following videos
 
@@ -29,7 +29,7 @@ Watch the following videos
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LS67vS10O5Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Before February 3rd
+## Before Feb 3
 
 
 ### Buffers

@@ -9,7 +9,7 @@ The link to our goals for this module are [here](https://docs.google.com/documen
 That link also contains links to all slides for the module. 
 
 
-## To Watch Before Jan 25th
+## Before Jan 25
 
 ### Introduction
 
@@ -25,7 +25,7 @@ That link also contains links to all slides for the module.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EA_hxAblI0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## To Watch Before Jan 27th 
+## Before Jan 27
 
 ### Enthalpy 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qnl6LoGvjRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
