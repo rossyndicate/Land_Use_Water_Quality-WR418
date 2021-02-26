@@ -3,16 +3,31 @@
 # Dissolved Gases
 
 
-The overall goals and syllabus for this module will be posted  
+The overall goals and syllabus for this module is 
 [here](https://docs.google.com/document/d/1Qc0Geoz8PoM1shc1DRdX7-ztTUUg9tB-FiW1D5u7EDI/edit?usp=sharing). Links to slides will be here as well.
 
 
 ## Before Feb. 17
 
-### Video description
+### Introduction to Dissolved Gases
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eWQsd6j-VvQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Solutions
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9h2f1Bjr0p4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Before Feb. 24
+
+### Major Controls on Dissovled Gases
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0DnIL_MChJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Temperature Dependance of Equilibria
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y-87JJgBzEQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Dissolved Gases in the Real World
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fznr-SQ8ovY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
