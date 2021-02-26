@@ -4,12 +4,31 @@
 
 
 The overall goals and syllabus for this module are 
-[here](https://docs.google.com/document/d/1Qc0Geoz8PoM1shc1DRdX7-ztTUUg9tB-FiW1D5u7EDI/edit?usp=sharing). Links to slides will be here as well.
+[here](https://docs.google.com/document/d/15cLhao8bdiWgL6K_TYVDqwZK-hcX9lk-72oOT8Y7EqA/edit?usp=sharing). Links to slides will be here as well.
 
 
 
 ### Before March 1
 
+#### Law of Mass Action
 
+<iframe src="https://drive.google.com/file/d/1JVeu42GdITStS2RzwbLxfXZKNMsr3oz4/preview" width="640" height="480"></iframe>
 
+#### First Order Reactions
+
+<iframe src="https://drive.google.com/file/d/1jr2fje5N09NogKPw08WpTEqMJLQWTEYU/preview" width="640" height="480"></iframe>
+
+#### Zero Order Reactions
+
+<iframe src="https://drive.google.com/file/d/1TURBMy2qqHsRxHz--cna5Q7GgDuXieLO/preview" width="640" height="480"></iframe>
+
+### Before March 3
+
+#### Multi-step Reactions and Apparent Rates
+
+<iframe src="https://drive.google.com/file/d/1l7mNcmXjl1d9RTdrWdDm4aeva84NZp2g/preview" width="640" height="480"></iframe>
+
+#### Environmental Controls on Kinetics
+
+<iframe src="https://drive.google.com/file/d/1bh_pMzmMqHQ9kbcNn2tf1uhwdIy0EmNU/preview" width="640" height="480"></iframe>
 
